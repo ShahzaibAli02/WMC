@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/home_screen_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textColor="@color/screenTitleColor"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toStartOf="@id/menuButton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/screen_title_good_afternoon" />
+
+                <Button
+                    android:id="@+id/menuButton"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_three_dots"
+                    app:layout_constraintBottom_toBottomOf="@id/title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/title" />
+
+                <LinearLayout
+                    android:id="@+id/mainLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp"
+                    android:paddingBottom="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title" android:tag="binding_1">
+
+                    <TextView
+                        android:id="@+id/incompleteProfileByline"
+                        style="@style/TextAppearance.MaterialComponents.Headline6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:text="@string/title_your_profile_is_incomplete"
+                        android:textColor="@color/titleColor"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/incompleteProfileDescription"
+                        style="@style/TextAppearance.MaterialComponents.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:lineSpacingMultiplier="1.28"
+                        android:text="@string/description_your_profile_is_incomplete"
+                        android:textColor="@color/descriptionColor"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+
+                    <include
+                        android:id="@+id/profileExpandableCard"
+                        layout="@layout/profile_expandable_card"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+
+                    <no.wmc.ui.custom.ExpandableCard
+                        android:id="@+id/allergies"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        app:description="@string/no_allergies_listed"
+                        app:title="@string/allergies_card_title"
+                        app:titleIcon="@drawable/ic_allergies_new" />
+
+                    <no.wmc.ui.custom.ExpandableCard
+                        android:id="@+id/medicine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        app:description="@string/no_medications_listed"
+                        app:title="@string/medicine_card_title"
+                        app:titleIcon="@drawable/ic_medicines" />
+
+                    <no.wmc.ui.custom.ExpandableCard
+                        android:id="@+id/diagnoses"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        app:description="@string/no_diagnoses_listed"
+                        app:title="@string/diagnoses_card_title"
+                        app:titleIcon="@drawable/ic_diagnoses_new" />
+
+                    <no.wmc.ui.custom.ExpandableCard
+                        android:id="@+id/vaccines"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        app:description="@string/no_vaccines_listed"
+                        app:title="@string/vaccines_card_title"
+                        app:titleIcon="@drawable/ic_vaccines_new" />
+
+                    <no.wmc.ui.custom.ExpandableCard
+                        android:id="@+id/documents"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        app:description="@string/no_documents_added"
+                        app:isEditVisible="false"
+                        app:isShareVisible="false"
+                        app:isTranslateVisible="false"
+                        app:title="@string/documents_card_title"
+                        app:titleIcon="@drawable/ic_documents" />
+
+                    <include
+                        android:id="@+id/wmcBanner"
+                        layout="@layout/wmc_banner" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/noSubscriptionPanel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible">
+
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_subscription_title"
+                android:textColor="@color/titleColor" />
+
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingMultiplier="1.28"
+                android:text="@string/no_subscription_description"
+                android:textColor="@color/descriptionColor" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/subscribeNowButton"
+                style="@style/App.ButtonBlue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/subscribe_button" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/loading"
+            layout="@layout/loading_overlay"
+            android:translationZ="10dp"
+            android:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

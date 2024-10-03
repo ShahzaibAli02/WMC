@@ -1,0 +1,4 @@
+no.wmc.test.app-dev-0 /Users/shahzaibali778/AndroidStudioProjects/wmc-android/app/build/generated/res/resValues/androidTest/dev/debug
+no.wmc.test.app-mergeDevDebugAndroidTestResources-1 /Users/shahzaibali778/AndroidStudioProjects/wmc-android/app/build/intermediates/incremental/devDebugAndroidTest/mergeDevDebugAndroidTestResources/merged.dir
+no.wmc.test.app-mergeDevDebugAndroidTestResources-2 /Users/shahzaibali778/AndroidStudioProjects/wmc-android/app/build/intermediates/incremental/devDebugAndroidTest/mergeDevDebugAndroidTestResources/stripped.dir
+no.wmc.test.app-merged_res-3 /Users/shahzaibali778/AndroidStudioProjects/wmc-android/app/build/intermediates/merged_res/devDebugAndroidTest

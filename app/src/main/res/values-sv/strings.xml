@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="add_allergies_button">Lägg till allergier</string>
+    <string name="add_document_description_hint">Beskrivning (valfritt)</string>
+    <string name="add_document_document_title_hint">Dokument titel</string>
+    <string name="add_document_document_type_hint">Dokumenttyp</string>
+    <string name="add_document_edit_button">Redigera dokument</string>
+    <string name="add_document_title">Lägg till nytt dokument</string>
+    <string name="add_document_upload_button">Ladda upp nytt dokument</string>
+    <string name="add_new_allergy_title">Lägg till ny allergi</string>
+    <string name="add_new_allergy_top_hits">Topp träffar</string>
+    <string name="add_new_diagnoses_title">Lägg till nya diagnoser</string>
+    <string name="add_new_medicine_title">Lägg till ny medicin</string>
+    <string name="add_new_search_hint">Sök</string>
+    <string name="add_new_vaccines_title">Lägg till nytt vaccin</string>
+
+    <string name="alarm_phone">Alarmtelefon </string>
+
+    <string name="allergies_card_description">Låt oss veta om du har några allergier eller om du vet att du inte har några.</string>
+    <string name="allergies_card_title">Allergier</string>
+
+    <string name="apple_button_title">med Apple</string>
+
+    <string name="button_add">Lägg till</string>
+    <string name="button_edit">Redigera</string>
+    <string name="button_next">Nästa</string>
+    <string name="button_share">Dela</string>
+    <string name="button_skip_tour">Hoppa över introduktionen</string>
+    <string name="button_translate">Översätt</string>
+
+    <string name="cancel_button_title">Annullera</string>
+
+    <string name="card_items_description">%1$s artiklar: %2$s</string>
+
+    <string name="common_cancel">Annullera</string>
+    <string name="common_dash">-</string>
+    <string name="common_no">Nej</string>
+    <string name="common_remove">Avlägsna</string>
+    <string name="common_save">Spara</string>
+    <string name="common_yes">Ja</string>
+
+    <string name="complete_my_profile_button">Komplettera min profil</string>
+    <string name="complete_your_profile">Komplettera din profil</string>
+
+    <string name="create_account_button">Skapa ett konto</string>
+
+    <string name="dashboard_screen_title_evening">&#128075;&#127995; God kväll</string>
+    <string name="dashboard_screen_title_morning">&#128075;&#127995; God morgon</string>
+    <string name="dashboard_screen_title_night">&#128075;&#127995; God natt</string>
+
+    <string name="description_your_profile_is_incomplete">Vänligen komplettera din profil för att njuta av alla funktioner i World Medical Card</string>
+
+    <string name="diagnoses_card_title">Diagnoser</string>
+
+    <string name="divider_or_text">Eller</string>
+
+    <string name="documents_card_title">Dokument</string>
+
+    <string name="edit_card_dialog_edit_item_title">Redigera objekt</string>
+    <string name="edit_card_dialog_remove_item_title">Ta bort objekt</string>
+    <string name="edit_card_dialog_remove_items_title">Ta bort objekt(er)</string>
+    <string name="edit_document_title">Redigera dokument</string>
+
+    <string name="emergency_contacts">Nödkontakter</string>
+
+    <string name="error_empty_response">Tyvärr, innehållet är tomt</string>
+    <string name="error_message">Något gick fel. Vänligen försök igen senare.</string>
+    <string name="error_no_data_found">Inga uppgifter hittades</string>
+    <string name="error_no_internet">Kontrollera internetanslutningen</string>
+    <string name="error_unauthorized">Tyvärr, du har inte behörighet att komma åt detta innehåll</string>
+
+    <string name="field_required_title">Fältet är obligatoriskt</string>
+
+    <string name="forgot_password_alert_message">Om e-postadressen du angett är registrerad i vårt system, kommer du att få ett e-postmeddelande inom kort. Följ instruktionerna i e-postmeddelandet för att återställa lösenordet.</string>
+    <string name="forgot_password_screen_description">Skriv in din e-postadress och tryck på knappen för att återställa ditt lösenord</string>
+    <string name="forgot_password_screen_error_message">Något gick fel, försök igen</string>
+    <string name="forgot_password_screen_reset_password_button">Återställ lösenord</string>
+    <string name="forgot_password_screen_success_title">Email skickat</string>
+    <string name="forgot_password_screen_title">Återställ lösenord</string>
+
+    <string name="google_button_title">med Google</string>
+
+    <string name="i_accept_the_terms_and_conditions">Jag godkänner villkoren och bestämmelser</string>
+
+    <string name="intro_content_description_1">Din medicinska information kodas enligt Världshälsoorganisationens (WHO) globala standarder (ICD-10, ATC) för att säkerställa att ditt tillstånd och dina behov förstås av sjukvårdspersonal och farmaceutisk personal över hela världen.</string>
+    <string name="intro_content_description_2">Du kommer att ha din egen personliga profil som kan nås via app eller webbläsare. Det finns en inbyggd översättningsfunktion för 19 språk som kommer att underlätta kommunikationen i relevanta lokala termer.</string>
+    <string name="intro_content_description_3">Du kan välja att dela din profil med släktingar, resepartner eller andra som du litar på, så att de kan ge dig förstahandsstöd i en nödsituation </string>
+    <string name="intro_content_image_1">intro_image_1</string>
+    <string name="intro_content_image_2">intro_image_2</string>
+    <string name="intro_content_image_3">intro_image_3</string>
+    <string name="intro_content_title_1">Fyll i din information</string>
+    <string name="intro_content_title_2">Resa utan bekymmer</string>
+    <string name="intro_content_title_3">Dela din information</string>
+    <string name="intro_number_of_pages">5</string>
+    <string name="intro_content_video_1">slide_video1</string>
+    <string name="intro_content_video_2">slide_video2</string>
+    <string name="intro_content_video_3">slide_video3</string>
+    <string name="intro_content_video_4">slide_video4</string>
+    <string name="intro_content_video_5">slide_video5</string>
+
+    <string name="landing_login_button">Logga in</string>
+    <string name="landing_register_button">Registrera</string>
+
+    <string name="login_byline">Hur skulle du vilja logga in?</string>
+    <string name="login_to_wmc_title">Logga in på World Medical Card</string>
+
+    <string name="maybe_later_button">Kanske senare</string>
+
+    <string name="medicine_card_title">Medicin</string>
+
+    <string name="member_since">Medlem sedan %1$s</string>
+
+    <string name="no_allergies_listed">Inga allergier angivna</string>
+    <string name="no_diagnoses_listed">Inga diagnoser angivna</string>
+    <string name="no_documents_added">Inga dokument har lagts till</string>
+    <string name="no_medications_listed">Inga mediciner angivna</string>
+    <string name="no_subscription_description">Var vänlig välj en produkt för att ta del av alla funktionerna i World Medical Card</string>
+    <string name="no_subscription_title">Inget abonnemang</string>
+    <string name="no_vaccines_listed">Inga vacciner angivna</string>
+
+    <string name="ok_button_title">Ok</string>
+
+    <string name="order_now_button">Beställ nu</string>
+    <string name="order_your_card_description">Njut av alla funktioner i ditt World Medical Card från din plånbok</string>
+    <string name="order_your_card_title">Beställ ditt kort</string>
+
+    <string name="other_information">Övriga upplysningar</string>
+
+    <string name="personal_info_byline">Fyll i dina personuppgifter för att skapa ett konto, du kan ändra dem senare.</string>
+    <string name="personal_info_card_description">Låt oss lära känna dig bättre för att få en bättre upplevelse.</string>
+    <string name="personal_info_card_title">Personlig information</string>
+    <string name="personal_info_title">Personlig information</string>
+
+    <string name="please_check_your_email_and_password">Kontrollera din e-postadress och ditt lösenord</string>
+
+    <string name="profile_birthdate">Födelsedatum</string>
+    <string name="profile_country">Land</string>
+    <string name="profile_edit_alarm_phone">Alarmtelefon (tillval)</string>
+    <string name="profile_edit_city">Stad</string>
+    <string name="profile_edit_date_of_birth">Födelsedatum</string>
+    <string name="profile_edit_donor_note">Hälso- och sjukvårdspersonal måste be familjen att bekräfta ditt beslut.</string>
+    <string name="profile_edit_donor_question">Skulle du vilja bli organdonator?</string>
+    <string name="profile_edit_emergency_contacts_name">Namn</string>
+    <string name="profile_edit_emergency_contacts_note">Lägg till kontakter som du litar på i händelse av en nödsituation.</string>
+    <string name="profile_edit_emergency_contacts_phone">Telefonnummer</string>
+    <string name="profile_edit_emergency_contacts_relation">Förhållande</string>
+    <string name="profile_edit_first_name">Förnamn</string>
+    <string name="profile_edit_insurance_health">Hälsoförsäkring</string>
+    <string name="profile_edit_insurance_note">Lägg till försäkringsinformation som referens.</string>
+    <string name="profile_edit_insurance_title">Försäkring</string>
+    <string name="profile_edit_insurance_travel">Reseförsäkring</string>
+    <string name="profile_edit_insurance_type">Typ av försäkring</string>
+    <string name="profile_edit_land">Land</string>
+    <string name="profile_edit_last_name">Efternamn</string>
+    <string name="profile_edit_other_hint">Vill du inkludera annan information?</string>
+    <string name="profile_edit_other_title">Övrig</string>
+    <string name="profile_edit_phone">Tlf.nr.</string>
+    <string name="profile_edit_policy_number">Policenummer (valfritt)</string>
+    <string name="profile_edit_postal_address_note">Fyll i den adress du vill att vi ska skicka kortet till. Adressen kommer inte att visas på nödkortet.</string>
+    <string name="profile_edit_postal_code">Postal code</string>
+    <string name="profile_edit_select_birthdata">Välj ditt födelsedatum</string>
+    <string name="profile_edit_ssn">Personnummer (valfritt)</string>
+    <string name="profile_edit_street_address">Gatuadress</string>
+    <string name="profile_gender">Kön</string>
+    <string name="profile_gender_female">Kvinna</string>
+    <string name="profile_gender_male">Man</string>
+    <string name="profile_insurance_company">Försäkringsbolag</string>
+    <string name="profile_insurance_type_health">Hälsa</string>
+    <string name="profile_insurance_type_travel">Resa</string>
+    <string name="profile_nationality">Nationalitet</string>
+    <string name="profile_organ_donor">Organdonator</string>
+    <string name="profile_policy_date">Medlem fram till/utfärdad den</string>
+    <string name="profile_policy_number">Policenummer</string>
+    <string name="profile_postal_address">Postadress</string>
+    <string name="profile_save_button_title">Spara</string>
+    <string name="profile_screen_title">Profil</string>
+    <string name="profile_ssn">Personnummer</string>
+    <string name="profile_telephone">Telefon</string>
+    <string name="profile_travel_insurance">Reseförsäkring</string>
+    <string name="profile_validation_required_fields">Födelsedatum, nationalitet, telefon och kön krävs</string>
+    <string name="profile_zip">blixtlås</string>
+
+    <string name="register_byline">Fyll i dina personuppgifter för att skapa ett konto, du kan ändra dem senare.</string>
+    <string name="register_email_field_hint">E-post</string>
+    <string name="register_login_forget_password_title">Glömt ditt lösenord?</string>
+    <string name="register_password_field_hint">Lösenord</string>
+    <string name="register_password_min_hint">minst 8 tecken</string>
+    <string name="register_to_wmc_title">Registrera dig för World Medical Card</string>
+
+    <string name="screen_title_good_afternoon">&#128075;&#127995; God eftermiddag</string>
+    <string name="screen_title_hi">&#128075;&#127995; Hej</string>
+
+    <string name="select_file_to_upload">Välj fil att ladda upp</string>
+
+    <string name="sign_in_password_incorrect">Kontot hittades inte. Försök att logga in med Google-konto eller e-post och lösenord.</string>
+    <string name="sign_out_button">Logga ut</string>
+
+    <string name="signin_button_title">Logga in</string>
+    <string name="signin_with_google_button">Logga in med Google</string>
+
+    <string name="signup_with_google_button">Registrera dig med Google</string>
+
+    <string name="subscribe_button">Beställ nu</string>
+
+    <string name="subscription_add_member_alert_invite_message">An email invitation has been sent</string>
+    <string name="subscription_delete_member_dialog_message">Are you sure you want to remove this member from this subscription package?</string>
+    <string name="subscription_delete_member_dialog_negative_button">Cancel</string>
+    <string name="subscription_delete_member_dialog_positive_button">Confirm</string>
+    <string name="subscription_delete_member_dialog_title">Delete Member</string>
+    <string name="subscription_detail_add_member_title">Add more member</string>
+    <string name="subscription_detail_member_list_title">List of members</string>
+    <string name="subscription_detail_membership_left_full_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.\nTo add member, please click the button below.]]>
+    </string>
+    <string name="subscription_detail_membership_left_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.]]>
+    </string>
+    <string name="subscription_detail_paid_with_text">Paid with</string>
+    <string name="subscription_detail_payment_method_title">Payment method</string>
+    <string name="subscription_detail_title">Subscription Detail</string>
+    <string name="subscription_invitation_add_member_button">Add member</string>
+    <string name="subscription_invitation_email_hint">Email Address</string>
+    <string name="subscription_invitation_title">Add New Member</string>
+    <string name="subscription_overview_add_subscription_button">Lägg till prenumeration</string>
+    <string name="subscription_overview_hint">Du har för närvarande ingen prenumeration med World Medical Card, klicka på prenumerera nedan och njut av alla funktioner i World Medical Card</string>
+    <string name="subscription_overview_item_expired_title">Utgångna</string>
+    <string name="subscription_overview_item_membership_occupancy_title">Medlemsantal:</string>
+    <string name="subscription_overview_item_subscription_manager_title">Prenumerationshanterare:</string>
+    <string name="subscription_overview_subtitle">Nuvarande prenumeration  (%1d)</string>
+    <string name="subscription_overview_text_subscribe">Click here to subscribe membership package</string>
+    <string name="subscription_overview_title">Mina prenumerationer</string>
+    <string name="subscription_remove_membership_button_title">Remove Membership</string>
+    <string name="subscription_remove_membership_dialog_text">Are you sure you want to be remove from this membership package?</string>
+    <string name="subscription_remove_membership_dialog_title">Delete Membership</string>
+
+    <string name="tap_edit_to_complete_profile">Tryck på Redigera nedan för att slutföra din profil</string>
+
+    <string name="terms_and_conditions_button">Villkor och bestämmelser</string>
+    <string name="terms_and_conditions_title">Villkor och bestämmelser</string>
+    <string name="terms_text">Allmänna Villkor
+ Uppdaterad 2022-01-01 
+
+ Allmänna villkor
+ Genom att komma åt och göra en beställning med bekräftar du att du är överens med och bunden av tjänstevillkoren i de allmänna villkoren som beskrivs nedan. Dessa villkor gäller för hela webbplatsen och all e-post eller annan typ av kommunikation mellan dig och World Medical Card. 
+
+ Under inga omständigheter ska teamet hållas ansvarigt för några direkta, indirekta, speciella, oförutsedda skador eller följdskador, inklusive, men inte begränsat till, förlust av data eller vinst, som härrör från användningen eller oförmågan att använda materialet på denna webbplats , även om teamet eller en auktoriserad representant har informerats om möjligheten till sådana skador. Om din användning av material från denna sida leder till behov av service, reparation eller korrigering av utrustning eller data, tar du på dig alla kostnader för detta. 
+
+ World Medical Card kommer inte att ansvara för några resultat som kan inträffa under användningen av våra resurser. Vi förbehåller oss rätten att ändra priser och revidera policyn för resursanvändning när som helst. 
+
+ Licens
+ World Medical Card ger dig en återkallbar, icke-exklusiv, icke-överlåtbar, begränsad licens att ladda ner, installera och använda vår tjänst strikt i enlighet med villkoren i detta avtal. 
+
+ Dessa villkor är ett avtal mellan dig och World Medical Card (i dessa villkor refereras till som \"World Medical Card\", \"oss\", \"vi\" eller \"vår\"), leverantören av World Medical Cards webbplats och tjänsterna som är tillgängliga från World Medical Card-webbplatsen (som i dessa villkor gemensamt kallas \"World Medical Card Service\"). 
+
+ Du samtycker till att vara bunden av dessa villkor. Om du inte godkänner dessa villkor, använd inte tjänsten. I dessa villkor hänvisar \"du\" både till dig som individ och till den enhet du representerar. Om du bryter mot något av dessa villkor förbehåller vi oss rätten att avsluta ditt konto eller blockera åtkomst till ditt konto utan föregående meddelande. 
+
+ Definitioner och nyckelbegrepp
+ För dessa villkor: 
+
+ • Cookie: liten mängd data som genereras av en webbplats och sparas av din webbläsare. Den används för att identifiera din webbläsare, tillhandahålla analyser, komma ihåg information om dig såsom dina språkinställningar eller inloggningsinformation. 
+
+ • Företag: när denna policy nämner \"Företag\", \"vi\", \"oss\" eller \"vår\", hänvisar det till World Medical Card, Gamlehaugvegen 20, 5231 Paradis som är ansvarig för din information enligt denna integritetspolicy. 
+
+ • Land: där World Medical Card eller ägarna/grundarna av World Medical Card är baserade, i detta fall är Norge. 
+
+ • Kund: hänvisar till företaget, organisationen eller personen som registrerar sig för att använda World Medical Card Service för att hantera relationerna med dina konsumenter eller tjänstanvändare. 
+
+ • Enhet: vilken internetansluten enhet som helst som en telefon, surfplatta, dator eller någon annan enhet som kan användas för att besöka World Medical Card och använda tjänsterna. 
+
+ • IP-adress: Varje enhet som är ansluten till Internet tilldelas ett nummer som kallas en IP-adress (Internet Protocol). Dessa nummer tilldelas vanligtvis i geografiska block. En IP-adress kan ofta användas för att identifiera platsen från vilken en enhet ansluter till Internet. 
+
+ • Personal: avser de individer som är anställda av World Medical Card eller som har kontrakt för att utföra en tjänst på uppdrag av en av parterna. 
+
+ • Personuppgifter: all information som direkt, indirekt eller i samband med annan information – inklusive ett personligt identifieringsnummer – möjliggör identifiering eller identifierbarhet av en fysisk person. 
+
+ • Tjänst: hänvisar till tjänsten som tillhandahålls av World Medical Card enligt beskrivningen i de relativa villkoren (om tillgänglig) och på denna plattform. 
+
+ • Tredjepartstjänst: syftar på annonsörer, tävlingssponsorer, marknadsförings- och marknadsföringspartners och andra som tillhandahåller vårt innehåll eller vars produkter eller tjänster vi tror kan intressera dig. 
+
+ • Webbplats: World Medical Cards webbplats, som kan nås via denna URL: https://worldmedicalcard.org 
+
+ • Du: en person eller enhet som är registrerad med World Medical Card för att använda tjänsterna. 
+
+ Restriktioner
+ Du samtycker till att inte, och du kommer inte att tillåta andra att: 
+
+ • Licensiera, sälja, hyra ut, leasa, tilldela, distribuera, överföra, värd, lägga ut, avslöja eller på annat sätt utnyttja tjänsten kommersiellt eller göra plattformen tillgänglig för tredje part. 
+
+ • Ändra, göra härledda arbeten av, demontera, dekryptera, omvänd kompilering eller omvänd konstruera någon del av tjänsten. 
+
+ • Ta bort, ändra eller dölja eventuella äganderättsmeddelanden (inklusive eventuella meddelanden om upphovsrätt eller varumärken) från eller dess dotterbolag, partners, leverantörer eller licensgivarna för tjänsten. 
+
+ Retur- och återbetalningspolicy
+ Tack för att du handlar hos oss. Vi uppskattar att du gillar att köpa prylarna vi bygger. Vi vill också se till att du får en givande upplevelse när du utforskar, utvärderar och köper våra produkter. 
+
+ Som med alla köpupplevelser finns det villkor som gäller för transaktioner på vårt företag. Vi kommer att fatta det så kort som våra advokater tillåter. Det viktigaste att komma ihåg är att genom att göra en beställning eller göra ett köp från oss godkänner du villkoren tillsammans med vår integritetspolicy. 
+
+ Om du av någon anledning inte är helt nöjd med någon vara eller tjänst som vi tillhandahåller, tveka inte att kontakta oss så kommer vi att diskutera några av de problem du går igenom med vår produkt. 
+
+ Dina förslag
+ All feedback, kommentarer, idéer, förbättringar eller förslag (sammantaget \"Förslag\") som du tillhandahåller oss med avseende på tjänsten ska förbli vår enda och exklusiva egendom. Vi ska vara fria att använda, kopiera, modifiera, publicera eller omdistribuera förslagen för alla ändamål och på vilket sätt som helst utan någon kredit eller någon ersättning till dig. 
+
+ Ditt samtycke
+ Vi har uppdaterat våra användarvillkor för att ge dig fullständig insyn i vad som ställs in när du besöker vår webbplats och hur den används. Genom att använda vår tjänst, registrera ett konto eller göra ett köp samtycker du härmed till våra allmänna villkor. 
+
+ Länkar till andra webbplatser
+ Vår tjänst kan innehålla länkar till andra webbplatser som inte drivs av oss. Om du klickar på en tredje parts länk kommer du att dirigeras till den tredje parts webbplats. Vi rekommenderar starkt att du granskar villkoren för varje webbplats du besöker. Vi har ingen kontroll över och tar inget ansvar för innehållet, villkoren eller praxis på tredje parts webbplatser eller tjänster. 
+
+ Småkakor
+ Vi använder \"cookies\" för att identifiera de områden på vår webbplats som du har besökt. En kaka är en liten bit data som lagras på din dator eller mobila enhet av din webbläsare. Vi använder cookies för att förbättra vår tjänsts prestanda och funktionalitet men är inte väsentliga för deras användning. Men utan dessa cookies kan viss funktionalitet som videor bli otillgängliga eller så skulle du behöva ange dina inloggningsuppgifter varje gång du besöker vår plattform eftersom vi inte skulle kunna komma ihåg att du hade loggat in tidigare. De flesta webbläsare kan ställas in för att inaktivera användningen av cookies. Men om du inaktiverar cookies, kanske du inte kan komma åt funktionaliteten på vår webbplats korrekt eller alls. Vi placerar aldrig personligt identifierbar information i cookies. 
+
+ Ändringar av våra villkor
+ Du bekräftar och samtycker till att vi kan sluta (permanent eller tillfälligt) tillhandahålla tjänsten (eller några funktioner inom tjänsten) till dig eller till användare i allmänhet efter eget gottfinnande, utan föregående meddelande till dig. Du kan när som helst sluta använda tjänsten. Du behöver inte specifikt informera oss när du slutar använda Tjänsten. Du bekräftar och samtycker till att om vi inaktiverar åtkomsten till ditt konto kan du hindras från att komma åt Tjänsten, dina kontouppgifter eller filer eller annat material som finns på ditt konto. Om vi bestämmer oss för att ändra våra villkor kommer vi att publicera dessa ändringar på den här sidan och/eller uppdatera ändringsdatumet för villkoren nedan. 
+
+ Ändringar av vår tjänst
+ Vi förbehåller oss rätten att ändra, avbryta eller avbryta, tillfälligt eller permanent, tjänsten eller någon tjänst som den ansluter till, med eller utan förvarning och utan ansvar gentemot dig. 
+
+ Uppdateringar av vår tjänst
+ Vi kan då och då tillhandahålla förbättringar eller förbättringar av funktionerna/funktionaliteten i tjänsten, vilket kan inkludera patchar, buggfixar, uppdateringar, uppgraderingar och andra modifieringar (\"Uppdateringar\"). Uppdateringar kan ändra eller ta bort vissa funktioner och/eller funktioner i tjänsten. Du samtycker till att vi inte har någon skyldighet att (i) tillhandahålla några uppdateringar eller (ii) fortsätta att tillhandahålla eller aktivera några speciella funktioner och/eller funktioner i tjänsten till dig. Du samtycker vidare till att alla uppdateringar kommer att (i) anses utgöra en integrerad del av tjänsten och (ii) omfattas av villkoren i detta avtal. 
+
+ Tredjepartstjänster
+ Vi kan visa, inkludera eller göra tillgängligt innehåll från tredje part (inklusive data, information, applikationer och andra produkttjänster) eller tillhandahålla länkar till tredje parts webbplatser eller tjänster (\"tredjepartstjänster\"). Du bekräftar och samtycker till att vi inte är ansvariga för några tredjepartstjänster, inklusive deras riktighet, fullständighet, aktualitet, giltighet, upphovsrättsefterlevnad, laglighet, anständighet, kvalitet eller någon annan aspekt därav. Vi tar inte på oss och ska inte ha något ansvar eller ansvar gentemot dig eller någon annan person eller enhet för Tredjepartstjänster. Tredjepartstjänster och länkar till dessa tillhandahålls enbart som en bekvämlighet för dig och du får tillgång till och använder dem helt på egen risk och med förbehåll för sådana tredje parts villkor. 
+
+ Period och uppsägning
+ Detta avtal gäller tills det sägs upp av dig eller oss. Vi kan, efter eget gottfinnande, när som helst och av någon eller ingen anledning, avbryta eller säga upp detta avtal med eller utan föregående meddelande. Detta avtal kommer att upphöra omedelbart, utan föregående meddelande från oss, i händelse av att du inte följer någon bestämmelse i detta avtal. Du kan också säga upp detta avtal genom att ta bort tjänsten och alla kopior av den från din dator. Vid uppsägning av detta avtal ska du upphöra med all användning av tjänsten och radera alla kopior av tjänsten från din dator. Uppsägning av detta avtal kommer inte att begränsa några av våra rättigheter eller gottgörelser enligt lag eller rättvisa om du bryter mot någon av dina skyldigheter enligt detta avtal (under detta avtals giltighetstid). 
+
+ Om du är en upphovsrättsägare eller en sådan ägares agent och anser att något material från oss utgör ett intrång i din upphovsrätt, vänligen kontakta oss och ange följande information: (a) en fysisk eller elektronisk signatur från upphovsrättsinnehavaren eller en person som är behörig att agera. å hans vägnar; (b) identifiering av det material som påstås göra intrång; (c) din kontaktinformation, inklusive din adress, telefonnummer och ett e-postmeddelande; (d) ett uttalande från dig om att du i god tro tror att användningen av materialet inte är godkänd av upphovsrättsinnehavarna; och (e) ett uttalande om att informationen i meddelandet är korrekt, och att du, på grund av mened, är behörig att agera på ägarens vägnar. 
+
+ Skadeersättning
+ Du samtycker till att hålla oss och våra föräldrar, dotterbolag, dotterbolag, tjänstemän, anställda, agenter, partners och licensgivare (om några) skadeslösa från alla anspråk eller krav, inklusive rimliga advokatarvoden, på grund av eller till följd av dina: ( a) användning av tjänsten; (b) brott mot detta avtal eller någon lag eller förordning; eller (c) kränkning av tredje parts rättigheter.
+ Inga garantier
+ Tjänsten tillhandahålls dig \"I BEFINTLIGT SKICK\" och \"SOM ÄR TILLGÄNGLIG\" och med alla fel och defekter utan garanti av något slag. I den maximala utsträckning som tillåts enligt tillämplig lag, avsäger vi oss, för våra egna vägnar och för våra dotterbolags och våra respektive licensgivare och tjänsteleverantörer, uttryckligen alla garantier, vare sig uttryckliga, underförstådda, lagstadgade eller på annat sätt, med avseende på tjänsten, inklusive alla underförstådda garantier om säljbarhet, lämplighet för ett visst ändamål, titel och icke-intrång samt garantier som kan uppstå ur affärer, prestanda, användning eller handelspraxis. Utan begränsning till det föregående ger vi inga garantier eller åtaganden, och gör inga utfästelser av något slag att tjänsten kommer att uppfylla dina krav, uppnå avsedda resultat, vara kompatibel eller fungera med någon annan programvara, webbplatser, system eller tjänster, fungera utan avbrott, uppfylla någon prestanda- eller tillförlitlighetsstandard eller vara felfri eller att eventuella fel eller defekter kan eller kommer att korrigeras. 
+
+ Utan att begränsa det föregående, ger varken oss eller någon leverantör några utfästelser eller garantier av något slag, uttryckliga eller underförstådda: (i) vad gäller driften eller tillgängligheten av tjänsten, eller informationen, innehållet och material eller produkter som ingår i den; (ii) att tjänsten kommer att vara oavbruten eller felfri; (iii) om riktigheten, tillförlitligheten eller valutan för all information eller innehåll som tillhandahålls genom tjänsten; eller (iv) att tjänsten, dess servrar, innehållet eller e-postmeddelanden som skickas från eller på uppdrag av oss är fria från virus, skript, trojanska hästar, maskar, skadlig programvara, tidsbomber eller andra skadliga komponenter. Vissa jurisdiktioner tillåter inte uteslutning av eller begränsningar av underförstådda garantier eller begränsningar av tillämpliga lagstadgade rättigheter för en konsument, så vissa eller alla ovanstående undantag och begränsningar kanske inte gäller dig. 
+
+ Ansvarsbegränsning
+ Oavsett eventuella skador som du kan ådra dig, ska hela ansvaret för oss och någon av våra leverantörer enligt någon bestämmelse i detta avtal och din exklusiva gottgörelse för allt det föregående begränsas till det belopp som du faktiskt betalat för tjänsten. I den maximala utsträckning som tillåts enligt tillämplig lag ska vi eller våra leverantörer under inga omständigheter hållas ansvariga för några speciella, oförutsedda, indirekta eller följdskador (inklusive, men inte begränsat till, skador för förlust av vinst, för förlust av data eller annan information, för affärsavbrott, för personskada, för förlust av integritet som härrör från eller på något sätt relaterat till användningen av eller oförmågan att använda tjänsten, programvara från tredje part och/eller tredje parts hårdvara som används med tjänsten, eller på annat sätt i samband med någon bestämmelse i detta avtal), även om vi eller någon leverantör har informerats om möjligheten till sådana skador och även om åtgärden misslyckas med sitt väsentliga syfte. Vissa stater/jurisdiktioner tillåter inte uteslutning eller begränsning av oförutsedda skador eller följdskador, så ovanstående begränsning eller undantag kanske inte gäller dig. 
+
+ Avskiljbarhet
+ Om någon bestämmelse i detta avtal anses vara omöjlig att verkställa eller ogiltigt, kommer denna bestämmelse att ändras och tolkas för att uppnå målen för denna bestämmelse i största möjliga utsträckning enligt tillämplig lag och de återstående bestämmelserna kommer att fortsätta med full kraft och effekt. Detta avtal, tillsammans med integritetspolicyn och alla andra juridiska meddelanden som publiceras av oss på tjänsterna, ska utgöra hela avtalet mellan dig och oss angående tjänsterna. Om någon bestämmelse i detta avtal anses ogiltig av en domstol med behörig jurisdiktion, ska ogiltigheten av en sådan bestämmelse inte påverka giltigheten av de återstående bestämmelserna i detta avtal, som ska förbli i full kraft och verkan. Inget avstående från något villkor i detta avtal ska betraktas som ett ytterligare eller fortsatt avstående från ett sådant villkor eller något annat villkor, och vår underlåtenhet att hävda någon rättighet eller bestämmelse enligt detta avtal ska inte utgöra ett avstående från sådan rättighet eller bestämmelse. DU OCH OSS SAMTYCKER OM ATT ALLA ÅTGÄRDERSORSAKER SOM UPPSTÅR FRÅN ELLER RELATERADE TILL TJÄNSTERNA MÅSTE BÖRJA INOM ETT (1) ÅR EFTER ÅTGÄRDSORSAKET. ANNAT SÅDAN ÄR SÅDAN ÅTGÄRDSORSAK PERMANENT SPÄLLD. 
+
+ Avstående
+ Med undantag för vad som anges häri, ska underlåtenhet att utöva en rättighet eller att kräva att en skyldighet enligt detta avtal fullgörs inte påverka en parts förmåga att utöva sådan rätt eller kräva sådan fullgörelse när som helst därefter, och inte heller ska avstående från ett brott utgöra avstående från eventuella efterföljande överträdelser. 
+
+ Ingen underlåtenhet att utöva, och ingen fördröjning av utövandet, från någon av parternas sida, av någon rättighet eller någon befogenhet enligt detta avtal ska fungera som ett avstående från denna rättighet eller befogenhet. Inte heller ska något enskilt eller partiellt utövande av någon rättighet eller befogenhet enligt detta avtal hindra vidare utövande av den eller någon annan rättighet som beviljas häri. I händelse av en konflikt mellan detta avtal och eventuella tillämpliga köp- eller andra villkor ska villkoren i detta avtal gälla. 
+
+ Ändringar av detta avtal
+ Vi förbehåller oss rätten att, efter eget gottfinnande, ändra eller ersätta detta avtal när som helst. Om en revidering är väsentlig kommer vi att meddela minst 30 dagars varsel innan nya villkor träder i kraft. Vad som utgör en väsentlig förändring kommer att bestämmas efter eget gottfinnande. Genom att fortsätta att komma åt eller använda vår tjänst efter att eventuella ändringar trätt i kraft, samtycker du till att vara bunden av de reviderade villkoren. Om du inte godkänner de nya villkoren har du inte längre behörighet att använda vår tjänst. 
+
+ Hela avtalet
+ Avtalet utgör hela avtalet mellan dig och oss angående din användning av tjänsten och ersätter alla tidigare och samtidiga skriftliga eller muntliga avtal mellan dig och oss. Du kan bli föremål för ytterligare villkor som gäller när du använder eller köper andra tjänster från oss, som vi kommer att tillhandahålla dig vid tidpunkten för sådan användning eller köp. 
+
+ Uppdateringar av våra villkor
+ Vi kan ändra våra tjänster och våra policyer, och vi kan behöva göra ändringar i dessa villkor så att de korrekt återspeglar våra tjänster och policyer. Om inte annat krävs enligt lag kommer vi att meddela dig (till exempel genom vår tjänst) innan vi gör ändringar i dessa villkor och ger dig möjlighet att granska dem innan de träder i kraft. Sedan, om du fortsätter att använda tjänsten, kommer du att vara bunden av de uppdaterade villkoren. Om du inte vill godkänna dessa eller några uppdaterade villkor kan du radera ditt konto. 
+
+ Immateriella rättigheter
+ Vår plattform och hela dess innehåll, funktioner och funktionalitet (inklusive men inte begränsat till all information, programvara, text, displayer, bilder, video och ljud, och design, urval och arrangemang därav), ägs av oss, dess licensgivare eller andra leverantörer av sådant material och är skyddade av internationella lagar om upphovsrätt, varumärken, patent, affärshemligheter och annan immateriell egendom eller äganderätt. Materialet får inte kopieras, modifieras, reproduceras, laddas ner eller distribueras på något sätt, helt eller delvis, utan uttryckligt skriftligt tillstånd från oss, såvida inte och förutom vad som uttryckligen anges i dessa villkor. All obehörig användning av materialet är förbjuden. 
+
+ Avtal om skiljedom
+ Det här avsnittet gäller alla tvister UTOM DET INTE INNEHÅLLER EN TVIST relaterade till ANSVAR FÖR FÖRETAGSFÖRSVARANDE ELLER SKÄLLIG LÄTTNING AVSEENDE GENOMFÖRANDE ELLER GILTIGHET AV DIN ELLER World Medical Cards IMMATERIELLA RÄTTIGHETER. Termen \"tvist\" avser varje tvist, åtgärd eller annan tvist mellan dig och oss angående tjänsterna eller detta avtal, oavsett om det rör sig om kontrakt, garantier, skadestånd, lagar, förordningar, förordningar eller någon annan rättslig eller rättvis grund. \"Tvist\" kommer att ges den bredaste möjliga innebörden som är tillåten enligt lag. 
+
+ Meddelande om tvist
+ I händelse av en tvist måste du eller vi ge den andre ett meddelande om tvist, vilket är ett skriftligt uttalande som anger namn, adress och kontaktinformation för den part som ger den, de fakta som ger upphov till tvisten, och den begärda lättnaden. Du måste skicka ett meddelande om tvist via e-post till: . Vi kommer att skicka ett meddelande om tvist till dig per post till din adress om vi har det, eller på annat sätt till din e-postadress. Du och vi kommer att försöka lösa eventuella tvister genom informella förhandlingar inom sextio (60) dagar från det datum då meddelandet om tvist skickades. Efter sextio (60) dagar kan du eller oss inleda skiljeförfarande. 
+
+ Bindande medling
+ Om du och vi inte löser någon tvist genom informell förhandling, kommer alla andra försök att lösa tvisten att utföras uteslutande genom bindande skiljedom enligt beskrivningen i detta avsnitt. Du avstår från rätten att föra (eller delta i som part eller gruppmedlem) alla tvister i domstol inför en domare eller jury. Tvisten ska lösas genom bindande skiljeförfarande i enlighet med American Arbitration Associations regler för kommersiellt skiljeförfarande. Båda parterna kan ansöka om interimistiska eller preliminära förelägganden från valfri domstol med behörig jurisdiktion, som är nödvändigt för att skydda partens rättigheter eller egendom i avvaktan på att skiljeförfarandet slutförs. Alla juridiska, redovisningsmässiga och andra kostnader, avgifter och utgifter som ådras av den rådande parten ska bäras av den icke-regerande parten. 
+
+
+ Inlämningar och sekretess
+ I händelse av att du skickar eller lägger upp några idéer, kreativa förslag, design, fotografier, information, annonser, data eller förslag, inklusive idéer för nya eller förbättrade produkter, tjänster, funktioner, teknologier eller kampanjer, samtycker du uttryckligen till att sådana inlämningar automatiskt behandlas som icke-konfidentiell och icke-äganderättsskyddad och kommer att bli vår enda egendom utan någon som helst kompensation eller kredit till dig. Vi och våra dotterbolag ska inte ha några skyldigheter med avseende på sådana inlägg eller inlägg och får använda idéerna i sådana inlägg eller inlägg för alla ändamål i vilket medium som helst i evighet, inklusive, men inte begränsat till, utveckling, tillverkning och marknadsföring av produkter och tjänster som använder sådana idéer. 
+
+ Kampanjer
+ Vi kan då och då inkludera tävlingar, kampanjer, utlottningar eller andra aktiviteter (\"Kampanjer\") som kräver att du skickar in material eller information om dig själv. Observera att alla kampanjer kan styras av separata regler som kan innehålla vissa behörighetskrav, såsom begränsningar vad gäller ålder och geografisk plats. Du ansvarar för att läsa alla kampanjregler för att avgöra om du är berättigad att delta eller inte. Om du deltar i någon Kampanj samtycker du till att följa och följa alla Kampanjregler. Ytterligare villkor kan gälla för köp av varor eller tjänster på eller via Tjänsterna, vilka villkor görs till en del av detta avtal genom denna referens. 
+
+ Typografiska fel
+ Om en produkt och/eller tjänst är listad till ett felaktigt pris eller med felaktig information på grund av typografiska fel, har vi rätt att vägra eller annullera alla beställningar som gjorts för produkten och/eller tjänsten som anges till felaktigt pris. Vi har rätt att vägra eller annullera en sådan beställning oavsett om beställningen har bekräftats och ditt kreditkort debiterats. Om ditt kreditkort redan har debiterats för köpet och din beställning annulleras, kommer vi omedelbart att kreditera ditt kreditkortskonto eller annat betalkonto motsvarande debiteringsbeloppet. 
+
+ Diverse
+ Om en domstol med behörig jurisdiktion av någon anledning finner att någon bestämmelse eller del av dessa villkor inte kan verkställas, kommer resten av dessa villkor att fortsätta med full kraft och verkan. Varje avstående från någon bestämmelse i dessa villkor kommer endast att gälla om det är skriftligt och undertecknat av en auktoriserad representant för oss. Vi kommer att vara berättigade till föreläggande eller annan rättvis lättnad (utan skyldigheter att ställa någon borgen eller borgen) i händelse av något brott eller förutseende överträdelse av dig. Vi driver och kontrollerar vår tjänst från våra kontor i . Tjänsten är inte avsedd för distribution till eller användning av någon person eller enhet i någon jurisdiktion eller ett land där sådan distribution eller användning skulle strida mot lag eller förordning. Följaktligen gör de personer som väljer att använda vår Tjänst från andra platser det på eget initiativ och är ensamt ansvariga för efterlevnad av lokala lagar, om och i den mån lokala lagar är tillämpliga. Dessa villkor (som inkluderar och innehåller vår integritetspolicy) innehåller hela förståelsen och ersätter alla tidigare överenskommelser mellan dig och oss angående dess ämne och kan inte ändras eller modifieras av dig. Avsnittsrubrikerna som används i detta avtal är endast avsedda för bekvämlighet och kommer inte att ges någon juridisk import. 
+
+ varning
+ Vi är inte ansvariga för något innehåll, kod eller någon annan oprecision. Vi lämnar inga garantier eller garantier. Under inga omständigheter ska vi hållas ansvariga för några speciella, direkta, indirekta, följdskador eller tillfälliga skador eller några som helst skador, vare sig det är i en åtgärd av kontrakt, vårdslöshet eller annan skadeståndsskyldighet, som uppstår ur eller i samband med användningen av tjänsten eller innehållet i tjänsten. Vi förbehåller oss rätten att göra tillägg, raderingar eller ändringar av innehållet på tjänsten när som helst utan föregående meddelande. 
+
+ Vår tjänst och dess innehåll tillhandahålls \"i befintligt skick\" och \"såsom tillgängligt\" utan några garantier eller representationer av något slag, vare sig uttryckligen eller underförstått. Vi är en distributör och inte en utgivare av innehållet som tillhandahålls av tredje part; som sådan utövar vi ingen redaktionell kontroll över sådant innehåll och lämnar inga garantier eller utfästelser om riktigheten, tillförlitligheten eller valutan för någon information, innehåll, tjänst eller varor som tillhandahålls via eller är tillgängliga via vår tjänst. Utan att begränsa det föregående avsäger vi oss specifikt alla garantier och representationer i allt innehåll som överförs på eller i samband med vår tjänst eller på webbplatser som kan visas som länkar på vår tjänst, eller i produkterna som tillhandahålls som en del av eller på annat sätt i samband med , vår tjänst, inklusive utan begränsning eventuella garantier om säljbarhet, lämplighet för ett visst ändamål eller icke-intrång i tredje parts rättigheter. Inga muntliga råd eller skriftlig information som ges av oss eller någon av dess dotterbolag, anställda, tjänstemän, direktörer, agenter eller liknande kommer att skapa en garanti. Pris- och tillgänglighetsinformation kan ändras utan föregående meddelande. Utan att begränsa det föregående, garanterar vi inte att vår tjänst kommer att vara oavbruten, oförstörd, i rätt tid eller felfri. 
+
+ Kontakta oss
+ Tveka inte att kontakta oss om du har några frågor.
+ • Via E-post: post@wmc-card.no
+ • Via telefonnummer: +47 55 33 75 75</string>
+
+    <string name="title_your_profile_is_incomplete">Din profil är ofullständig</string>
+
+    <string name="translate_code_prefix">• Kod: %1$s</string>
+    <string name="translate_language_hint">Språk</string>
+    <string name="translate_my_title">Mina %1$s</string>
+    <string name="translate_title_allergies">Mina allergier</string>
+    <string name="translate_title_diagnoses">Mina diagnoser</string>
+    <string name="translate_title_medicine">Mina mediciner</string>
+    <string name="translate_title_vaccines">Mina vacciner</string>
+
+    <string name="vaccines_card_title">Vacciner</string>
+
+    <string name="wmc_card_menu_print_card">Skriv ut kort</string>
+    <string name="wmc_card_menu_reorder_card">Beställ om kortet</string>
+    <string name="wmc_order_successful">Beställningen lyckades</string>
+
+    <string name="world_medical_card_r">World Medical Card®</string>
+
+    <string name="your_personal_medical_record_n_always_available">Din personliga journal \n alltid tillgänglig</string>
+    <string name="verify_your_phone_number">Verify Your Phone Number</string>
+    <string name="resend">Resend</string>
+    <string name="otp_expired">OTP has expired</string>
+    <string name="otp_sent">OTP has been sent successfully</string>
+    <string name="invalid_otp">OTP is invalid</string>
+</resources>

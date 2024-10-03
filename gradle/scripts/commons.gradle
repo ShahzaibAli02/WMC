@@ -1,0 +1,394 @@
+/*
+Usage example:
+
+apply from: "$rootDir/gradle/scripts/commons.gradle"
+
+android {
+    defaultConfig {
+        ...
+        appVersion '1.0.0'
+        outputFileName 'app-name'
+    }
+    ...
+    productFlavors {
+        dev {
+            setStringField it, 'SERVER_URL', 'http://example.com'
+            setBooleanField it, 'CRASH_REPORT_ENABLED', true
+            setStringRes it, 'secret_key', 'abcdefghijklmnoprst'
+        }
+    }
+}
+ */
+
+android {
+    // Setting up default signing config
+    signingConfigs {
+        debug {
+            storeFile file("$rootDir/gradle/scripts/sign/debug.keystore")
+        }
+        release {
+            storeFile file("$rootDir/gradle/scripts/sign/debug.keystore")
+            keyAlias 'androiddebugkey'
+            storePassword 'debug'
+            keyPassword 'debug'
+        }
+    }
+
+    defaultConfig {
+        signingConfig signingConfigs.release // Release certificate by default
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+String outputFileAppName = 'app'
+String outputFileVersionSuffix = ''
+
+/**
+ * Sets better apk file name using format: "'appName'-'buildType'-'flavor'-'versionName'.apk".
+ *
+ * Should be called after call to `setupVersion`, e.g.:
+ *   setOutputFileName 'app-name'
+ */
+ext.outputFileName = { name ->
+    outputFileAppName = name
+
+    android.defaultConfig.with {
+        // Setting output file name for bundles (.aab)
+        setProperty('archivesBaseName', "$outputFileAppName$outputFileVersionSuffix")
+    }
+}
+
+/**
+ * Sets app version name and version code.
+ *
+ * Provided version should be in form 'X.Y.Z', these version will be parsed and version code will be
+ * generated from it as '(X * 10000 + Y * 100 + Z) * 10000 + build_number'.
+ * E.g. if version name is '1.2.3' and build number is 456 then resulting code will be: '102030456'.
+ *
+ * When building on build server version name will be extended to contain a build number.
+ * E.g. '1.2.3-b456'. Build number is a total number of commits from the branch root.
+ *
+ * Should be called instead of 'versionName' / 'versionCode' within defaultConfig closure:
+ * "setupVersion it, 'X.Y.Z'".
+ */
+ext.appVersion = { version ->
+    def final buildNumber = getBuildNumber()
+    def final baseCode = getBaseVersionCode(version)
+
+    outputFileVersionSuffix = "-$version-b$buildNumber"
+
+    log "VERSION  | Base name: $version"
+    log "VERSION  | Base code: $baseCode"
+    log "VERSION  | Build number: $buildNumber"
+
+    android.defaultConfig.with {
+        versionName version
+        versionCode baseCode
+        buildConfigField 'int', 'BUILD_NUMBER', "$buildNumber"
+        // Setting output file name for bundles (.aab)
+        setProperty('archivesBaseName', "$outputFileAppName$outputFileVersionSuffix")
+    }
+
+    // We also need to fine-tune version name and code for different cases
+    android.applicationVariants.whenObjectAdded { variant ->
+        // Build number should be included into all release version codes, since each upload to
+        // Google Play should have increased version code, but for debug builds it is better
+        // to keep single code within same version to simplify updates to earlier versions.
+
+        // When building on build server (and distributing with Fabric) it is important to include
+        // build number in version name to make it easier for testers to provide exact build number
+
+        def suffixes = variant.productFlavors.collect { it.versionNameSuffix } +
+                variant.buildType.versionNameSuffix
+        def suffix = suffixes.findAll { it != null }.join('')
+        def baseVersion = version + suffix
+
+        String versionName
+        Integer versionCode
+        if (variant.buildType.name.contains('release')) {
+            versionName = baseVersion
+            versionCode = baseCode + buildNumber
+        } else if (isOnBuildServer()) {
+            versionName = "$baseVersion-b$buildNumber"
+            versionCode = baseCode + buildNumber
+        } else {
+            // Debug builds on local machine
+            versionName = "$baseVersion-b$buildNumber"
+            versionCode = baseCode + buildNumber
+        }
+
+        log "VERSION  | ${variant.name} = $versionName / $versionCode"
+
+        // Rewriting version name and code for each output and setting apk file name
+        variant.outputs.each { output ->
+            output.versionCodeOverride = versionCode
+            output.versionNameOverride = versionName
+            // Setting output file name for apks
+            output.outputFileName =
+                    "$outputFileAppName-$version-b$buildNumber-${output.baseName}.apk"
+        }
+
+        // We can't affect BuildConfig.VERSION_NAME from a variant, so we'll just set a new field
+        variant.buildConfigField 'String', 'VERSION_NAME_FULL', "\"$versionName\""
+    }
+}
+
+private static int getBaseVersionCode(String version) {
+    // Version code has next format: XYYZZBBBB,
+    // where X is a major version, Y is minor, Z is patch and B is build number (optional).
+    // Since version code is an integer we are limited with 21.47.48.3647 (max int).
+    def (major, minor, patch) = version.tokenize('.')
+    if (major.toInteger() > 20) {
+        throw new GradleException('Major part of version name cannot be bigger than 20')
+    } else if (minor.toInteger() > 99) {
+        throw new GradleException('Minor part of version name cannot be bigger than 99')
+    } else if (patch.toInteger() > 99) {
+        throw new GradleException('Patch part of version name cannot be bigger than 99')
+    }
+    return (major.toInteger() * 10000 + minor.toInteger() * 100 + patch.toInteger()) * 10000
+}
+
+private static int getBuildNumber() {
+    def build
+
+    try {
+        def final buildStr = 'git rev-list --count HEAD'.execute().text.trim()
+        build = buildStr.toInteger()
+    } catch (Exception ignored) {
+        if (verbose()) System.err.println 'Build number is not available'
+        return 1
+    }
+
+    if (build >= 10000) {
+        throw new GradleException(
+                "Build number ($build) exceeded 10000, version code should be adjusted to fit it")
+    }
+
+    return build
+}
+
+boolean appNameEnabled = false
+String appNameBase = null
+final Map<String, String> appNames = new HashMap<String, String>()
+final Map<String, String> appNameSuffixes = new HashMap<String, String>()
+
+/**
+ * Sets base app name that will be automatically added as "app_name" string resource.
+ * Can be further modified with "appName" and "appNameSuffix".
+ */
+ext.appNameBase = { name ->
+    appNameBase = name
+    enableAppNameLogic()
+}
+
+/**
+ * When applied to build types or flavor config will override app name set with "appNameBase".
+ * Note that app name set for a flavor will have higher priority than app name set for a build type.
+ */
+ext.appName = { config, name ->
+    appNames.put(config.name, name)
+    enableAppNameLogic()
+}
+
+/**
+ * If app name is set (either using "appNameBase" or "appName") then this suffix will be appended
+ * to the end of the name.
+ * Suffixes added for different flavor dimension and for build types will be stacked together,
+ * with suffixes from flavors at first and then a suffix from build type (if any).
+ */
+ext.appNameSuffix = { config, suffix ->
+    appNameSuffixes.put(config.name, suffix)
+}
+
+ext.enableAppNameLogic = {
+    if (appNameEnabled) return
+    appNameEnabled = true
+
+    // Adding default string to avoid false positive IDE errors
+    android.defaultConfig {
+        resValue 'string', 'app_name', appNameBase ?: ''
+    }
+
+    android.applicationVariants.whenObjectAdded { variant ->
+        def appName = variant.productFlavors.collect { appNames.get(it.name) }.find { it != null }
+                ?: appNames.get(variant.buildType.name)
+                ?: appNameBase
+
+        if (appName != null) {
+            def suffixes = variant.productFlavors.collect { appNameSuffixes.get(it.name) } +
+                    appNameSuffixes.get(variant.buildType.name)
+            def suffix = suffixes.findAll { it != null }.join('')
+            appName += suffix
+
+            log "APP NAME | ${variant.name} = $appName"
+            resValue 'string', 'app_name', appName
+        }
+    }
+}
+
+/**
+ * Enables Crashlytics (by adding BuildConfig.IS_CRASHLYTICS_ENABLED flag and crashReportingEnabled
+ * manifest placeholder). Crashlytics is disabled for local debug builds.
+ */
+ext.enableCrashlytics = {
+    android.buildTypes {
+        debug {
+            setCrashlyticsEnabled it, isOnBuildServer()
+        }
+        release {
+            setCrashlyticsEnabled it, true
+        }
+    }
+}
+
+/**
+ * Add release note to firebase app distribution
+ * Release note will contain the last PR title merged to master branch
+ * */
+ext.addReleaseNotes = { note ->
+    def changeLog = ""
+    def changeLogCmd = ""
+    def changeKeys = "feature/\nbugfix/\nrefactor/".split('\n')
+    try {
+        changeLogCmd = "git log --first-parent --max-count=1 --pretty='%b'".execute().text.split("\n")
+        changeLogCmd.each { line ->
+            if (line.startsWith("'")) {
+                line = line.substring(1)
+            }
+            changeKeys.each { word -> 
+                if (line.startsWith(word)) {
+                    changeLog += line
+                }
+            }
+        }
+    } catch (Exception ignored) {
+        println "Change Log ex=> \n${ignored.message}"
+        return note
+    }
+    println "Change Log => \n${changeLog.trim()}"
+    
+    android.defaultConfig.with {
+        if (this.hasProperty('firebaseAppDistribution')) {
+            firebaseAppDistribution {
+                releaseNotes = "${changeLog.toString().trim()}"
+            }
+        }
+    }
+}
+
+tasks.register('releaseNote') {
+    addReleaseNotes()
+}
+
+private static setCrashlyticsEnabled(config, enabled) {
+    config.buildConfigField 'Boolean', 'IS_CRASHLYTICS_ENABLED', enabled ? 'true' : 'false'
+}
+
+/**
+ * Adds and configures new dimension to separate Google and Huawei builds.
+ * Huawei release build type will automatically use "huawei" sign config (fallback to debug config).
+ */
+ext.addVendorFlavors = {
+    android.with {
+        // Adding "huawei" signing config if missing
+        if (signingConfigs.findByName('huawei') == null) {
+            android.signingConfigs {
+                huawei.initWith debug
+            }
+        }
+
+        final dimens = getFlavorDimensionList() ?: new ArrayList(0)
+
+        // Applying default dimension, in case it is not applied yet
+        if (dimens.size() == 1) {
+            final String defaultDimension = getFlavorDimensionList().get(0)
+            productFlavors.all { flavor ->
+                flavor.dimension defaultDimension
+            }
+        }
+
+        // Adding new flavor dimension
+        flavorDimensions((dimens + 'vendor') as String[])
+
+        // Adding extra flavors
+        productFlavors {
+            google {
+                dimension 'vendor'
+            }
+            huawei {
+                dimension 'vendor'
+
+                applicationIdSuffix '.huawei'
+                versionNameSuffix '-hw'
+
+                signingConfig android.signingConfigs.huawei // Only applies to release builds
+            }
+        }
+    }
+}
+
+/**
+ * Filters out all release builds which are not related to "prod" flavor.
+ */
+ext.ignoreNonProductionReleaseVariants = {
+    // Ignoring useless build variants
+    android.variantFilter { variant ->
+        final names = variant.flavors*.name
+        // Ignoring non-prod release variants
+        final ignoreReleaseNonProd = variant.buildType.name == 'release' && !names.contains('prod')
+        // Ignoring non-prod Huawei variants
+        final ignoreHuaweiNonProd = names.contains('huawei') && !names.contains('prod')
+
+        if (ignoreReleaseNonProd || ignoreHuaweiNonProd) variant.setIgnore(true)
+    }
+}
+
+/**
+ * Whether we are running on build server currently or not.
+ */
+ext.isOnBuildServer = {
+    return System.getenv('BUILD_NUMBER')
+}
+
+/**
+ * Adds string field to the generated BuildConfig class.
+ *
+ * Can be called within defaultConfig, build type or flavor initialization closure:
+ * "setStringField it, 'NAME', 'VALUE'".
+ */
+ext.setStringField = { obj, key, value ->
+    obj.buildConfigField 'String', key, "\"$value\""
+}
+
+/**
+ * Adds boolean field to the generated BuildConfig class.
+ *
+ * Can be called within defaultConfig, build type or flavor initialization closure:
+ * "setBooleanField it, 'NAME', value".
+ */
+ext.setBooleanField = { obj, key, value ->
+    obj.buildConfigField 'Boolean', key, value ? 'true' : 'false'
+}
+
+/**
+ * Adds string resource to be accessible as R.string.key.
+ *
+ * Can be called within defaultConfig, build type or flavor initialization closure:
+ * "setStringRes it, 'name', 'value'".
+ */
+ext.setStringRes = { obj, key, value ->
+    obj.resValue 'string', key, value
+}
+
+private static boolean verbose() {
+    return System.properties.VERBOSE == 'true'
+}
+
+private static void log(String message) {
+    if (verbose()) println message
+}

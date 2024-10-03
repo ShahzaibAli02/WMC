@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "no.wmc.test.app-mergeDevDebugAndroidTestResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/shahzaibali778/AndroidStudioProjects/wmc-android/app/build/generated/res/resValues/androidTest/dev/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "158",
+                        "endColumns": "80",
+                        "endOffsets": "234"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "80",
+                        "endOffsets": "131"
+                    }
+                }
+            ]
+        }
+    ]
+}

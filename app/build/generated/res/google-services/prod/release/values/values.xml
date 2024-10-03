@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">693992819935-nur39rll92brghgvpb88ptqac5kodqlk.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://world-medical-card-prod-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">693992819935</string>
+    <string name="google_api_key" translatable="false">AIzaSyBefANlKymmm1w4QU2po3puXOv3RMewlN0</string>
+    <string name="google_app_id" translatable="false">1:693992819935:android:09c1c93ec6c29b59742d6a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBefANlKymmm1w4QU2po3puXOv3RMewlN0</string>
+    <string name="google_storage_bucket" translatable="false">world-medical-card-prod.appspot.com</string>
+    <string name="project_id" translatable="false">world-medical-card-prod</string>
+</resources>

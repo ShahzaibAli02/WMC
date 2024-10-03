@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App" />
+
+    <style name="AppRegisterTopButtons">
+        <item name="android:background">@drawable/bg_register_top_button</item>
+        <item name="android:drawablePadding">@dimen/dp_10</item>
+        <item name="android:fontFamily">@font/opensans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">@dimen/dp_20</item>
+        <item name="android:textColor">@color/register_top_button_text</item>
+    </style>
+
+    <style name="AppDatePicker" parent="@style/ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="App.ButtonBlue" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="App.ButtonBlueNew" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="App.RegisterTabButtonBlue" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">@dimen/dp_15</item>
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.RegisterTabButtonWhite" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">@dimen/dp_15</item>
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/black_50</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#E9E9E9</item>
+    </style>
+
+    <style name="App.WmcCardButtonBlue" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">12dp</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="App.ButtonGreen" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/green_button_bg</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="App.TextNoBackgroundButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:fontFamily">@font/opensans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textColor">@color/buttonNoBgTextColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="App.TextButtonBottomDialog" parent="Widget.Material3.Button.TextButton">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="App.WhiteButton" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/whiteButtonTextColor</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+    </style>
+
+    <style name="App.CardIconButton" parent="Widget.Material3.Button.OutlinedButton.Icon">
+        <item name="iconGravity">textStart</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="iconTint">@color/cardButtonContentTint</item>
+        <item name="strokeColor">@color/cardButtonStrokeColor</item>
+        <item name="iconPadding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="App.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/outlinedButton</item>
+        <item name="strokeColor">@color/outlinedButton</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+    </style>
+
+    <style name="App.CardTitleText" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">#718096</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="App.DescriptionText" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">#718096</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="App.ProfileCardInfoTitle" parent="">
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="App.ProfileCardInfoData" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="App.FieldLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintTextColor">@color/registerFieldCaptionColor</item>
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+
+    </style>
+
+    <style name="App.FieldDropDownLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintTextColor">@color/registerFieldCaptionColor</item>
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+    </style>
+
+    <style name="App.InputField" parent="ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/registerFieldTextColor</item>
+    </style>
+
+    <style name="App.NoSubscriptionCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="contentPaddingTop">18dp</item>
+        <item name="contentPaddingBottom">18dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="android:alpha">0.3</item>
+    </style>
+
+    <style name="App.CountryDialPicker">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">@dimen/dp_40</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/dp_3</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="drawableEndCompat">@drawable/baseline_arrow_drop_down_24</item>
+        <item name="android:fontFamily">@font/opensans</item>
+    </style>
+
+    <style name="App.ExpandableCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="contentPadding">18dp</item>
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="App.WmcCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/wmcBannerBackground</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="App.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/controlsTextColorDark</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="thumbTint">@color/switch_thumb_color</item>
+        <item name="trackTint">@color/switch_track_color</item>
+    </style>
+
+    <style name="App.MaterialAlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:background">@color/white</item>
+        <item name="dialogCornerRadius">2dp</item>
+        <item name="materialAlertDialogTitleTextStyle">
+            @style/App.MaterialAlertDialog.Title.Text
+        </item>
+        <item name="materialAlertDialogBodyTextStyle">
+            @style/App.MaterialAlertDialog.Body.Text
+        </item>
+    </style>
+
+    <style name="App.MaterialAlertDialog.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="App.MaterialAlertDialog.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="App.MaterialAlertDialog.DeleteMember" parent="App.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleIconStyle">
+            @style/App.MaterialAlertDialog.DeleteMember.Icon
+        </item>
+    </style>
+
+    <style name="App.MaterialAlertDialog.DeleteMember.Icon" parent="MaterialAlertDialog.MaterialComponents.Title.Icon">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:tint">@color/completeProfileByline</item>
+    </style>
+
+    <style name="card_text_style">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#6BBEF5</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+
+    <style name="new_card_text_style">
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="floatingButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+
+        <item name="backgroundTint">@color/m_mtrl_fab_bg_color_selector</item>
+
+    </style>
+
+</resources>

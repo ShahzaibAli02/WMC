@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="genders">
+        <item>@string/profile_gender_male</item>
+        <item>@string/profile_gender_female</item>
+    </array>
+    <array name="yes_no">
+        <item>@string/common_no</item>
+        <item>@string/common_yes</item>
+    </array>
+
+    <array name="insurance">
+        <item>@string/profile_edit_insurance_travel</item>
+        <item>@string/profile_edit_insurance_health</item>
+    </array>
+</resources>

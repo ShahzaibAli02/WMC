@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.infideap.drawerbehavior.Advance3DDrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start"
+        android:padding="0dp">
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#F0F4FB"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical"
+                android:paddingTop="23dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/avatar_placeholder"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textSize="23dp"
+                    tools:text="Ana Caludia" />
+
+                <TextView
+                    android:id="@+id/txtMemberSince"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.5"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:gravity="center"
+                    android:text="Member since 2023"
+                    android:textColor="@color/black"
+                    android:textSize="13dp" />
+
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="23dp"
+                                android:src="@drawable/contacts" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_medium"
+                                android:text="Account"
+                                android:textColor="#222222"
+                                android:textSize="17dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtPrivacyPolicy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:text="Privacy Policy"
+                            android:textColor="#222222"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txtTermsAndConditions"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:text="Terms &amp; Conditions"
+                            android:textColor="#222222"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txtChanepassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:text="Change Password"
+                            android:textColor="#222222"
+                            android:textSize="16dp" />
+
+
+                        <LinearLayout
+                            android:id="@+id/lytMemberShipBadge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="23dp"
+                                android:src="@drawable/badge" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_medium"
+                                android:text="Membership Badges"
+                                android:textColor="#222222"
+                                android:textSize="17dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lytSecurityAndPrivacy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:visibility="gone"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="23dp"
+                                android:src="@drawable/lock" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_medium"
+                                android:text="Security &amp; Privacy"
+                                android:textColor="#222222"
+                                android:textSize="17dp" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/lytEmergency"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:visibility="gone"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="23dp"
+                                android:src="@drawable/baseline_emergency_24"
+                                android:tint="#B3000000" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_medium"
+                                android:text="Emergency"
+                                android:textColor="#222222"
+                                android:textSize="17dp" />
+
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:id="@+id/lytAboutus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="23dp"
+                                android:src="@drawable/about_us" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_medium"
+                                android:text="About Us"
+                                android:textColor="#222222"
+                                android:textSize="17dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lytContactUs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="23dp"
+                                android:src="@drawable/contact_us" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_medium"
+                                android:text="Contact Us"
+                                android:textColor="#222222"
+                                android:textSize="17dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/lytDelete"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="23dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_delete_subscription"
+                                android:tint="#B3000000" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_medium"
+                                android:text="Delete account"
+                                android:textColor="#222222"
+                                android:textSize="17dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+
+                <LinearLayout
+                    android:id="@+id/lytLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:src="@drawable/logout" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Log out"
+                        android:textColor="#222222"
+                        android:textSize="17dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.navigation.NavigationView>
+
+        <FrameLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F0F4FB">
+
+            <FrameLayout
+                android:id="@+id/lytHeader"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F0F4FB"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/dp_20"
+                android:paddingEnd="@dimen/dp_20">
+
+                <ImageView
+                    android:id="@+id/imageMenu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_menu" />
+
+                <TextView
+                    android:id="@+id/txtheaderTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/sf_pro_display_semibold"
+                    android:gravity="center"
+                    android:text="DashBoard"
+                    android:textColor="#222222"
+                    android:textSize="23dp" />
+            </FrameLayout>
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/navHostNew"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:defaultNavHost="true"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:navGraph="@navigation/dash_nav" />
+
+            <include
+                android:id="@+id/bottomBar"
+                layout="@layout/new_bottom_bar" />
+
+
+        </FrameLayout>
+    </com.infideap.drawerbehavior.Advance3DDrawerLayout>
+</layout>

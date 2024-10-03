@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@drawable/ic_bg_bottom_bar">
+            <RelativeLayout
+                android:id="@+id/rlHome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.80"
+                android:gravity="center"
+                app:layout_constraintEnd_toStartOf="@+id/im_compare"
+                app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/dp_3">
+
+                    <ImageView
+                        android:id="@+id/ivHome"
+                        android:layout_width="@dimen/dp_17"
+                        android:layout_height="@dimen/dp_17"
+                        android:src="@drawable/ic_activity_new"
+                        app:tint="@color/bottom_nav_color_selector" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_5" />
+
+                    <View
+                        android:id="@+id/viewHome"
+                        android:layout_width="@dimen/dp_3"
+                        android:layout_height="@dimen/dp_3"
+                        android:background="@drawable/bg_circle_blue"
+                        android:backgroundTint="@color/bottom_nav_color_selector_dot" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlLocation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.80"
+                android:gravity="center"
+                app:layout_constraintEnd_toStartOf="@+id/im_compare"
+                app:layout_constraintStart_toEndOf="@+id/constraintLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/dp_3">
+
+                    <ImageView
+                        android:id="@+id/ivLocation"
+                        android:layout_width="@dimen/dp_17"
+                        android:layout_height="@dimen/dp_17"
+                        android:src="@drawable/ic_location_new"
+                        app:tint="@color/bottom_nav_color_selector" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_5" />
+
+                    <View
+                        android:id="@+id/viewLocation"
+                        android:layout_width="@dimen/dp_3"
+                        android:layout_height="@dimen/dp_3"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/bg_circle_blue"
+                        android:backgroundTint="@color/bottom_nav_color_selector_dot" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.90" />
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/rlActivity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.80"
+                android:gravity="center"
+
+                app:layout_constraintEnd_toStartOf="@+id/im_compare"
+                app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+               >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/dp_3">
+
+                    <ImageView
+                        android:id="@+id/ivActivity"
+                        android:layout_width="@dimen/dp_17"
+                        android:layout_height="@dimen/dp_17"
+                        android:src="@drawable/ic_home_new"
+                        app:tint="@color/bottom_nav_color_selector" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_5" />
+
+                    <View
+                        android:id="@+id/viewActivity"
+                        android:layout_width="@dimen/dp_3"
+                        android:layout_height="@dimen/dp_3"
+                        android:background="@drawable/bg_circle_blue"
+                        android:backgroundTint="@color/bottom_nav_color_selector_dot"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.80"
+                android:gravity="center"
+                app:layout_constraintEnd_toStartOf="@+id/im_compare"
+                app:layout_constraintStart_toEndOf="@+id/constraintLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/dp_3">
+
+                    <ImageView
+                        android:id="@+id/ivProfile"
+                        android:layout_width="@dimen/dp_17"
+                        android:layout_height="@dimen/dp_17"
+                        app:tint="@color/bottom_nav_color_selector"
+                        android:src="@drawable/ic_profile_new" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_5" />
+
+                    <View
+                        android:id="@+id/viewProfile"
+                        android:layout_width="@dimen/dp_3"
+                        android:layout_height="@dimen/dp_3"
+                        android:backgroundTint="@color/bottom_nav_color_selector_dot"
+                        android:background="@drawable/bg_circle_blue"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivCard"
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/dp_50"
+            android:background="@drawable/bg_circle_blue"
+            android:padding="@dimen/dp_10"
+            android:src="@drawable/logo" />
+
+    </FrameLayout>
+</layout>

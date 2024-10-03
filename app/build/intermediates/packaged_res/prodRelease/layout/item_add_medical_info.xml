@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    
+
+                 
+                        
+                                                          
+           
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:paddingHorizontal="2dp" android:tag="layout/item_add_medical_info_0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="binding_1"            
+            android:textColor="@color/titleColor"
+            android:textSize="18sp"
+            tools:text="Gastrointestinal Tularemia" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="binding_2"     
+            tools:text="CO7AB02" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+         

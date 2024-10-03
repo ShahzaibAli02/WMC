@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainBgColor">#F8F8F8</color>
+
+    <!--<color name="colorPrimary">#4299E1</color>-->
+    <color name="colorPrimary">#32ABF8</color>
+    <color name="colorPrimaryDark">@color/mainBgColor</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorPrimaryBlue">#0292B3</color>
+    <color name="windowBackground">@color/mainBgColor</color>
+    <color name="dividerLine">#CBD5E0</color>
+    <color name="colorControlActivated">#263238</color>
+    <color name="rippleColor">#3DB1B1B1</color>
+    <color name="loadingOverlayBg">#80FFFFFF</color>
+    <color name="dialogTransparentBg">#80FFFFFF</color>
+    <color name="gray600">#4A5568</color>
+    <color name="blue300">#63B3ED</color>
+
+    <color name="black">#FF000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="commonButtonBg">#32ABF8</color>
+    <color name="commonDarkButtonBg">#2A69AC</color>
+    <color name="whiteButtonTextColor">#8A000000</color>
+    <color name="screenTitleColor">#171923</color>
+    <color name="greenButtonBg">#48BB78</color>
+    <color name="controlsTextColorDark">#2D3748</color>
+
+    <color name="dotIndicatorActive">#263238</color>
+    <color name="dotIndicatorInactive">#F0F0F0</color>
+    <color name="buttonNoBgTextColor">#5F676C</color>
+    <color name="bottom_nav_un_selectd_color">#5F676C</color>
+    <color name="bottom_nav_selectd_color">#32ABF8</color>
+    <color name="titleColor">#263238</color>
+    <color name="textColor">#263238</color>
+    <color name="descriptionColor">#5F676C</color>
+    <color name="hintColor">#3D263238</color>
+    <color name="registerFieldCaptionColor">@color/colorControlActivated</color>
+    <color name="registerFieldTextColor">@color/colorControlActivated</color>
+    <color name="cardDividerColor">#EDF2F7</color>
+    <color name="cardButtonContentTint">#979797</color>
+    <color name="cardButtonStrokeColor">#E0E0E0</color>
+    <color name="blueCardBgColor">#EDF2F7</color>
+    <color name="greenCardBgColor">#F0FFF4</color>
+    <color name="switchThumbDisabled">#A0AEC0</color>
+    <color name="switchTrackDisabled">#61A0AEC0</color>
+    <color name="switchTrackEnabled">#3DA0AEC0</color>
+    <color name="expandCardDescription">#718096</color>
+    <color name="completeProfileByline">#E74C3C</color>
+    <color name="memberSinceByline">#4A5568</color>
+    <color name="cardActiveIconTint">#4FB8FF</color>
+    <color name="cardInActiveTint">#66FFFFFF</color>
+    <color name="bottomDialogBg">@color/colorControlActivated</color>
+    <color name="wmcBannerBackground">#DAF2F8</color>
+    <color name="outlinedButton">#2980B9</color>
+    <color name="wmcOrderSuccessful">#47BEDC</color>
+    <color name="subscriptionAvatarTint">#C4C4C4</color>
+    <color name="subscriptionAvatarText">#1A202C</color>
+    <color name="shadow_light">#e7e7e7</color>
+
+    <color name="sky_blue">#F0F4FB</color>
+    <color name="new_icon_gray">#222222</color>
+    <color name="new_light_border">#33000000</color>
+    <color name="new_icon_unselected">#5A6067</color>
+
+    <color name="color_setIndexBarColor">#33334c</color>
+    <color name="color_setIndexBarTextColor">#FFFFFF</color>
+    <color name="color_setPreviewColor">#33334c</color>
+    <color name="color_setPreviewTextColor">#FFFFFF</color>
+    <color name="color_setIndexBarStrokeColor">#000000</color>
+    <color name="color_setIndexBarHighLightTextColor">#33334c</color>
+    <color name="light_green">#48DD4E</color>
+    <color name="yellow">#FFB300</color>
+    <color name="red">#D32F2F</color>
+    <color name="green">#43A047</color>
+
+</resources>

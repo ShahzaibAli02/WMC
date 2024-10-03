@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+<LinearLayout
+    android:id="@+id/parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:paddingTop="10dp"
+        android:paddingBottom="@dimen/dp_20">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/expandableCardDiagnoses"
+                style="@style/App.ExpandableCard"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/dp_0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/titlePanelDiagnoses"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/iconDiagnoses"
+                            android:layout_width="@dimen/dp_40"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_margin="4dp"
+                            android:scaleType="fitXY"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:src="@drawable/ic_diagnoses_new" />
+
+                        <TextView
+                            android:id="@+id/titleDiagnoses"
+                            style="@style/App.CardTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp_18"
+                            android:fontFamily="@font/sf_pro_display_semibold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="@string/diagnoses_card_title" />
+
+                        <TextView
+                            android:id="@+id/descriptionDiagnoses"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textSize="@dimen/sp_12"
+                            android:text="@string/no_diagnoses_listed"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:textColor="@color/expandCardDescription"
+                            app:layout_constraintEnd_toStartOf="@id/expandButtonDiagnoses"
+                            app:layout_constraintStart_toStartOf="@id/titleDiagnoses"
+                            app:layout_constraintTop_toBottomOf="@+id/titleDiagnoses" />
+
+                        <ImageView
+                            android:id="@+id/expandButtonDiagnoses"
+                            android:layout_width="40dp"
+                            android:layout_height="0dp"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_chevron"
+                            app:layout_constraintBottom_toBottomOf="@id/titleDiagnoses"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/titleDiagnoses" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/infoLayoutDiagnoses"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/new_light_border" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rvDiagnosesList"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:overScrollMode="never"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                app:layout_constraintHeight_max="250dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:itemCount="13"
+                                tools:listitem="@layout/home_list_item_new" />
+
+                            <ProgressBar
+                                android:id="@+id/diagnosesLoading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_margin="16dp"
+                                android:visibility="gone"
+                                android:indeterminateTint="@color/colorPrimary"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/editActionDiagnosesLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:visibility="gone"
+                            android:paddingVertical="6dp">
+
+                            <TextView
+                                android:id="@+id/cancelEditItemButtonDiagnoses"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="16dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_cancel"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/removeItemButtonDiagnoses"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/removeItemButtonDiagnoses"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="12dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_remove"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <HorizontalScrollView
+                            android:id="@+id/cardActionDiagnosesLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:fadingEdgeLength="36dp"
+                            android:requiresFadingEdge="horizontal"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:id="@+id/addButtonDiagnoses"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_plus_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/add" />
+
+                                </LinearLayout>
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/addButtonDiagnoses"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/button_add"
+                                    app:icon="@drawable/ic_add" />-->
+
+                                <LinearLayout
+                                    android:id="@+id/translateButtonDiagnoses"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginStart="@dimen/dp_10"
+                                    android:layout_marginEnd="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_new_translation" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/translation" />
+
+                                </LinearLayout>
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/translateButtonDiagnoses"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="12dp"
+                                    android:text="@string/button_translate"
+                                    android:visibility="visible"
+                                    app:icon="@drawable/ic_new_translation" />-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/editButtonDiagnoses"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_edit"
+                                    android:visibility="gone"
+                                    app:icon="@drawable/ic_edit"/>-->
+
+                                <LinearLayout
+                                    android:id="@+id/shareButtonDiagnoses"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginHorizontal="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_share_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/button_share" />
+
+                                </LinearLayout>
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/shareButtonDiagnoses"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_share"
+                                    android:visibility="visible"
+                                    app:icon="@drawable/ic_share" />-->
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_15"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/expandableCardMedicine"
+                style="@style/App.ExpandableCard"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/dp_0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/titlePanelMedicine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iconMedicine"
+                            android:layout_width="@dimen/dp_40"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_margin="4dp"
+                            android:scaleType="fitXY"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:src="@drawable/ic_medicine_new" />
+
+                        <TextView
+                            android:id="@+id/titleMedicine"
+                            style="@style/App.CardTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:text="@string/medicine_card_title"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp_18"
+                            android:fontFamily="@font/sf_pro_display_semibold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iconMedicine"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/descriptionMedicine"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:lineSpacingMultiplier="1.28"
+                            android:maxLines="1"
+                            android:text="@string/no_medications_listed"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:textColor="@color/expandCardDescription"
+                            android:textSize="@dimen/sp_12"
+                            app:layout_constraintEnd_toStartOf="@id/expandButtonMedicine"
+                            app:layout_constraintStart_toStartOf="@id/titleMedicine"
+                            app:layout_constraintTop_toBottomOf="@+id/titleMedicine" />
+
+                        <ImageView
+                            android:id="@+id/expandButtonMedicine"
+                            android:layout_width="40dp"
+                            android:layout_height="0dp"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_chevron"
+                            app:layout_constraintBottom_toBottomOf="@id/titleMedicine"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/titleMedicine" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/infoLayoutMedicine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/new_light_border" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rvMedicineList"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:overScrollMode="never"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:itemCount="3"
+                                tools:listitem="@layout/home_list_item" />
+
+                            <ProgressBar
+                                android:id="@+id/medicineLoading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_margin="16dp"
+                                android:visibility="gone"
+                                android:indeterminateTint="@color/colorPrimary"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/editActionMedicineLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:paddingVertical="6dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/cancelEditItemButtonMedicine"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="16dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_cancel"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/removeItemButtonMedicine"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/removeItemButtonMedicine"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="12dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_remove"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <HorizontalScrollView
+                            android:id="@+id/cardActionLayoutMedicine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:fadingEdgeLength="36dp"
+                            android:requiresFadingEdge="horizontal"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:id="@+id/addButtonMedicine"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_plus_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/add" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/translateButtonMedicine"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginStart="@dimen/dp_10"
+                                    android:layout_marginEnd="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_new_translation" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/translation" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/shareButtonMedicine"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginHorizontal="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_share_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/opensans_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/button_share" />
+
+                                </LinearLayout>
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/translateButtonMedicine"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="12dp"
+                                    android:text="@string/button_translate"
+                                    android:visibility="visible"
+                                    app:icon="@drawable/ic_translate" />-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/addButtonMedicine"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/button_add"
+                                    app:icon="@drawable/ic_add" />-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/editButtonMedicine"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_edit"
+                                    android:visibility="gone"
+                                    app:icon="@drawable/ic_edit"/>-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/shareButtonMedicine"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_share"
+                                    android:visibility="visible"
+                                    app:icon="@drawable/ic_share" />-->
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_15"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/expandableCardAllergies"
+                style="@style/App.ExpandableCard"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/dp_0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/titlePanelAllergies"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iconAllergies"
+                            android:layout_width="@dimen/dp_40"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_margin="4dp"
+                            android:scaleType="fitXY"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:src="@drawable/ic_allergies_new" />
+
+                        <TextView
+                            android:id="@+id/titleAllergies"
+                            style="@style/App.CardTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:text="@string/allergies_card_title"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp_18"
+                            android:fontFamily="@font/sf_pro_display_semibold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iconAllergies"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/descriptionAllergies"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:lineSpacingMultiplier="1.28"
+                            android:maxLines="1"
+                            android:text="@string/no_allergies_listed"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:textColor="@color/expandCardDescription"
+                            android:textSize="@dimen/sp_12"
+                            app:layout_constraintEnd_toStartOf="@id/expandButtonAllergies"
+                            app:layout_constraintStart_toStartOf="@id/titleAllergies"
+                            app:layout_constraintTop_toBottomOf="@+id/titleAllergies" />
+
+                        <ImageView
+                            android:id="@+id/expandButtonAllergies"
+                            android:layout_width="40dp"
+                            android:layout_height="0dp"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_chevron"
+                            app:layout_constraintBottom_toBottomOf="@id/titleAllergies"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/titleAllergies" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/infoLayoutAllergies"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/new_light_border" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rvAllergiesList"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:overScrollMode="never"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:itemCount="3"
+                                tools:listitem="@layout/home_list_item" />
+
+                            <ProgressBar
+                                android:id="@+id/allergiesLoading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_margin="16dp"
+                                android:visibility="gone"
+                                android:indeterminateTint="@color/colorPrimary"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/editActionAllergiesLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:paddingVertical="6dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/cancelEditItemButtonAllergies"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="16dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_cancel"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/removeItemButtonAllergies"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/removeItemButtonAllergies"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="12dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_remove"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <HorizontalScrollView
+                            android:id="@+id/cardActionAllergiesLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:fadingEdgeLength="36dp"
+                            android:requiresFadingEdge="horizontal"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
+                                <LinearLayout
+                                    android:id="@+id/addButtonAllergies"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_plus_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/opensans_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/add" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/translateButtonAllergies"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginStart="@dimen/dp_10"
+                                    android:layout_marginEnd="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_new_translation" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/translation" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/shareButtonAllergies"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginHorizontal="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_share_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/button_share" />
+
+                                </LinearLayout>
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/translateButtonAllergies"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="12dp"
+                                    android:text="@string/button_translate"
+                                    android:visibility="visible"
+                                    app:icon="@drawable/ic_translate" />-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/addButtonAllergies"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/button_add"
+                                    app:icon="@drawable/ic_add" />-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/editButtonAllergies"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_edit"
+                                    android:visibility="gone"
+                                    app:icon="@drawable/ic_edit"/>-->
+
+                                <!-- <com.google.android.material.button.MaterialButton
+                                     android:id="@+id/shareButtonAllergies"
+                                     style="@style/App.CardIconButton"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_marginStart="12dp"
+                                     android:text="@string/button_share"
+                                     android:visibility="visible"
+                                     app:icon="@drawable/ic_share" />-->
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_15"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/expandableCardVaccines"
+                style="@style/App.ExpandableCard"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/dp_0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/titlePanelVaccines"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iconVaccines"
+                            android:layout_width="@dimen/dp_40"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_margin="4dp"
+                            android:scaleType="fitXY"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:src="@drawable/ic_vaccines_new" />
+
+                        <TextView
+                            android:id="@+id/titleVaccines"
+                            style="@style/App.CardTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:text="@string/vaccines_card_title"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp_18"
+                            android:fontFamily="@font/sf_pro_display_semibold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iconVaccines"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/descriptionVaccines"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:lineSpacingMultiplier="1.28"
+                            android:maxLines="1"
+                            android:text="@string/no_vaccines_listed"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:textColor="@color/expandCardDescription"
+                            android:textSize="@dimen/sp_12"
+                            app:layout_constraintEnd_toStartOf="@id/expandButtonVaccines"
+                            app:layout_constraintStart_toStartOf="@id/titleVaccines"
+                            app:layout_constraintTop_toBottomOf="@+id/titleVaccines" />
+
+                        <ImageView
+                            android:id="@+id/expandButtonVaccines"
+                            android:layout_width="40dp"
+                            android:layout_height="0dp"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_chevron"
+                            app:layout_constraintBottom_toBottomOf="@id/titleVaccines"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/titleVaccines" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/infoLayoutVaccines"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/new_light_border" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rvVaccinesList"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:overScrollMode="never"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:itemCount="3"
+                                tools:listitem="@layout/home_list_item" />
+
+                            <ProgressBar
+                                android:id="@+id/vaccinesLoading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_margin="16dp"
+                                android:visibility="gone"
+                                android:indeterminateTint="@color/colorPrimary"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/editActionVaccinesLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:paddingVertical="6dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/cancelEditItemButtonVaccines"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="16dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_cancel"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/removeItemButtonVaccines"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/removeItemButtonVaccines"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="12dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_remove"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <HorizontalScrollView
+                            android:id="@+id/cardActionLayoutVaccines"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:fadingEdgeLength="36dp"
+                            android:requiresFadingEdge="horizontal"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:id="@+id/addButtonVaccines"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_plus_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/add" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/translateButtonVaccines"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginStart="@dimen/dp_10"
+                                    android:layout_marginEnd="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_new_translation" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/translation" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/shareButtonVaccines"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_rounded_gray_border"
+                                    android:layout_marginHorizontal="@dimen/dp_5"
+                                    android:paddingHorizontal="@dimen/dp_10"
+                                    android:paddingVertical="@dimen/dp_5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp_18"
+                                        android:layout_height="@dimen/dp_18"
+                                        android:scaleType="fitXY"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:src="@drawable/ic_share_new" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:fontFamily="@font/sf_pro_display_bold"
+                                        app:layout_constraintBottom_toBottomOf="@id/iconDiagnoses"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@id/iconDiagnoses"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:text="@string/button_share" />
+
+                                </LinearLayout>
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/translateButtonVaccines"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="12dp"
+                                    android:text="@string/button_translate"
+                                    android:visibility="visible"
+                                    app:icon="@drawable/ic_translate" />-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/addButtonVaccines"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/button_add"
+                                    app:icon="@drawable/ic_add" />-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/editButtonVaccines"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_edit"
+                                    android:visibility="gone"
+                                    app:icon="@drawable/ic_edit"/>-->
+
+                                <!--<com.google.android.material.button.MaterialButton
+                                    android:id="@+id/shareButtonVaccines"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_share"
+                                    android:visibility="visible"
+                                    app:icon="@drawable/ic_share" />-->
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_15"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/expandableCardDocuments"
+                style="@style/App.ExpandableCard"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/dp_0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/titlePanelDocuments"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iconDocuments"
+                            android:layout_width="@dimen/dp_40"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_margin="4dp"
+                            android:scaleType="fitXY"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:src="@drawable/ic_doucment_new" />
+
+                        <TextView
+                            android:id="@+id/titleDocuments"
+                            style="@style/App.CardTitleText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:text="@string/documents_card_title"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp_18"
+                            android:fontFamily="@font/sf_pro_display_semibold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iconDocuments"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/descriptionDocuments"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:lineSpacingMultiplier="1.28"
+                            android:maxLines="1"
+                            android:text="@string/no_documents_added"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:textColor="@color/expandCardDescription"
+                            android:textSize="@dimen/sp_12"
+                            app:layout_constraintEnd_toStartOf="@id/expandButtonDocuments"
+                            app:layout_constraintStart_toStartOf="@id/titleDocuments"
+                            app:layout_constraintTop_toBottomOf="@+id/titleDocuments" />
+
+                        <ImageView
+                            android:id="@+id/expandButtonDocuments"
+                            android:layout_width="40dp"
+                            android:layout_height="0dp"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_chevron"
+                            app:layout_constraintBottom_toBottomOf="@id/titleDocuments"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/titleDocuments" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/infoLayoutDocuments"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        tools:visibility="gone">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/new_light_border" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rvDocumentsList"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:overScrollMode="never"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:itemCount="3"
+                                tools:listitem="@layout/home_list_item" />
+
+                            <ProgressBar
+                                android:id="@+id/documentLoading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_margin="16dp"
+                                android:indeterminateTint="@color/colorPrimary"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/editActionLayoutDocuments"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:paddingVertical="6dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/cancelEditItemButtonDocuments"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="16dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_cancel"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/removeItemButtonDocuments"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/removeItemButtonDocuments"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="12dp"
+                                android:background="?attr/selectableItemBackground"
+                                android:padding="8dp"
+                                android:text="@string/common_remove"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <HorizontalScrollView
+                            android:id="@+id/cardActionLayoutDocuments"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:fadingEdgeLength="36dp"
+                            android:requiresFadingEdge="horizontal"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/translateButtonDocuments"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="12dp"
+                                    android:text="@string/button_translate"
+                                    android:visibility="gone"
+                                    app:icon="@drawable/ic_translate" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/addButtonDocuments"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/button_add"
+                                    app:icon="@drawable/ic_add" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/editButtonDocuments"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_edit"
+                                    android:visibility="gone"
+                                    app:icon="@drawable/ic_edit"/>
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/shareButtonDocuments"
+                                    style="@style/App.CardIconButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:text="@string/button_share"
+                                    android:visibility="gone"
+                                    app:icon="@drawable/ic_share" />
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+</layout>

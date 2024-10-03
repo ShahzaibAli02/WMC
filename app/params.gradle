@@ -1,0 +1,15 @@
+ext.setDevConstants = { flavour ->
+    // Resources
+    flavour.resValue "string", "app_name", "World Medical Card DEV"
+
+    // BuildConfig
+    flavour.buildConfigField 'String', 'API_BASE_URL', "\"https://wmc-dev-mobile-client-api.azurewebsites.net/\""
+}
+
+ext.setProdConstants = { flavour ->
+    // Resources
+    flavour.resValue "string", "app_name", "World Medical Card"
+
+    // BuildConfig
+    flavour.buildConfigField 'String', 'API_BASE_URL', "\"https://wmc-prod-mobile-client-api.azurewebsites.net/\""
+}

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:fillViewport="true"
+    tools:context=".ui.main.mycard.MyCardFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp"
+            android:orientation="vertical">
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="-1dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_world" />
+                <include
+                    android:id="@+id/lytNewCard"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    layout="@layout/lyt_new_card"/>
+
+<!--                <FrameLayout-->
+<!--                    android:layout_width="300dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/overLayLock"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="80dp"-->
+<!--                        android:elevation="10dp"-->
+<!--                        android:layout_marginBottom="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:tint="@color/white"-->
+<!--                        android:visibility="gone"-->
+<!--                        tools:visibility="visible"-->
+
+<!--                        android:src="@drawable/baseline_lock_24"-->
+<!--                        />-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:src="@drawable/card_holder" />-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="300dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:padding="30dp">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="80dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:src="@drawable/world_medical_health_logo" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:fontFamily="@font/roboto_light"-->
+<!--                            android:text="Name:"-->
+<!--                            android:textAppearance="@style/card_text_style"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:textSize="13dp" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/txtName"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center_vertical"-->
+<!--                            android:text="&#45;&#45;"-->
+<!--                            android:textAppearance="@style/card_text_style" />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="10dp"-->
+<!--                                    android:fontFamily="@font/roboto_light"-->
+<!--                                    android:singleLine="true"-->
+<!--                                    android:text="National Id No."-->
+<!--                                    android:textAppearance="@style/card_text_style"-->
+<!--                                    android:textColor="@color/white"-->
+<!--                                    android:textSize="8dp" />-->
+
+<!--                                <TextView-->
+<!--                                    android:id="@+id/txtNationalId"-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center_vertical"-->
+<!--                                    android:singleLine="true"-->
+<!--                                    android:text="&#45;&#45;"-->
+<!--                                    android:textAppearance="@style/card_text_style"-->
+<!--                                    android:textSize="10dp" />-->
+
+<!--                            </LinearLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="10dp"-->
+<!--                                android:layout_marginEnd="10dp"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="10dp"-->
+<!--                                    android:fontFamily="@font/roboto_light"-->
+
+<!--                                    android:singleLine="true"-->
+<!--                                    android:text="Date of Birth"-->
+<!--                                    android:textAppearance="@style/card_text_style"-->
+<!--                                    android:textColor="@color/white"-->
+<!--                                    android:textSize="8dp" />-->
+
+<!--                                <TextView-->
+<!--                                    android:id="@+id/txtBirthDate"-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center_vertical"-->
+<!--                                    android:singleLine="true"-->
+<!--                                    android:text="&#45;&#45;"-->
+<!--                                    android:textAppearance="@style/card_text_style"-->
+<!--                                    android:textSize="10dp" />-->
+
+<!--                            </LinearLayout>-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="10dp"-->
+<!--                                    android:fontFamily="@font/roboto_light"-->
+<!--                                    android:singleLine="true"-->
+<!--                                    android:text="Issued on"-->
+<!--                                    android:textAppearance="@style/card_text_style"-->
+<!--                                    android:textColor="@color/white"-->
+<!--                                    android:textSize="8dp" />-->
+
+<!--                                <TextView-->
+<!--                                    android:id="@+id/txtIssuedOn"-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:gravity="center_vertical"-->
+<!--                                    android:singleLine="true"-->
+<!--                                    android:text="&#45;&#45;"-->
+<!--                                    android:textAppearance="@style/card_text_style"-->
+<!--                                    android:textSize="10dp" />-->
+
+<!--                            </LinearLayout>-->
+
+<!--                        </LinearLayout>-->
+<!--                    </LinearLayout>-->
+
+<!--                </FrameLayout>-->
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lytShare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/ic_share" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:gravity="center"
+                        android:text="Share"
+
+                        android:textColor="#324148"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lytInvite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/ic_invite" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:gravity="center"
+                        android:text="Invite user"
+                        android:textColor="#324148"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lytDocument"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/ic_doc" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:gravity="center"
+                        android:text="Documents"
+                        android:textColor="#324148"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_order_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/back_order_card"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Order your card"
+                    android:textColor="#324148"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Enjoy all the features of your World Medical Card from your wallet"
+                    android:textColor="#4E646E"
+                    android:textSize="15dp" />
+
+
+                <ImageView
+                    android:id="@+id/imgOrderFree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/order_now" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lyt_card_info"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/back_order_card"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Medical Information"
+                    android:textColor="#324148"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/txtMedicalInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_light"
+                    tools:text="Name : test"
+                    android:textColor="#324148"
+                    android:textSize="@dimen/dp_13" />
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/back_order_card"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Lost card"
+                    android:textColor="#324148"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="If you have lost or wish to receive an extra card then click Reorder"
+                    android:textColor="#4E646E"
+                    android:textStyle="bold"
+                    android:textSize="15dp" />
+
+
+                <ImageView
+                    android:id="@+id/imgReorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/back_order_card_2" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+</ScrollView>
+</layout>

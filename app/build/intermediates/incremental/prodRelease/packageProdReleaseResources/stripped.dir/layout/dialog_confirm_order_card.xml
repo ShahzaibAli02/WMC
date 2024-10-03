@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10"
+    android:layout_height="match_parent" android:tag="layout/dialog_confirm_order_card_0">
+    <include
+        android:id="@+id/lytNewCard"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        layout="@layout/lyt_new_card"/>
+
+
+    <TextView
+        android:id="@+id/tv_step1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Confirm Information :"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_step1_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Make sure all the details like birth date, name, and ID number on the card are correct by checking them carefully and testing to make sure they show up right.If anything is incorrect please open 'Profile' screen and update."
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cancel"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Card"
+            android:textSize="15dp"
+            android:layout_weight="2"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+         

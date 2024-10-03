@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="22dp"
+        tools:background="@color/bottomDialogBg">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/editItemButton"
+            style="@style/App.TextButtonBottomDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_card_dialog_edit_item_title"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/removeItemButton"
+            style="@style/App.TextButtonBottomDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_card_dialog_remove_items_title"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</layout>

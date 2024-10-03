@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="add_allergies_button">Agregar nueva alergia</string>
+    <string name="add_document_description_hint">Descripción (opcional)</string>
+    <string name="add_document_document_title_hint">Titulo del documento</string>
+    <string name="add_document_document_type_hint">Tipo de Documento</string>
+    <string name="add_document_edit_button">Editar documento</string>
+    <string name="add_document_title">Agregar nuevo documento</string>
+    <string name="add_document_upload_button">Subir nuevo documento</string>
+    <string name="add_new_allergy_title">Agregar nueva alergia</string>
+    <string name="add_new_allergy_top_hits">Lo más sonado</string>
+    <string name="add_new_diagnoses_title">Agregar nuevos diagnósticos</string>
+    <string name="add_new_medicine_title">Agregar nuevo medicamento</string>
+    <string name="add_new_search_hint">Buscar</string>
+    <string name="add_new_vaccines_title">Agregar nueva vacuna</string>
+
+    <string name="alarm_phone">Teléfono de alarma</string>
+
+    <string name="allergies_card_description">Háganos saber si tiene alguna alergia, o si sabe que no tiene ninguna</string>
+    <string name="allergies_card_title">Alergias</string>
+
+    <string name="apple_button_title">con Apple</string>
+
+    <string name="button_add">Agregar</string>
+    <string name="button_edit">Editar</string>
+    <string name="button_next">Siguiente</string>
+    <string name="button_share">Compartir</string>
+    <string name="button_skip_tour">Saltar el Tour</string>
+    <string name="button_translate">Traducir</string>
+
+    <string name="cancel_button_title">Cancelar</string>
+
+    <string name="card_items_description">%1$s artículos: %2$s</string>
+
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_dash">-</string>
+    <string name="common_no">No</string>
+    <string name="common_remove">Eliminar</string>
+    <string name="common_save">Guardar</string>
+    <string name="common_yes">Sí</string>
+
+    <string name="complete_my_profile_button">Completar mi perfil</string>
+    <string name="complete_your_profile">Complete su perfil</string>
+
+    <string name="create_account_button">Crear una cuenta</string>
+
+    <string name="dashboard_screen_title_evening">&#128075;&#127995; Buenas noches</string>
+    <string name="dashboard_screen_title_morning">&#128075;&#127995; Buenos días</string>
+    <string name="dashboard_screen_title_night">&#128075;&#127995; Buenas noches</string>
+
+    <string name="description_your_profile_is_incomplete">Complete su perfil para disfrutar de todas las funciones de World Medical Card</string>
+
+    <string name="diagnoses_card_title">Diagnósticos</string>
+
+    <string name="divider_or_text">O</string>
+
+    <string name="documents_card_title">Documentos</string>
+
+    <string name="edit_card_dialog_edit_item_title">Editar elemento</string>
+    <string name="edit_card_dialog_remove_item_title">Eliminar elemento</string>
+    <string name="edit_card_dialog_remove_items_title">Eliminar elemento(s)</string>
+    <string name="edit_document_title">Editar documento</string>
+
+    <string name="emergency_contacts">Contactos de emergencia</string>
+
+    <string name="error_empty_response">Lo siento, el contenido está vacío</string>
+    <string name="error_message">Algo salió mal. Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="error_no_data_found">No se han encontrado datos</string>
+    <string name="error_no_internet">Por favor, compruebe la conexión a Internet</string>
+    <string name="error_unauthorized">Lo siento, no está autorizado a acceder a este contenido</string>
+
+    <string name="field_required_title">El campo es obligatorio</string>
+
+    <string name="forgot_password_alert_message">Si la dirección de correo electrónico que proporcionó está registrada en nuestro sistema, recibirá un correo electrónico en poco tiempo. Siga las instrucciones del correo electrónico para restablecer la contraseña.</string>
+    <string name="forgot_password_screen_description">Escriba su dirección de correo electrónico y presione el botón para restablecer su contraseña</string>
+    <string name="forgot_password_screen_error_message">Algo salió mal. Por favor, vuelva a intentarlo</string>
+    <string name="forgot_password_screen_reset_password_button">Restablecer la contraseña</string>
+    <string name="forgot_password_screen_success_title">Email enviado</string>
+    <string name="forgot_password_screen_title">Restablecer la contraseña</string>
+
+    <string name="google_button_title">con Google</string>
+
+    <string name="i_accept_the_terms_and_conditions">Acepto los términos y condiciones</string>
+
+    <string name="intro_content_description_1">Su información médica se codifica de acuerdo con las normas globales de la Organización Mundial de la Salud (CIE-10, ATC) para garantizar que su condición y sus necesidades sean comprendidas por los profesionales de la salud y el personal farmacéutico de todo el mundo.</string>
+    <string name="intro_content_description_2">Tendrá su propio perfil personal al que se puede acceder a través de la aplicación o el navegador. Hay una función de traducción incorporada para 19 idiomas que facilitará la comunicación en términos locales relevantes.</string>
+    <string name="intro_content_description_3">Puede optar por compartir su perfil con familiares, compañeros de viaje u otras personas en las que confíe, para que puedan brindarle la primera línea de apoyo en caso de emergencia</string>
+    <string name="intro_content_image_1">intro_image_1</string>
+    <string name="intro_content_image_2">intro_image_2</string>
+    <string name="intro_content_image_3">intro_image_3</string>
+    <string name="intro_content_title_1">Rellene su información</string>
+    <string name="intro_content_title_2">Viajar sin preocupaciones</string>
+    <string name="intro_content_title_3">Comparta su información</string>
+    <string name="intro_number_of_pages">5</string>
+    <string name="intro_content_video_1">slide_video1</string>
+    <string name="intro_content_video_2">slide_video2</string>
+    <string name="intro_content_video_3">slide_video3</string>
+    <string name="intro_content_video_4">slide_video4</string>
+    <string name="intro_content_video_5">slide_video5</string>
+
+    <string name="landing_login_button">Iniciar sesión</string>
+    <string name="landing_register_button">Registrarse</string>
+
+    <string name="login_byline">¿Cómo le gustaría iniciar sesión?</string>
+    <string name="login_to_wmc_title">Inicie sesión World Medical Card</string>
+
+    <string name="maybe_later_button">Quizas mas tarde</string>
+
+    <string name="medicine_card_title">Medicamento</string>
+
+    <string name="member_since">Miembro desde %1$s</string>
+
+    <string name="no_allergies_listed">No hay alergias en la lista</string>
+    <string name="no_diagnoses_listed">No hay diagnósticos en la lista</string>
+    <string name="no_documents_added">No se han añadido documentos</string>
+    <string name="no_medications_listed">No hay medicamentos en la lista</string>
+    <string name="no_subscription_description">Suscribas a un producto para disfrutar de todas las funciones de World Medical Card</string>
+    <string name="no_subscription_title">No hay suscripción</string>
+    <string name="no_vaccines_listed">No hay vacunas en la lista</string>
+
+    <string name="ok_button_title">OK</string>
+
+    <string name="order_now_button">Pedir ahora</string>
+    <string name="order_your_card_description">Disfruta de todas las funciones de su World Medical Card desde tu cartera</string>
+    <string name="order_your_card_title">Pida su tarjeta</string>
+
+    <string name="other_information">Otros datos</string>
+
+    <string name="personal_info_byline">Por favor, rellene sus datos personales para crear una cuenta, puede cambiarlos más tarde.</string>
+    <string name="personal_info_card_description">Permitamos conocerle mejor para una mejor experiencia</string>
+    <string name="personal_info_card_title">Información personal</string>
+    <string name="personal_info_title">Información personal</string>
+
+    <string name="please_check_your_email_and_password">Por favor, compruebe su correo electrónico y contraseña</string>
+
+    <string name="profile_birthdate">Fecha de nacimiento</string>
+    <string name="profile_country">País</string>
+    <string name="profile_edit_alarm_phone">Teléfono de alarma (opcional)</string>
+    <string name="profile_edit_city">Ciudad</string>
+    <string name="profile_edit_date_of_birth">Fecha de nacimiento</string>
+    <string name="profile_edit_donor_note">Los profesionales de la salud deberán pedirle a la familia que confirme su decisión.</string>
+    <string name="profile_edit_donor_question">¿Te gustaría ser donante de órganos?</string>
+    <string name="profile_edit_emergency_contacts_name">Nombre</string>
+    <string name="profile_edit_emergency_contacts_note">Añade contactos de confianza en caso de emergencia.</string>
+    <string name="profile_edit_emergency_contacts_phone">Número de teléfono</string>
+    <string name="profile_edit_emergency_contacts_relation">Relación</string>
+    <string name="profile_edit_first_name">Nombre</string>
+    <string name="profile_edit_insurance_health">Seguro de salud</string>
+    <string name="profile_edit_insurance_note">Añade la información del seguro como referencia.</string>
+    <string name="profile_edit_insurance_title">Seguro</string>
+    <string name="profile_edit_insurance_travel">Seguro de viaje</string>
+    <string name="profile_edit_insurance_type">Tipo de seguro</string>
+    <string name="profile_edit_land">País</string>
+    <string name="profile_edit_last_name">Apellido</string>
+    <string name="profile_edit_other_hint">¿Quieres incluir otra información?</string>
+    <string name="profile_edit_other_title">Otro</string>
+    <string name="profile_edit_phone">Número de teléfono</string>
+    <string name="profile_edit_policy_number">Número de póliza (opcional)</string>
+    <string name="profile_edit_postal_address_note">Rellene la dirección a la que desea que le enviemos la tarjeta. La dirección no aparecerá en la tarjeta de emergencia.</string>
+    <string name="profile_edit_postal_code">Código postal</string>
+    <string name="profile_edit_select_birthdata">Seleccione su fecha de nacimiento</string>
+    <string name="profile_edit_ssn">Número de seguridad social</string>
+    <string name="profile_edit_street_address">Dirección de la calle</string>
+    <string name="profile_gender">Sexo</string>
+    <string name="profile_gender_female">Mujer</string>
+    <string name="profile_gender_male">Hombre</string>
+    <string name="profile_insurance_company">Compañía de seguros</string>
+    <string name="profile_insurance_type_health">Salud</string>
+    <string name="profile_insurance_type_travel">Viaje</string>
+    <string name="profile_nationality">Nacionalidad</string>
+    <string name="profile_organ_donor">Donante de órganos</string>
+    <string name="profile_policy_date">Miembro hasta/Emitido el</string>
+    <string name="profile_policy_number">Número de póliza</string>
+    <string name="profile_postal_address">Dirección postal</string>
+    <string name="profile_save_button_title">Salvar</string>
+    <string name="profile_screen_title">Perfil</string>
+    <string name="profile_ssn">Número de seguridad social</string>
+    <string name="profile_telephone">Teléfono</string>
+    <string name="profile_travel_insurance">Seguro de viaje</string>
+    <string name="profile_validation_required_fields">Se requiere fecha de nacimiento, nacionalidad, teléfono y género</string>
+    <string name="profile_zip">CÓDIGO POSTAL</string>
+
+    <string name="register_byline">Por favor, rellene sus datos personales para crear una cuenta, puede cambiarlos más tarde</string>
+    <string name="register_email_field_hint">Correo electrónico</string>
+    <string name="register_login_forget_password_title">¿Se te olvidó tu contraseña?</string>
+    <string name="register_password_field_hint">Contraseña</string>
+    <string name="register_password_min_hint">mínimo 8 caracteres</string>
+    <string name="register_to_wmc_title">Regístrese en world Medical Card</string>
+
+    <string name="screen_title_good_afternoon">&#128075;&#127995; Buenas tardes</string>
+    <string name="screen_title_hi">&#128075;&#127995; Hola</string>
+
+    <string name="select_file_to_upload">Seleccione el archivo para cargar</string>
+
+    <string name="sign_in_password_incorrect">No se encuentra la cuenta. Intente iniciar sesión con la cuenta de Google o el correo electrónico y la contraseña.</string>
+    <string name="sign_out_button">Cerrar sesión</string>
+
+    <string name="signin_button_title">Registrarse</string>
+    <string name="signin_with_google_button">Iniciar sesión con Google</string>
+
+    <string name="signup_with_google_button">Registres con Google</string>
+
+    <string name="subscribe_button">Suscribas ahora</string>
+
+    <string name="subscription_add_member_alert_invite_message">An email invitation has been sent</string>
+    <string name="subscription_delete_member_dialog_message">Are you sure you want to remove this member from this subscription package?</string>
+    <string name="subscription_delete_member_dialog_negative_button">Cancel</string>
+    <string name="subscription_delete_member_dialog_positive_button">Confirm</string>
+    <string name="subscription_delete_member_dialog_title">Delete Member</string>
+    <string name="subscription_detail_add_member_title">Add more member</string>
+    <string name="subscription_detail_member_list_title">List of members</string>
+    <string name="subscription_detail_membership_left_full_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.\nTo add member, please click the button below.]]>
+    </string>
+    <string name="subscription_detail_membership_left_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.]]>
+    </string>
+    <string name="subscription_detail_paid_with_text">Paid with</string>
+    <string name="subscription_detail_payment_method_title">Payment method</string>
+    <string name="subscription_detail_title">Subscription Detail</string>
+    <string name="subscription_invitation_add_member_button">Add member</string>
+    <string name="subscription_invitation_email_hint">Email Address</string>
+    <string name="subscription_invitation_title">Add New Member</string>
+    <string name="subscription_overview_add_subscription_button">Agregar suscripción</string>
+    <string name="subscription_overview_hint">Actualmente no tiene suscripción con World Medical Card, haga clic en suscribirse a continuación y disfrute de todas las funciones de World Medical Card</string>
+    <string name="subscription_overview_item_expired_title">Expirado</string>
+    <string name="subscription_overview_item_membership_occupancy_title">Ocupación de la membresía:</string>
+    <string name="subscription_overview_item_subscription_manager_title">Gestor de suscripciones:</string>
+    <string name="subscription_overview_subtitle">Suscripción actual  (%1d)</string>
+    <string name="subscription_overview_text_subscribe">Click here to subscribe membership package</string>
+    <string name="subscription_overview_title">Mis suscripciones</string>
+    <string name="subscription_remove_membership_button_title">Remove Membership</string>
+    <string name="subscription_remove_membership_dialog_text">Are you sure you want to be remove from this membership package?</string>
+    <string name="subscription_remove_membership_dialog_title">Delete Membership</string>
+
+    <string name="tap_edit_to_complete_profile">Toca Editar a continuación para terminar de completar su perfil</string>
+
+    <string name="terms_and_conditions_button">Términos y condiciones</string>
+    <string name="terms_and_conditions_title">Términos y condiciones</string>
+    <string name="terms_text">Términos y condiciones
+ Actualizado el 2022-01-01 
+
+ Términos generales
+ Al acceder y realizar un pedido con , usted confirma que está de acuerdo y está sujeto a los términos de servicio contenidos en los Términos y condiciones que se describen a continuación. Estos términos se aplican a todo el sitio web y a cualquier correo electrónico u otro tipo de comunicación entre usted y World Medical Card. 
+
+ El equipo no será responsable bajo ninguna circunstancia por daños directos, indirectos, especiales, incidentales o consecuentes, incluidos, entre otros, la pérdida de datos o ganancias, que surjan del uso o la incapacidad de usar los materiales de este sitio. , incluso si el equipo o un representante autorizado ha sido advertido de la posibilidad de tales daños. Si su uso de materiales de este sitio resulta en la necesidad de servicio, reparación o corrección de equipos o datos, usted asume los costos correspondientes. 
+
+ World Medical Card no será responsable de ningún resultado que pueda ocurrir durante el curso del uso de nuestros recursos. Nos reservamos el derecho de cambiar los precios y revisar la política de uso de recursos en cualquier momento. 
+
+ Licencia
+ World Medical Card le otorga una licencia revocable, no exclusiva, intransferible y limitada para descargar, instalar y usar nuestro servicio estrictamente de acuerdo con los términos de este Acuerdo. 
+
+ Estos Términos y condiciones son un contrato entre usted y World Medical Card (referido en estos Términos y condiciones como \"World Medical Card\", \"nosotros\" o \"nuestro\"), el proveedor del sitio web de World Medical Card y los servicios accesibles desde el sitio web de World Medical Card (a los que se hace referencia colectivamente en estos Términos y condiciones como el \"Servicio de World Medical Card\"). 
+
+ Usted acepta estar sujeto a estos Términos y condiciones. Si no está de acuerdo con estos Términos y condiciones, no utilice el Servicio. En estos Términos y condiciones, \"usted\" se refiere tanto a usted como individuo como a la entidad que representa. Si viola alguno de estos Términos y condiciones, nos reservamos el derecho de cancelar su cuenta o bloquear el acceso a su cuenta sin previo aviso. 
+
+ Definiciones y términos clave
+ Para estos Términos y condiciones: 
+
+ • Cookie: pequeña cantidad de datos generados por un sitio web y guardados por su navegador web. Se utiliza para identificar su navegador, proporcionar análisis, recordar información sobre usted, como su preferencia de idioma o información de inicio de sesión. 
+
+ • Compañía: cuando esta política menciona \"Compañía\", \"nosotros\", \"nos\" o \"nuestro\", se refiere a World Medical Card, Gamlehaugvegen 20, 5231 Paradis, que es responsable de su información en virtud de esta Política de privacidad. 
+
+ • País: donde se encuentran World Medical Card o los propietarios/fundadores de World Medical Card, en este caso es Noruega. 
+
+ • Cliente: se refiere a la empresa, organización o persona que se registra para utilizar World Medical Card Service para administrar las relaciones con sus consumidores o usuarios del servicio. 
+
+ • Dispositivo: cualquier dispositivo conectado a Internet, como un teléfono, tableta, computadora o cualquier otro dispositivo que se pueda usar para visitar World Medical Card y usar los servicios. 
+
+ • Dirección IP: a cada dispositivo conectado a Internet se le asigna un número conocido como dirección de protocolo de Internet (IP). Estos números suelen asignarse en bloques geográficos. Una dirección IP a menudo se puede usar para identificar la ubicación desde la cual un dispositivo se conecta a Internet. 
+
+ • Personal: se refiere a aquellas personas que son empleados de World Medical Card o están bajo contrato para realizar un servicio en nombre de una de las partes. 
+
+ • Datos personales: cualquier información que directa, indirectamente o en conexión con otra información, incluido un número de identificación personal, permita la identificación o identificabilidad de una persona física. 
+
+ • Servicio: se refiere al servicio provisto por World Medical Card como se describe en los términos relativos (si están disponibles) y en esta plataforma. 
+
+ • Servicio de terceros: se refiere a anunciantes, patrocinadores de concursos, socios promocionales y de marketing, y otros que brindan nuestro contenido o cuyos productos o servicios creemos que pueden interesarle. 
+
+ • Sitio web: sitio de World Medical Card, al que se puede acceder a través de esta URL: https://worldmedicalcard.org 
+
+ • Usted: una persona o entidad registrada en World Medical Card para utilizar los Servicios. 
+
+ Restricciones
+ Usted acepta no y no permitirá que otros hagan lo siguiente: 
+
+ • Licenciar, vender, alquilar, arrendar, ceder, distribuir, transmitir, hospedar, subcontratar, divulgar o explotar comercialmente el servicio o poner la plataforma a disposición de terceros. 
+
+ • Modificar, realizar trabajos derivados, desensamblar, descifrar, compilar o aplicar ingeniería inversa a cualquier parte del servicio. 
+
+ • Eliminar, alterar u ocultar cualquier aviso de propiedad (incluido cualquier aviso de derechos de autor o marca comercial) de sus afiliados, socios, proveedores o licenciatarios del servicio. 
+
+ Política de devolución y reembolso
+ Gracias por comprar con nosotros. Agradecemos el hecho de que te guste comprar las cosas que construimos. También queremos asegurarnos de que tenga una experiencia gratificante mientras explora, evalúa y compra nuestros productos. 
+
+ Al igual que con cualquier experiencia de compra, existen términos y condiciones que se aplican a las transacciones en nuestra empresa. Seremos tan breves como lo permitan nuestros abogados. Lo más importante que debe recordar es que al realizar un pedido o realizar una compra con nosotros, usted acepta los términos junto con nuestra Política de privacidad. 
+
+ Si, por alguna razón, no está completamente satisfecho con algún bien o servicio que le brindamos, no dude en comunicarse con nosotros y discutiremos cualquiera de los problemas que está experimentando con nuestro producto. 
+
+ Tus sugerencias
+ Cualquier retroalimentación, comentario, idea, mejora o sugerencia (colectivamente, \"Sugerencias\") que nos proporcione con respecto al servicio seguirá siendo propiedad única y exclusiva de nosotros. Tendremos la libertad de usar, copiar, modificar, publicar o redistribuir las Sugerencias para cualquier propósito y de cualquier manera sin ningún crédito o compensación para usted. 
+
+ Tu consentimiento
+ Hemos actualizado nuestros Términos y condiciones para brindarle total transparencia sobre lo que se establece cuando visita nuestro sitio y cómo se utiliza. Al utilizar nuestro servicio, registrar una cuenta o realizar una compra, usted acepta nuestros Términos y condiciones. 
+
+ Enlaces a otros sitios web
+ Nuestro servicio puede contener enlaces a otros sitios web que no son operados por Nosotros. Si hace clic en el enlace de un tercero, será dirigido al sitio de ese tercero. Le recomendamos encarecidamente que revise los Términos y condiciones de cada sitio que visite. No tenemos control ni asumimos ninguna responsabilidad por el contenido, los Términos y condiciones o las prácticas de los sitios o servicios de terceros. 
+
+ Galletas
+ Utilizamos \"Cookies\" para identificar las áreas de nuestro sitio web que ha visitado. Una cookie es una pequeña porción de datos almacenada en su computadora o dispositivo móvil por su navegador web. Usamos cookies para mejorar el rendimiento y la funcionalidad de nuestro servicio, pero no son esenciales para su uso. Sin embargo, sin estas cookies, ciertas funciones, como los videos, pueden no estar disponibles o se le solicitará que ingrese sus datos de inicio de sesión cada vez que visite nuestra plataforma, ya que no podríamos recordar que había iniciado sesión anteriormente. La mayoría de los navegadores web se pueden configurar para deshabilitar el uso de cookies. Sin embargo, si deshabilita las cookies, es posible que no pueda acceder a la funcionalidad de nuestro sitio web correctamente o en absoluto. Nunca colocamos información de identificación personal en las cookies. 
+
+ Cambios a nuestros términos y condiciones
+ Usted reconoce y acepta que podemos dejar de proporcionarle el Servicio (o cualquier característica dentro del Servicio) (permanente o temporalmente) a usted o a los usuarios en general a nuestro exclusivo criterio, sin previo aviso. Puede dejar de usar el Servicio en cualquier momento. No es necesario que nos informe específicamente cuando deje de usar el Servicio. Usted reconoce y acepta que si deshabilitamos el acceso a su cuenta, es posible que no pueda acceder al Servicio, a los detalles de su cuenta o a cualquier archivo u otro material que esté contenido en su cuenta. Si decidimos cambiar nuestros Términos y condiciones, publicaremos esos cambios en esta página y/o actualizaremos la fecha de modificación de los Términos y condiciones a continuación. 
+
+ Modificaciones a Nuestro servicio
+ Nos reservamos el derecho de modificar, suspender o descontinuar, temporal o permanentemente, el servicio o cualquier servicio al que se conecte, con o sin previo aviso y sin responsabilidad hacia usted. 
+
+ Actualizaciones de nuestro servicio
+ Es posible que, de vez en cuando, proporcionemos mejoras o mejoras a las características/funcionalidad del servicio, que pueden incluir parches, correcciones de errores, actualizaciones, mejoras y otras modificaciones (\"Actualizaciones\"). Las actualizaciones pueden modificar o eliminar ciertas características y/o funcionalidades del servicio. Usted acepta que no tenemos ninguna obligación de (i) proporcionarle Actualizaciones, o (ii) continuar brindándole o habilitando características y/o funcionalidades particulares del servicio. Además, acepta que todas las Actualizaciones (i) se considerarán parte integral del servicio y (ii) estarán sujetas a los términos y condiciones de este Acuerdo. 
+
+ Servicios de terceros
+ Podemos mostrar, incluir o poner a disposición contenido de terceros (incluidos datos, información, aplicaciones y otros servicios de productos) o proporcionar enlaces a sitios web o servicios de terceros (\"Servicios de terceros\"). Usted reconoce y acepta que no seremos responsables de los Servicios de terceros, incluida su precisión, integridad, puntualidad, validez, cumplimiento de derechos de autor, legalidad, decencia, calidad o cualquier otro aspecto de los mismos. No asumimos y no tendremos ninguna obligación o responsabilidad hacia usted o cualquier otra persona o entidad por los Servicios de terceros. Los Servicios de terceros y los enlaces a los mismos se proporcionan únicamente para su comodidad y usted accede a ellos y los utiliza bajo su propio riesgo y sujeto a los términos y condiciones de dichos terceros. 
+
+ Duración y Terminación
+ Este Acuerdo permanecerá en vigor hasta que usted o nosotros lo rescindamos. Podemos, a nuestro exclusivo criterio, en cualquier momento y por cualquier motivo o sin él, suspender o rescindir este Acuerdo con o sin previo aviso. Este Acuerdo terminará inmediatamente, sin previo aviso de nuestra parte, en caso de que no cumpla con alguna disposición de este Acuerdo. También puede rescindir este Acuerdo eliminando el servicio y todas las copias del mismo de su computadora. Al finalizar este Acuerdo, deberá dejar de usar el servicio y eliminar todas las copias del servicio de su computadora. La rescisión de este Acuerdo no limitará ninguno de nuestros derechos o recursos por ley o equidad en caso de incumplimiento por su parte (durante la vigencia de este Acuerdo) de cualquiera de sus obligaciones en virtud del presente Acuerdo. 
+
+ Si usted es el propietario de los derechos de autor o el agente de dicho propietario y cree que cualquier material nuestro constituye una infracción de sus derechos de autor, comuníquese con nosotros y proporcione la siguiente información: (a) una firma física o electrónica del propietario de los derechos de autor o una persona autorizada para actuar en su nombre; (b) identificación del material que se alega que está infringiendo; (c) su información de contacto, incluida su dirección, número de teléfono y un correo electrónico; (d) una declaración suya de que cree de buena fe que el uso del material no está autorizado por los propietarios de los derechos de autor; y (e) una declaración de que la información en la notificación es precisa y, bajo pena de perjurio, está autorizado a actuar en nombre del propietario. 
+
+ Indemnización
+ Usted acepta indemnizarnos y eximirnos a nosotros y a nuestras empresas matrices, subsidiarias, afiliadas, funcionarios, empleados, agentes, socios y otorgantes de licencias (si corresponde) de cualquier reclamo o demanda, incluidos los honorarios razonables de los abogados, debido a su: ( a) uso del servicio; (b) violación de este Acuerdo o cualquier ley o regulación; o (c) violación de cualquier derecho de un tercero.
+ Sin garantías
+ El servicio se le proporciona \"TAL CUAL\" y \"SEGÚN DISPONIBILIDAD\" y con todas las fallas y defectos sin garantía de ningún tipo. En la medida máxima permitida por la ley aplicable, nosotros, en nuestro propio nombre y en nombre de nuestros afiliados y nuestros respectivos otorgantes de licencias y proveedores de servicios, renunciamos expresamente a todas las garantías, ya sean expresas, implícitas, legales o de otro tipo, con respecto al servicio, incluyendo todas las garantías implícitas de comerciabilidad, idoneidad para un propósito particular, título y no infracción, y garantías que puedan surgir del curso de la negociación, el curso del desempeño, el uso o la práctica comercial. Sin limitación a lo anterior, no ofrecemos ninguna garantía o compromiso, y no hacemos ninguna declaración de que el servicio cumplirá con sus requisitos, logrará los resultados deseados, será compatible o funcionará con cualquier otro software, sitios web, sistemas o servicios, operar sin interrupción, cumplir con los estándares de rendimiento o confiabilidad o estar libre de errores o que cualquier error o defecto puede o será corregido. 
+
+ Sin limitar lo anterior, ni nosotros ni ningún proveedor hacemos ninguna representación o garantía de ningún tipo, expresa o implícita: (i) en cuanto a la operación o disponibilidad del servicio, o la información, contenido y materiales o productos incluidos en el mismo; (ii) que el servicio será ininterrumpido o libre de errores; (iii) en cuanto a la precisión, confiabilidad o actualidad de cualquier información o contenido proporcionado a través del servicio; o (iv) que el servicio, sus servidores, el contenido o los correos electrónicos enviados por nosotros o en nuestro nombre están libres de virus, secuencias de comandos, troyanos, gusanos, malware, bombas de tiempo u otros componentes dañinos. Algunas jurisdicciones no permiten la exclusión o las limitaciones de las garantías implícitas o las limitaciones de los derechos legales aplicables de un consumidor, por lo que es posible que algunas o todas las exclusiones y limitaciones anteriores no se apliquen a usted. 
+
+ Limitación de responsabilidad
+ Sin perjuicio de los daños en los que pueda incurrir, toda la responsabilidad nuestra y de cualquiera de nuestros proveedores en virtud de cualquier disposición de este Acuerdo y su recurso exclusivo por todo lo anterior se limitará al monto que realmente pagó por el servicio. En la medida máxima permitida por la ley aplicable, en ningún caso, ni nosotros ni nuestros proveedores seremos responsables de ningún daño especial, incidental, indirecto o consecuente (incluidos, entre otros, daños por lucro cesante, pérdida de datos o otra información, por interrupción del negocio, por lesiones personales, por pérdida de privacidad que surja o esté relacionada de alguna manera con el uso o la incapacidad de usar el servicio, software de terceros y/o hardware de terceros utilizado con el servicio, o de otro modo en relación con cualquier disposición de este Acuerdo), incluso si nosotros o cualquier proveedor ha sido advertido de la posibilidad de tales daños e incluso si el remedio no cumple con su propósito esencial. Algunos estados/jurisdicciones no permiten la exclusión o limitación de daños incidentales o consecuentes, por lo que es posible que la limitación o exclusión anterior no se aplique a usted. 
+
+ Divisibilidad
+ Si alguna disposición de este Acuerdo se considera inaplicable o inválida, dicha disposición se cambiará e interpretará para lograr los objetivos de dicha disposición en la mayor medida posible según la ley aplicable y las disposiciones restantes continuarán en pleno vigor y efecto. Este Acuerdo, junto con la Política de privacidad y cualquier otro aviso legal publicado por nosotros en los Servicios, constituirá el acuerdo completo entre usted y nosotros con respecto a los Servicios. Si alguna disposición de este Acuerdo es considerada inválida por un tribunal de jurisdicción competente, la invalidez de dicha disposición no afectará la validez de las disposiciones restantes de este Acuerdo, que permanecerán en pleno vigor y efecto. Ninguna renuncia a cualquier término de este Acuerdo se considerará una renuncia adicional o continua de dicho término o cualquier otro término, y nuestra incapacidad para hacer valer cualquier derecho o disposición en virtud de este Acuerdo no constituirá una renuncia a tal derecho o disposición. USTED Y NOSOTROS ACEPTAMOS QUE CUALQUIER CAUSA DE ACCIÓN QUE SURJA O ESTÉ RELACIONADA CON LOS SERVICIOS DEBE COMENZAR DENTRO DE UN (1) AÑO DESPUÉS DE QUE LA CAUSA DE ACCIÓN SE ACUMULE. DE LO CONTRARIO, DICHA CAUSA DE ACCIÓN SE PROHIBE PERMANENTEMENTE. 
+
+ Exención
+ Salvo lo dispuesto en el presente, la falta de ejercicio de un derecho o de exigir el cumplimiento de una obligación en virtud de este Acuerdo no afectará la capacidad de una parte para ejercer dicho derecho o exigir dicho cumplimiento en cualquier momento posterior ni constituirá la renuncia a un incumplimiento una renuncia a cualquier incumplimiento posterior. 
+
+ Ninguna falta de ejercicio, ni retraso en el ejercicio, por parte de cualquiera de las partes, de cualquier derecho o poder en virtud de este Acuerdo operará como una renuncia a ese derecho o poder. Ningún ejercicio único o parcial de cualquier derecho o poder en virtud de este Acuerdo impedirá el ejercicio posterior de ese o cualquier otro derecho otorgado en este documento. En caso de conflicto entre este Acuerdo y cualquier compra aplicable u otros términos, prevalecerán los términos de este Acuerdo. 
+
+ Enmiendas a este Acuerdo
+ Nos reservamos el derecho, a nuestro exclusivo criterio, de modificar o reemplazar este Acuerdo en cualquier momento. Si una revisión es material, le proporcionaremos un aviso de al menos 30 días antes de que entren en vigencia los nuevos términos. Lo que constituye un cambio material se determinará a nuestro exclusivo criterio. Al continuar accediendo o utilizando nuestro servicio después de que las revisiones entren en vigencia, usted acepta estar sujeto a los términos revisados. Si no está de acuerdo con los nuevos términos, ya no está autorizado a utilizar nuestro servicio. 
+
+ Acuerdo completo
+ El Acuerdo constituye el acuerdo completo entre usted y nosotros con respecto a su uso del servicio y reemplaza todos los acuerdos escritos u orales anteriores y contemporáneos entre usted y nosotros. Puede estar sujeto a términos y condiciones adicionales que se aplican cuando usa o compra otros servicios de nosotros, que le proporcionaremos en el momento de dicho uso o compra. 
+
+ Actualizaciones de nuestros términos
+ Podemos cambiar nuestro Servicio y nuestras políticas, y es posible que necesitemos hacer cambios en estos Términos para que reflejen con precisión nuestro Servicio y nuestras políticas. A menos que la ley exija lo contrario, le notificaremos (por ejemplo, a través de nuestro Servicio) antes de realizar cambios en estos Términos y le daremos la oportunidad de revisarlos antes de que entren en vigencia. Luego, si continúa utilizando el Servicio, estará sujeto a los Términos actualizados. Si no desea aceptar estos o los Términos actualizados, puede eliminar su cuenta. 
+
+ Propiedad intelectual
+ Nuestra plataforma y todo su contenido, características y funcionalidad (incluidos, entre otros, toda la información, el software, el texto, las pantallas, las imágenes, el video y el audio, y el diseño, la selección y la disposición de los mismos), son de nuestra propiedad, sus licenciantes u otros proveedores de dicho material y están protegidos por derechos de autor internacionales, marcas registradas, patentes, secretos comerciales y otras leyes de propiedad intelectual o derechos de propiedad. El material no puede copiarse, modificarse, reproducirse, descargarse o distribuirse de ninguna manera, en su totalidad o en parte, sin nuestro permiso expreso previo por escrito, a menos y excepto que se estipule expresamente en estos Términos y condiciones. Cualquier uso no autorizado del material está prohibido. 
+
+ Acuerdo de Arbitraje
+ Esta sección se aplica a cualquier disputa, EXCEPTO QUE NO INCLUYE UNA DISPUTA RELACIONADA CON RECLAMOS DE MEDIDAS CAUTELARES O DE EQUIDAD CON RESPECTO A LA EJECUCIÓN O VALIDEZ DE SUS DERECHOS DE PROPIEDAD INTELECTUAL O DE World Medical Card. El término \"disputa\" se refiere a cualquier disputa, acción u otra controversia entre usted y nosotros con respecto a los Servicios o este acuerdo, ya sea por contrato, garantía, agravio, estatuto, regulación, ordenanza o cualquier otra base legal o equitativa. \"Disputa\" se le dará el significado más amplio posible permitido por la ley. 
+
+ Aviso de disputa
+ En caso de disputa, usted o nosotros debemos entregar a la otra parte un Aviso de disputa, que es una declaración escrita que establece el nombre, la dirección y la información de contacto de la parte que la entrega, los hechos que dan lugar a la disputa y el amparo solicitado. Debe enviar cualquier Notificación de disputa por correo electrónico a: . Le enviaremos cualquier Notificación de disputa por correo a su dirección si la tenemos, o de lo contrario a su dirección de correo electrónico. Usted y nosotros intentaremos resolver cualquier disputa a través de negociaciones informales dentro de los sesenta (60) días a partir de la fecha de envío del Aviso de disputa. Después de sesenta (60) días, usted o nosotros podemos iniciar el arbitraje. 
+
+ Arbitraje obligatorio
+ Si usted y nosotros no resolvemos ninguna disputa mediante negociación informal, cualquier otro esfuerzo para resolver la disputa se llevará a cabo exclusivamente mediante arbitraje vinculante, como se describe en esta sección. Está renunciando al derecho de litigar (o participar como parte o miembro de la clase) todas las disputas en la corte ante un juez o jurado. La disputa se resolverá mediante arbitraje vinculante de acuerdo con las reglas de arbitraje comercial de la Asociación Americana de Arbitraje. Cualquiera de las partes puede solicitar cualquier medida cautelar provisional o preliminar de cualquier tribunal de jurisdicción competente, según sea necesario para proteger los derechos o la propiedad de la parte hasta que finalice el arbitraje. Todos y cada uno de los costos, honorarios y gastos legales, contables y de otro tipo incurridos por la parte ganadora correrán a cargo de la parte no ganadora. 
+
+
+ Envíos y Privacidad
+ En el caso de que envíe o publique ideas, sugerencias creativas, diseños, fotografías, información, anuncios, datos o propuestas, incluidas ideas para productos, servicios, características, tecnologías o promociones nuevos o mejorados, acepta expresamente que dichos envíos serán automáticamente serán tratados como no confidenciales y no patentados y se convertirán en nuestra propiedad exclusiva sin ninguna compensación o crédito para usted. Nosotros y nuestros afiliados no tendremos ninguna obligación con respecto a dichos envíos o publicaciones y podemos usar las ideas contenidas en dichos envíos o publicaciones para cualquier propósito en cualquier medio a perpetuidad, incluidos, entre otros, el desarrollo, la fabricación y la comercialización de productos y servicios utilizando tales ideas. 
+
+ Promociones
+ Es posible que, de vez en cuando, incluyamos concursos, promociones, sorteos u otras actividades (\"Promociones\") que requieran que envíe material o información sobre usted. Tenga en cuenta que todas las Promociones pueden regirse por reglas separadas que pueden contener ciertos requisitos de elegibilidad, como restricciones en cuanto a la edad y la ubicación geográfica. Usted es responsable de leer todas las reglas de las Promociones para determinar si es elegible para participar o no. Si ingresa a cualquier Promoción, acepta cumplir con todas las Reglas de las Promociones. Se pueden aplicar términos y condiciones adicionales a las compras de bienes o servicios en o a través de los Servicios, cuyos términos y condiciones forman parte de este Acuerdo mediante esta referencia. 
+
+ Errores tipográficos
+ En el caso de que un producto y/o servicio se incluya con un precio incorrecto o con información incorrecta debido a un error tipográfico, tendremos derecho a rechazar o cancelar cualquier pedido realizado para el producto y/o servicio que se indique con un precio incorrecto. Tendremos el derecho de rechazar o cancelar dicho pedido, ya sea que el pedido haya sido confirmado o no y se haya cargado su tarjeta de crédito. Si su tarjeta de crédito ya ha sido cargada por la compra y su pedido es cancelado, emitiremos inmediatamente un crédito a su cuenta de tarjeta de crédito u otra cuenta de pago por el monto del cargo. 
+
+ Diverso
+ Si por algún motivo un tribunal de jurisdicción competente considera que alguna disposición o parte de estos Términos y condiciones no se puede hacer cumplir, el resto de estos Términos y condiciones continuará en pleno vigor y efecto. Cualquier renuncia a cualquier disposición de estos Términos y condiciones será efectiva solo si se hace por escrito y está firmada por un representante autorizado de nosotros. Tendremos derecho a medidas cautelares u otras medidas equitativas (sin la obligación de pagar ninguna fianza o fianza) en caso de incumplimiento o incumplimiento anticipado por su parte. Operamos y controlamos nuestro Servicio desde nuestras oficinas en . El Servicio no está destinado a ser distribuido o utilizado por ninguna persona o entidad en ninguna jurisdicción o país donde dicha distribución o uso sea contrario a la ley o regulación. En consecuencia, aquellas personas que eligen acceder a nuestro Servicio desde otros lugares lo hacen por iniciativa propia y son los únicos responsables del cumplimiento de las leyes locales, en la medida en que las leyes locales sean aplicables. Estos Términos y condiciones (que incluyen e incorporan nuestra Política de privacidad) contienen el entendimiento completo y reemplazan todos los entendimientos anteriores entre usted y nosotros con respecto a su objeto, y usted no puede cambiarlos ni modificarlos. Los encabezados de las secciones que se utilizan en este Acuerdo son solo por conveniencia y no se les dará ninguna importancia legal. 
+
+ Descargo de responsabilidad
+ No somos responsables de ningún contenido, código o cualquier otra imprecisión. No ofrecemos garantías ni avales. En ningún caso seremos responsables de ningún daño especial, directo, indirecto, consecuente o incidental ni de ningún tipo, ya sea en una acción de contrato, negligencia u otro agravio, que surja de o en relación con el uso del Servicio o el contenido del Servicio. Nos reservamos el derecho de hacer adiciones, eliminaciones o modificaciones a los contenidos del Servicio en cualquier momento sin previo aviso. 
+
+ Nuestro Servicio y su contenido se proporcionan \"tal cual\" y \"según disponibilidad\" sin ninguna garantía o representación de ningún tipo, ya sea expresa o implícita. Somos un distribuidor y no un editor del contenido suministrado por terceros; como tal, no ejerce ningún control editorial sobre dicho contenido y no garantiza ni representa la precisión, confiabilidad o actualidad de cualquier información, contenido, servicio o mercancía proporcionada o accesible a través de nuestro Servicio. Sin limitar lo anterior, renunciamos específicamente a todas las garantías y representaciones en cualquier contenido transmitido en o en conexión con nuestro Servicio o en sitios que pueden aparecer como enlaces en nuestro Servicio, o en los productos provistos como parte de, o de otra manera en conexión con , nuestro Servicio, incluidas, entre otras, las garantías de comerciabilidad, idoneidad para un propósito particular o no infracción de los derechos de terceros. Ningún consejo oral o información escrita proporcionada por nosotros o cualquiera de sus afiliados, empleados, funcionarios, directores, agentes o similares creará una garantía. La información sobre precios y disponibilidad está sujeta a cambios sin previo aviso. Sin limitar lo anterior, no garantizamos que nuestro Servicio sea ininterrumpido, incorrupto, oportuno o libre de errores. 
+
+ Contáctenos
+ No dude en ponerse en contacto con nosotros si tiene alguna pregunta.
+ • Por correo electrónico: post@wmc-card.no
+ • Vía Número de Teléfono: +47 55 33 75 75</string>
+
+    <string name="title_your_profile_is_incomplete">Su perfil está incompleto</string>
+
+    <string name="translate_code_prefix">• Código: %1$s</string>
+    <string name="translate_language_hint">Idioma</string>
+    <string name="translate_my_title">Mi %1$s</string>
+    <string name="translate_title_allergies">Mis alergias</string>
+    <string name="translate_title_diagnoses">Mis Diagnósticos</string>
+    <string name="translate_title_medicine">Mis Medicamentos</string>
+    <string name="translate_title_vaccines">mis vacunas</string>
+
+    <string name="vaccines_card_title">Vacunas</string>
+
+    <string name="wmc_card_menu_print_card">Imprimir tarjeta</string>
+    <string name="wmc_card_menu_reorder_card">Reordenar tarjeta</string>
+    <string name="wmc_order_successful">Pedido con éxito</string>
+
+    <string name="world_medical_card_r">World Medical Card®</string>
+
+    <string name="your_personal_medical_record_n_always_available">Su historial médico personal está \n siempre disponible</string>
+    <string name="verify_your_phone_number">Verify Your Phone Number</string>
+    <string name="resend">Resend</string>
+    <string name="otp_expired">OTP has expired</string>
+    <string name="otp_sent">OTP has been sent successfully</string>
+    <string name="invalid_otp">OTP is invalid</string>
+</resources>

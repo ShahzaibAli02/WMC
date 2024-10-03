@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    
+
+                                           
+
+                 
+                        
+                                                                    
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp" android:tag="layout/item_document_0">
+
+        <TextView
+            android:id="@+id/documentType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:tag="binding_1"         
+            android:textColor="@color/titleColor"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Insurance" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/documentList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/documentType" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

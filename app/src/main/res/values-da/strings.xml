@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="add_allergies_button">Tilføj allergier</string>
+    <string name="add_document_description_hint">Beskrivelse (valgfri)</string>
+    <string name="add_document_document_title_hint">Dokumenttitel</string>
+    <string name="add_document_document_type_hint">Dokumenttype</string>
+    <string name="add_document_edit_button">Rediger dokument</string>
+    <string name="add_document_title">Tilføj nyt dokument</string>
+    <string name="add_document_upload_button">Upload nyt dokument</string>
+    <string name="add_new_allergy_title">Tilføj ny allergi</string>
+    <string name="add_new_allergy_top_hits">Top Hits</string>
+    <string name="add_new_diagnoses_title">Tilføj nye diagnoser</string>
+    <string name="add_new_medicine_title">Tilføj ny medicin</string>
+    <string name="add_new_search_hint">Søg</string>
+    <string name="add_new_vaccines_title">Tilføj ny vaccine</string>
+
+    <string name="alarm_phone">Alarmtelefon</string>
+
+    <string name="allergies_card_description">Fortæl os, hvis du har nogen allergier, eller hvis du ved, at du ikke har nogen</string>
+    <string name="allergies_card_title">Allergier</string>
+
+    <string name="apple_button_title">med Apple</string>
+
+    <string name="button_add">Tilføj</string>
+    <string name="button_edit">Rediger</string>
+    <string name="button_next">Næste</string>
+    <string name="button_share">Del</string>
+    <string name="button_skip_tour">Drop intro</string>
+    <string name="button_translate">Oversæt</string>
+
+    <string name="cancel_button_title">Annuller</string>
+
+    <string name="card_items_description">%1$s elementer: %2$s</string>
+
+    <string name="common_cancel">Aflyse</string>
+    <string name="common_dash">-</string>
+    <string name="common_no">Nej</string>
+    <string name="common_remove">Fjerne</string>
+    <string name="common_save">Gem</string>
+    <string name="common_yes">Ja</string>
+
+    <string name="complete_my_profile_button">Fuldfør min profil</string>
+    <string name="complete_your_profile">Fuldfør din profil</string>
+
+    <string name="create_account_button">Opret konto</string>
+
+    <string name="dashboard_screen_title_evening">&#128075;&#127995; God aften</string>
+    <string name="dashboard_screen_title_morning">&#128075;&#127995; Godmorgen</string>
+    <string name="dashboard_screen_title_night">&#128075;&#127995; Godnat</string>
+
+    <string name="description_your_profile_is_incomplete">Udfyld venligst din profil for at få glæde af alle funktionerne i World Medical Card</string>
+
+    <string name="diagnoses_card_title">Diagnoser</string>
+
+    <string name="divider_or_text">Eller</string>
+
+    <string name="documents_card_title">Dokumenter</string>
+
+    <string name="edit_card_dialog_edit_item_title">Rediger element</string>
+    <string name="edit_card_dialog_remove_item_title">Fjern element</string>
+    <string name="edit_card_dialog_remove_items_title">Fjern element(er)</string>
+    <string name="edit_document_title">Rediger dokument</string>
+
+    <string name="emergency_contacts">Kontaktpersoner i nødstilfælde</string>
+
+    <string name="error_empty_response">Beklager, indholdet er tomt</string>
+    <string name="error_message">Noget gik galt. Prøv venligst igen senere.</string>
+    <string name="error_no_data_found">Ingen data fundet</string>
+    <string name="error_no_internet">Tjek venligst internetforbindelsen</string>
+    <string name="error_unauthorized">Beklager, men du har ikke tilladelse til at få adgang til dette indhold</string>
+
+    <string name="field_required_title">Feltet er påkrævet</string>
+
+    <string name="forgot_password_alert_message">Hvis den e-mailadresse, du har angivet, er registreret i vores system, vil du få en e-mail på kort tid. Følg instruktionerne i e-mailen for at nulstille adgangskoden.</string>
+    <string name="forgot_password_screen_description">Indtast din e-mailadresse og tryk på knappen for at nulstille din adgangskode</string>
+    <string name="forgot_password_screen_error_message">Noget gik galt. Prøv venligst igen</string>
+    <string name="forgot_password_screen_reset_password_button">Nulstille kodeord</string>
+    <string name="forgot_password_screen_success_title">Email sendt</string>
+    <string name="forgot_password_screen_title">Nulstille kodeord</string>
+
+    <string name="google_button_title">med Google</string>
+
+    <string name="i_accept_the_terms_and_conditions">Jeg accepterer vilkårene og betingelserne</string>
+
+    <string name="intro_content_description_1">Dine medicinske oplysninger er kodet i overensstemmelse med Verdenssundhedsorganisationernes globale standarder (ICD-10, ATC) for at sikre, at din tilstand og dine behov forstås af sundhedspersonale og farmaceutisk personale over hele verden.</string>
+    <string name="intro_content_description_2">Du får din egen personlige profil, som kan tilgås via app eller browser. Der er en indbygget oversættelsesfunktion til 19 sprog, som vil lette kommunikationen i relevante lokale termer.</string>
+    <string name="intro_content_description_3">Du kan vælge at dele din profil med pårørende, rejsepartner eller andre, du har tillid til, så de kan være i stand til at give dig førstelinje støtte i en nødsituation</string>
+    <string name="intro_content_description_4">Spor og analyser sundhedsdata nemt ved at synkronisere med vores app.</string>
+    <string name="intro_content_description_5">Du kan vælge at dele din profil med pårørende, rejsepartner eller andre, du har tillid til, så de kan være i stand til at give dig førstelinje støtte i en nødsituation</string>
+    <string name="intro_content_image_1">intro_image_1</string>
+    <string name="intro_content_image_2">intro_image_2</string>
+    <string name="intro_content_image_3">intro_image_3</string>
+    <string name="intro_content_title_1">Udfyld dine oplysninger</string>
+    <string name="intro_content_title_2">Rejs uden bekymringer</string>
+    <string name="intro_content_title_3">Del dine oplysninger</string>
+    <string name="intro_content_title_4">Smartwatch-funktioner</string>
+    <string name="intro_content_title_5">Del dine oplysninger</string>
+    <string name="intro_number_of_pages">5</string>
+    <string name="intro_content_video_1">slide_video1</string>
+    <string name="intro_content_video_2">slide_video2</string>
+    <string name="intro_content_video_3">slide_video3</string>
+    <string name="intro_content_video_4">slide_video4</string>
+    <string name="intro_content_video_5">slide_video5</string>
+
+    <string name="landing_login_button">Log på</string>
+    <string name="landing_register_button">Registrer</string>
+
+    <string name="login_byline">Hvordan vil du logge ind?</string>
+    <string name="login_to_wmc_title">Log ind på World Medical Card®</string>
+
+    <string name="maybe_later_button">Måske senere</string>
+
+    <string name="medicine_card_title">Medicin</string>
+
+    <string name="member_since">Medlem siden %1$s</string>
+
+    <string name="no_allergies_listed">Ingen allergier angivet</string>
+    <string name="no_diagnoses_listed">Ingen diagnoser angivet</string>
+    <string name="no_documents_added">Ingen dokumenter tilføjet</string>
+    <string name="no_medications_listed">Ingen medicin angivet</string>
+    <string name="no_subscription_description">Abonner venligst på et produkt for at nyde alle funktionerne i World Medical Card</string>
+    <string name="no_subscription_title">Intet abonnement</string>
+    <string name="no_vaccines_listed">Ingen vacciner angivet</string>
+
+    <string name="ok_button_title">Ok</string>
+
+    <string name="order_now_button">Bestil nu</string>
+    <string name="order_your_card_description">Få glæde af alle funktionerne på dit World Medical Card fra din pung</string>
+    <string name="order_your_card_title">Bestil dit kort</string>
+
+    <string name="other_information">Andre oplysninger</string>
+
+    <string name="personal_info_byline">Udfyld venligst dine personlige oplysninger for at oprette en konto, du kan ændre dem senere.</string>
+    <string name="personal_info_card_description">Giv os mulighed for at lære dig bedre at kende for en bedre oplevelse</string>
+    <string name="personal_info_card_title">Personlige oplysninger</string>
+    <string name="personal_info_title">Personlige oplysninger</string>
+
+    <string name="please_check_your_email_and_password">Tjek din e-mail og adgangskode</string>
+
+    <string name="profile_birthdate">Fødselsdato</string>
+    <string name="profile_country">Land</string>
+    <string name="profile_edit_alarm_phone">Alarmtelefon (valgfrit)</string>
+    <string name="profile_edit_city">By</string>
+    <string name="profile_edit_date_of_birth">Fødselsdato</string>
+    <string name="profile_edit_donor_note">Sundhedspersonale vil blive bedt om at bede familien om at bekræfte din beslutning</string>
+    <string name="profile_edit_donor_question">Kunne du tænke dig at være organdonor?</string>
+    <string name="profile_edit_emergency_contacts_name">Navn</string>
+    <string name="profile_edit_emergency_contacts_note">Tilføj kontakter, som du har tillid til i tilfælde af en nødsituation.</string>
+    <string name="profile_edit_emergency_contacts_phone">Telefonnummer</string>
+    <string name="profile_edit_emergency_contacts_relation">Forhold</string>
+    <string name="profile_edit_first_name">Fornavn</string>
+    <string name="profile_edit_insurance_health">Sygeforsikring</string>
+    <string name="profile_edit_insurance_note">Tilføj forsikringsoplysninger som reference.</string>
+    <string name="profile_edit_insurance_title">Forsikring</string>
+    <string name="profile_edit_insurance_travel">Rejseforsikring</string>
+    <string name="profile_edit_insurance_type">Type forsikring</string>
+    <string name="profile_edit_land">Land</string>
+    <string name="profile_edit_last_name">Efternavn</string>
+    <string name="profile_edit_other_hint">Vil du inkludere andre oplysninger?</string>
+    <string name="profile_edit_other_title">Andet</string>
+    <string name="profile_edit_phone">Tlf.nr.</string>
+    <string name="profile_edit_policy_number">Policenummer (valgfrit)</string>
+    <string name="profile_edit_postal_address_note">Udfyld den adresse, du ønsker, at vi skal sende kortet til. Adressen vil ikke fremgå af nødkortet.</string>
+    <string name="profile_edit_postal_code">Postal code</string>
+    <string name="profile_edit_select_birthdata">Vælg din fødselsdato</string>
+    <string name="profile_edit_ssn">CPR-nummer (valgfrit)</string>
+    <string name="profile_edit_street_address">Gadeadresse</string>
+    <string name="profile_gender">Køn</string>
+    <string name="profile_gender_female">Kvinde</string>
+    <string name="profile_gender_male">Mand</string>
+    <string name="profile_insurance_company">Forsikringsselskab</string>
+    <string name="profile_insurance_type_health">Sundhed</string>
+    <string name="profile_insurance_type_travel">Rejse</string>
+    <string name="profile_nationality">Nationalitet</string>
+    <string name="profile_organ_donor">Organdonor</string>
+    <string name="profile_policy_date">Medlem indtil/Udstedt den</string>
+    <string name="profile_policy_number">Policenummer</string>
+    <string name="profile_postal_address">Postadresse</string>
+    <string name="profile_save_button_title">Gemme</string>
+    <string name="profile_screen_title">Profil</string>
+    <string name="profile_ssn">CPR-nummer</string>
+    <string name="profile_telephone">Telefon</string>
+    <string name="profile_travel_insurance">Rejseforsikring</string>
+    <string name="profile_validation_required_fields">Fødselsdato, nationalitet, telefon og køn er påkrævet</string>
+    <string name="profile_zip">ZIP</string>
+
+    <string name="register_byline">Udfyld venligst dine personlige oplysninger for at oprette en konto, du kan ændre dem senere.</string>
+    <string name="register_email_field_hint">E-mail</string>
+    <string name="register_login_forget_password_title">Glemt adgangskode?</string>
+    <string name="register_password_field_hint">Adgangskode</string>
+    <string name="register_password_min_hint">minimum 8 tegn</string>
+    <string name="register_to_wmc_title">Tilmeld dig World Medical Card®</string>
+
+    <string name="screen_title_good_afternoon">&#128075;&#127995; God eftermiddag</string>
+    <string name="screen_title_hi">&#128075;&#127995; Hej</string>
+
+    <string name="select_file_to_upload">Vælg venligst den fil, der skal uploades</string>
+
+    <string name="sign_in_password_incorrect">Kontoen blev ikke fundet. Prøv at logge ind med Google-konto eller e-mail og adgangskode.</string>
+    <string name="sign_out_button">Log ud</string>
+
+    <string name="signin_button_title">Log ind</string>
+    <string name="signin_with_google_button">Log ind med Google</string>
+
+    <string name="signup_with_google_button">Tilmeld dig med Google</string>
+
+    <string name="subscribe_button">Tilmeld nu</string>
+
+    <string name="subscription_add_member_alert_invite_message">An email invitation has been sent</string>
+    <string name="subscription_delete_member_dialog_message">Are you sure you want to remove this member from this subscription package?</string>
+    <string name="subscription_delete_member_dialog_negative_button">Cancel</string>
+    <string name="subscription_delete_member_dialog_positive_button">Confirm</string>
+    <string name="subscription_delete_member_dialog_title">Delete Member</string>
+    <string name="subscription_detail_add_member_title">Add more member</string>
+    <string name="subscription_detail_member_list_title">List of members</string>
+    <string name="subscription_detail_membership_left_full_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.\nTo add member, please click the button below.]]>
+    </string>
+    <string name="subscription_detail_membership_left_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.]]>
+    </string>
+    <string name="subscription_detail_paid_with_text">Paid with</string>
+    <string name="subscription_detail_payment_method_title">Payment method</string>
+    <string name="subscription_detail_title">Subscription Detail</string>
+    <string name="subscription_invitation_add_member_button">Add member</string>
+    <string name="subscription_invitation_email_hint">Email Address</string>
+    <string name="subscription_invitation_title">Add New Member</string>
+    <string name="subscription_overview_add_subscription_button">Tilføj abonnement</string>
+    <string name="subscription_overview_hint">Du har i øjeblikket ikke noget abonnement med World Medical Card, klik på abonner nedenfor og nyd alle funktionerne i World Medical Card</string>
+    <string name="subscription_overview_item_expired_title">Udløbet</string>
+    <string name="subscription_overview_item_membership_occupancy_title">Medlemskab Belægning:</string>
+    <string name="subscription_overview_item_subscription_manager_title">Abonnementsadministrator:</string>
+    <string name="subscription_overview_subtitle">Nuværende abonnement  (%1d)</string>
+    <string name="subscription_overview_text_subscribe">Click here to subscribe membership package</string>
+    <string name="subscription_overview_title">Mine abonnementer</string>
+    <string name="subscription_remove_membership_button_title">Remove Membership</string>
+    <string name="subscription_remove_membership_dialog_text">Are you sure you want to be remove from this membership package?</string>
+    <string name="subscription_remove_membership_dialog_title">Delete Membership</string>
+
+    <string name="tap_edit_to_complete_profile">Tryk på Rediger nedenfor for at færdiggøre din profil</string>
+
+    <string name="terms_and_conditions_button">Vilkår og betingelser</string>
+    <string name="terms_and_conditions_title">Vilkår og betingelser</string>
+    <string name="terms_text">Vilkår og Betingelser
+ Opdateret 2022-01-01 
+
+ Almindelige vilkår
+ Ved at få adgang til og afgive en ordre hos , bekræfter du, at du er indforstået med og bundet af servicevilkårene indeholdt i vilkårene og betingelserne beskrevet nedenfor. Disse vilkår gælder for hele webstedet og enhver e-mail eller anden form for kommunikation mellem dig og World Medical Card. 
+
+ Teamet kan under ingen omstændigheder holdes ansvarlig for nogen direkte, indirekte, særlige, tilfældige skader eller følgeskader, herunder, men ikke begrænset til, tab af data eller fortjeneste, der opstår som følge af brugen eller manglende evne til at bruge materialerne på dette websted , selvom teamet eller en autoriseret repræsentant er blevet informeret om muligheden for sådanne skader. Hvis din brug af materialer fra denne side resulterer i behov for servicering, reparation eller korrektion af udstyr eller data, påtager du dig alle omkostninger hertil. 
+
+ World Medical Card er ikke ansvarlig for udfald, der måtte opstå i løbet af brugen af vores ressourcer. Vi forbeholder os rettighederne til at ændre priser og revidere ressourceforbrugspolitikken til enhver tid. 
+
+ Licens
+ World Medical Card giver dig en tilbagekaldelig, ikke-eksklusiv, ikke-overdragelig, begrænset licens til at downloade, installere og bruge vores service i nøje overensstemmelse med betingelserne i denne aftale. 
+
+ Disse vilkår og betingelser er en kontrakt mellem dig og World Medical Card (i disse vilkår og betingelser omtalt som \"World Medical Card\", \"os\", \"vi\" eller \"vores\"), udbyderen af World Medical Cards websted og de tjenester, der er tilgængelige fra World Medical Card-webstedet (som i disse vilkår og betingelser samlet omtales som \"World Medical Card Service\"). 
+
+ Du accepterer at være bundet af disse vilkår og betingelser. Hvis du ikke accepterer disse vilkår og betingelser, skal du ikke bruge tjenesten. I disse vilkår og betingelser henviser \"dig\" både til dig som enkeltperson og til den enhed, du repræsenterer. Hvis du overtræder nogen af disse vilkår og betingelser, forbeholder vi os retten til at annullere din konto eller blokere adgangen til din konto uden varsel. 
+
+ Definitioner og nøglebegreber
+ For disse vilkår og betingelser: 
+
+ • Cookie: lille mængde data genereret af et websted og gemt af din webbrowser. Det bruges til at identificere din browser, levere analyser, huske oplysninger om dig, såsom din sprogpræference eller loginoplysninger. 
+
+ • Virksomhed: når denne politik nævner \"Virksomhed\", \"vi\", \"os\" eller \"vores\", henviser det til World Medical Card, Gamlehaugvegen 20, 5231 Paradis, der er ansvarlig for dine oplysninger i henhold til denne fortrolighedspolitik. 
+
+ • Land: hvor World Medical Card eller ejerne/stifterne af World Medical Card er baseret, er i dette tilfælde Norge. 
+
+ • Kunde: henviser til den virksomhed, organisation eller person, der tilmelder sig for at bruge World Medical Card Service til at administrere forholdet til dine forbrugere eller tjenestebrugere. 
+
+ • Enhed: enhver internetforbundet enhed såsom en telefon, tablet, computer eller enhver anden enhed, der kan bruges til at besøge World Medical Card og bruge tjenesterne. 
+
+ • IP-adresse: Hver enhed, der er tilsluttet internettet, tildeles et nummer kendt som en internetprotokol-adresse (IP). Disse numre er normalt tildelt i geografiske blokke. En IP-adresse kan ofte bruges til at identificere den placering, hvorfra en enhed opretter forbindelse til internettet. 
+
+ • Personale: refererer til de personer, der er ansat af World Medical Card eller er under kontrakt for at udføre en tjeneste på vegne af en af parterne. 
+
+ • Personlige data: enhver information, der direkte, indirekte eller i forbindelse med andre oplysninger – herunder et personligt identifikationsnummer – muliggør identifikation eller identificerbarhed af en fysisk person. 
+
+ • Service: henviser til den service, der leveres af World Medical Card som beskrevet i de relative vilkår (hvis tilgængelig) og på denne platform. 
+
+ • Tredjepartstjeneste: refererer til annoncører, konkurrencesponsorer, salgsfremmende og marketingspartnere og andre, der leverer vores indhold, eller hvis produkter eller tjenester vi tror kan interessere dig. 
+
+ • Hjemmeside: World Medical Cards websted, som kan tilgås via denne URL: https://worldmedicalcard.org 
+
+ • Dig: en person eller enhed, der er registreret hos World Medical Card til at bruge tjenesterne. 
+
+ Begrænsninger
+ Du accepterer ikke, og du vil ikke tillade andre at: 
+
+ • Licensere, sælge, leje, lease, tildele, distribuere, transmittere, hoste, outsource, afsløre eller på anden måde udnytte tjenesten kommercielt eller gøre platformen tilgængelig for enhver tredjepart. 
+
+ • Ændre, lave afledte værker af, adskille, dekryptere, omvendt kompilering eller reverse engineering af enhver del af tjenesten. 
+
+ • Fjerne, ændre eller tilsløre enhver ejendomsretlig meddelelse (herunder enhver meddelelse om ophavsret eller varemærke) fra eller dets tilknyttede selskaber, partnere, leverandører eller licensgivere af tjenesten. 
+
+ Retur- og tilbagebetalingspolitik
+ Tak, fordi du handlede hos os. Vi sætter pris på, at du kan lide at købe de ting, vi bygger. Vi ønsker også at sikre, at du får en givende oplevelse, mens du udforsker, evaluerer og køber vores produkter. 
+
+ Som med enhver købsoplevelse er der vilkår og betingelser, der gælder for transaktioner i vores virksomhed. Vi skal være så korte, som vores advokater tillader. Det vigtigste at huske er, at ved at afgive en ordre eller foretage et køb hos os, accepterer du vilkårene sammen med vores privatlivspolitik. 
+
+ Hvis du af en eller anden grund ikke er helt tilfreds med en vare eller service, som vi leverer, så tøv ikke med at kontakte os, og vi vil diskutere ethvert af de problemer, du går igennem med vores produkt. 
+
+ Dine forslag
+ Enhver feedback, kommentarer, idéer, forbedringer eller forslag (samlet kaldet \"Forslag\"), som du giver os med hensyn til tjenesten, forbliver vores eneste og eksklusive ejendom. Vi er fri til at bruge, kopiere, ændre, offentliggøre eller videredistribuere forslagene til ethvert formål og på enhver måde uden kredit eller kompensation til dig. 
+
+ Dit samtykke
+ Vi har opdateret vores vilkår og betingelser for at give dig fuldstændig gennemsigtighed i, hvad der indstilles, når du besøger vores websted, og hvordan det bruges. Ved at bruge vores service, registrere en konto eller foretage et køb, accepterer du hermed vores vilkår og betingelser. 
+
+ Links til andre websteder
+ Vores service kan indeholde links til andre websteder, der ikke drives af os. Hvis du klikker på et tredjepartslink, vil du blive dirigeret til denne tredjeparts websted. Vi anbefaler dig kraftigt at gennemgå vilkårene og betingelserne for hvert websted, du besøger. Vi har ingen kontrol over og påtager os intet ansvar for indholdet, vilkår og betingelser eller praksis på nogen tredjeparts websteder eller tjenester. 
+
+ Cookies
+ Vi bruger \"cookies\" til at identificere de områder på vores hjemmeside, som du har besøgt. En cookie er et lille stykke data, der lagres på din computer eller mobilenhed af din webbrowser. Vi bruger cookies til at forbedre ydeevnen og funktionaliteten af vores tjeneste, men er ikke afgørende for deres brug. Uden disse cookies kan visse funktioner, såsom videoer, blive utilgængelige, eller du vil blive bedt om at indtaste dine loginoplysninger, hver gang du besøger vores platform, da vi ikke ville være i stand til at huske, at du tidligere havde logget ind. De fleste webbrowsere kan indstilles til at deaktivere brugen af cookies. Men hvis du deaktiverer cookies, kan du muligvis ikke få adgang til funktionaliteten på vores hjemmeside korrekt eller overhovedet. Vi placerer aldrig personligt identificerbare oplysninger i cookies. 
+
+ Ændringer til vores vilkår og betingelser
+ Du anerkender og accepterer, at vi kan stoppe (permanent eller midlertidigt) at levere tjenesten (eller nogen funktioner i tjenesten) til dig eller til brugere generelt efter vores eget skøn uden forudgående varsel til dig. Du kan til enhver tid stoppe med at bruge Tjenesten. Du behøver ikke specifikt informere os, når du stopper med at bruge tjenesten. Du anerkender og accepterer, at hvis vi deaktiverer adgangen til din konto, kan du blive forhindret i at få adgang til Tjenesten, dine kontooplysninger eller filer eller andet materiale, som er indeholdt på din konto. Hvis vi beslutter os for at ændre vores vilkår og betingelser, vil vi offentliggøre disse ændringer på denne side og/eller opdatere ændringsdatoen for vilkår og betingelser nedenfor. 
+
+ Ændringer af vores service
+ Vi forbeholder os retten til at ændre, suspendere eller afbryde, midlertidigt eller permanent, tjenesten eller enhver tjeneste, som den er forbundet til, med eller uden varsel og uden ansvar over for dig. 
+
+ Opdateringer til vores service
+ Vi kan fra tid til anden levere forbedringer eller forbedringer af funktionerne/funktionaliteten af tjenesten, som kan omfatte patches, fejlrettelser, opdateringer, opgraderinger og andre ændringer (\"Opdateringer\"). Opdateringer kan ændre eller slette visse funktioner og/eller funktioner i tjenesten. Du accepterer, at vi ikke har nogen forpligtelse til at (i) levere opdateringer eller (ii) fortsætte med at levere eller aktivere bestemte funktioner og/eller funktioner i tjenesten til dig. Du accepterer endvidere, at alle opdateringer (i) vil blive anset for at udgøre en integreret del af tjenesten og (ii) underlagt vilkårene og betingelserne i denne aftale. 
+
+ Tredjepartstjenester
+ Vi kan vise, inkludere eller gøre tilgængeligt tredjepartsindhold (herunder data, information, applikationer og andre produkttjenester) eller levere links til tredjepartswebsteder eller -tjenester (\"tredjepartstjenester\"). Du anerkender og accepterer, at vi ikke er ansvarlige for nogen tredjepartstjenester, herunder deres nøjagtighed, fuldstændighed, aktualitet, gyldighed, overholdelse af copyright, lovlighed, anstændighed, kvalitet eller andre aspekter heraf. Vi påtager os ikke og skal ikke have noget ansvar eller ansvar over for dig eller nogen anden person eller enhed for nogen tredjepartstjenester. Tredjepartstjenester og links dertil leveres udelukkende som en bekvemmelighed for dig, og du får adgang til og bruger dem helt på egen risiko og underlagt sådanne tredjeparters vilkår og betingelser. 
+
+ Løbetid og opsigelse
+ Denne aftale forbliver i kraft, indtil den opsiges af dig eller os. Vi kan efter eget skøn til enhver tid og af enhver eller ingen grund suspendere eller opsige denne aftale med eller uden forudgående varsel. Denne aftale ophører øjeblikkeligt, uden forudgående varsel fra os, i tilfælde af at du ikke overholder nogen bestemmelse i denne aftale. Du kan også opsige denne aftale ved at slette tjenesten og alle kopier deraf fra din computer. Ved opsigelse af denne aftale skal du ophøre med al brug af tjenesten og slette alle kopier af tjenesten fra din computer. Opsigelse af denne aftale vil ikke begrænse nogen af vores rettigheder eller retsmidler ved lov eller retfærdighed i tilfælde af misligholdelse fra din side (i løbet af denne aftales løbetid) af nogen af dine forpligtelser i henhold til denne aftale. 
+
+ Hvis du er ophavsretsejer eller en sådan ejers agent og mener, at noget materiale fra os udgør en krænkelse af din ophavsret, bedes du kontakte os og anføre følgende oplysninger: (a) en fysisk eller elektronisk signatur fra ejeren af ophavsretten eller en person, der er autoriseret til at handle på hans vegne; (b) identifikation af det materiale, der hævdes at være krænkende; (c) dine kontaktoplysninger, herunder din adresse, telefonnummer og en e-mail; (d) en erklæring fra dig om, at du i god tro tror på, at brugen af materialet ikke er godkendt af copyright-indehaverne; og (e) en erklæring om, at oplysningerne i meddelelsen er nøjagtige, og at du under straf for mened er autoriseret til at handle på vegne af ejeren. 
+
+ Skadesløsholdelse
+ Du accepterer at holde os og vores forældre, datterselskaber, tilknyttede selskaber, embedsmænd, ansatte, agenter, partnere og licensgivere (hvis nogen) skadesløse fra ethvert krav eller krav, herunder rimelige advokatsalærer, som skyldes eller opstår som følge af dine: ( a) brug af tjenesten; (b) overtrædelse af denne aftale eller enhver lov eller regulering; eller (c) krænkelse af en tredjeparts ret.
+ Ingen garantier
+ Tjenesten leveres til dig \"SOM DEN ER\" og \"SOM TILGÆNGELIG\" og med alle fejl og mangler uden garanti af nogen art. I det maksimale omfang tilladt i henhold til gældende lovgivning frasiger vi os, på vores egne vegne og på vegne af vores tilknyttede selskaber og vores respektive licensgivere og tjenesteudbydere, udtrykkeligt alle garantier, hvad enten det er udtrykkeligt, underforstået, lovbestemt eller andet, med hensyn til tjenesten, herunder alle underforståede garantier for salgbarhed, egnethed til et bestemt formål, titel og ikke-krænkelse og garantier, der kan opstå som følge af handel, ydelse, brug eller handelspraksis. Uden begrænsning til det foregående giver vi ingen garanti eller tilsagn og giver ingen repræsentation af nogen art, at tjenesten vil opfylde dine krav, opnå tilsigtede resultater, være kompatibel eller arbejde med anden software, websteder, systemer eller tjenester, fungere uden afbrydelse, opfylde enhver præstations- eller pålidelighedsstandard eller være fejlfri, eller at eventuelle fejl eller mangler kan eller vil blive rettet. 
+
+ Uden at begrænse det foregående, giver hverken os eller nogen udbyder nogen erklæringer eller garantier af nogen art, udtrykkelige eller underforståede: (i) med hensyn til driften eller tilgængeligheden af tjenesten eller oplysningerne, indholdet og materialer eller produkter, der er inkluderet derpå; (ii) at tjenesten vil være uafbrudt eller fejlfri; (iii) med hensyn til nøjagtigheden, pålideligheden eller valutaen af enhver information eller indhold leveret gennem tjenesten; eller (iv) at tjenesten, dens servere, indholdet eller e-mails sendt fra eller på vegne af os er fri for vira, scripts, trojanske heste, orme, malware, tidsbomber eller andre skadelige komponenter. Nogle jurisdiktioner tillader ikke udelukkelse af eller begrænsninger af underforståede garantier eller begrænsningerne af de gældende lovbestemte rettigheder for en forbruger, så nogle eller alle ovenstående undtagelser og begrænsninger gælder muligvis ikke for dig. 
+
+ Ansvarsbegrænsning
+ Uanset eventuelle skader, som du måtte pådrage dig, er hele vores og enhver af vores leverandørers ansvar i henhold til enhver bestemmelse i denne aftale og dit eksklusive retsmiddel for alt det foregående begrænset til det beløb, du faktisk har betalt for tjenesten. I det maksimale omfang tilladt af gældende lovgivning, skal vi eller vores leverandører under ingen omstændigheder være ansvarlige for nogen særlige, tilfældige, indirekte eller følgeskader overhovedet (herunder, men ikke begrænset til, skader for tab af fortjeneste, for tab af data eller andre oplysninger, for forretningsafbrydelser, for personskade, for tab af privatliv, der opstår som følge af eller på nogen måde relateret til brugen af eller manglende evne til at bruge tjenesten, tredjepartssoftware og/eller tredjepartshardware, der bruges sammen med tjenesten, eller på anden måde i forbindelse med en bestemmelse i denne aftale), selvom vi eller en leverandør er blevet informeret om muligheden for sådanne skader, og selvom afhjælpningen ikke opfylder sit væsentlige formål. Nogle stater/jurisdiktioner tillader ikke udelukkelse eller begrænsning af hændelige skader eller følgeskader, så ovenstående begrænsning eller udelukkelse gælder muligvis ikke for dig. 
+
+ Adskillelighed
+ Hvis en bestemmelse i denne aftale anses for ikke at kunne håndhæves eller ugyldig, vil en sådan bestemmelse blive ændret og fortolket for at opnå formålene med en sådan bestemmelse i videst muligt omfang under gældende lovgivning, og de resterende bestemmelser vil fortsætte med fuld kraft og virkning. Denne aftale, sammen med privatlivspolitikken og alle andre juridiske meddelelser offentliggjort af os på tjenesterne, udgør hele aftalen mellem dig og os vedrørende tjenesterne. Hvis en bestemmelse i denne aftale anses for ugyldig af en domstol med kompetent jurisdiktion, skal ugyldigheden af en sådan bestemmelse ikke påvirke gyldigheden af de resterende bestemmelser i denne aftale, som forbliver i fuld kraft og virkning. Intet frafald af nogen vilkår i denne aftale skal anses for at være en yderligere eller vedvarende afkald på et sådant vilkår eller ethvert andet vilkår, og vores undladelse af at hævde nogen ret eller bestemmelse i henhold til denne aftale skal ikke udgøre et afkald på en sådan ret eller bestemmelse. DU OG OS ACCEPTERER, AT ENHVER HANDLINGSÅRSAG, DER OPSTÅR AF ELLER RELATERET TIL TJENESTERNE, SKAL BEGYNDES INDEN FOR ET (1) ÅR, EFTER HANDLINGSÅRSAGEN ER OPSTÅET. ELLER ER SÅDAN ÅRSAG TIL HANDLING PERMANENT SPÆRET. 
+
+ Afkald
+ Medmindre andet er angivet heri, skal undladelse af at udøve en rettighed eller at kræve opfyldelse af en forpligtelse i henhold til denne aftale ikke påvirke en parts mulighed for at udøve en sådan ret eller kræve en sådan opfyldelse på noget tidspunkt derefter, og frafaldet af et brud udgør heller ikke afkald på ethvert efterfølgende brud. 
+
+ Ingen undladelse af at udøve, og ingen forsinkelse i udøvelsen, fra nogen af parternes side, af nogen ret eller nogen beføjelse i henhold til denne aftale, fungerer som et afkald på denne ret eller beføjelse. En enkelt eller delvis udøvelse af nogen rettighed eller beføjelse i henhold til denne aftale skal heller ikke udelukke yderligere udøvelse af denne eller nogen anden rettighed, der er givet heri. I tilfælde af en konflikt mellem denne aftale og eventuelle gældende købs- eller andre vilkår, er vilkårene i denne aftale gældende. 
+
+ Ændringer til denne aftale
+ Vi forbeholder os retten til efter eget skøn at ændre eller erstatte denne aftale til enhver tid. Hvis en revision er væsentlig, giver vi mindst 30 dages varsel, før eventuelle nye vilkår træder i kraft. Hvad der udgør en væsentlig ændring afgøres efter vores eget skøn. Ved at fortsætte med at få adgang til eller bruge vores tjeneste, efter at eventuelle revisioner træder i kraft, accepterer du at være bundet af de reviderede vilkår. Hvis du ikke accepterer de nye vilkår, har du ikke længere tilladelse til at bruge vores service. 
+
+ Hele aftalen
+ Aftalen udgør hele aftalen mellem dig og os vedrørende din brug af tjenesten og erstatter alle tidligere og samtidige skriftlige eller mundtlige aftaler mellem dig og os. Du kan være underlagt yderligere vilkår og betingelser, der gælder, når du bruger eller køber andre tjenester fra os, som vi vil levere til dig på tidspunktet for sådan brug eller køb. 
+
+ Opdateringer til vores vilkår
+ Vi kan ændre vores Tjeneste og politikker, og vi skal muligvis foretage ændringer i disse Vilkår, så de nøjagtigt afspejler vores Tjeneste og politikker. Medmindre andet kræves ved lov, vil vi underrette dig (for eksempel gennem vores Tjeneste), før vi foretager ændringer til disse Vilkår, og giver dig mulighed for at gennemgå dem, før de træder i kraft. Så, hvis du fortsætter med at bruge tjenesten, vil du være bundet af de opdaterede vilkår. Hvis du ikke ønsker at acceptere disse eller eventuelle opdaterede vilkår, kan du slette din konto. 
+
+ Intellektuel ejendom
+ Vores platform og hele dens indhold, funktioner og funktionalitet (herunder men ikke begrænset til al information, software, tekst, skærme, billeder, video og lyd samt design, udvælgelse og arrangement heraf) ejes af os, dets licensgivere eller andre udbydere af sådant materiale og er beskyttet af internationale love om ophavsret, varemærker, patenter, forretningshemmeligheder og andre love om intellektuel ejendom eller ejendomsret. Materialet må ikke kopieres, ændres, reproduceres, downloades eller distribueres på nogen måde, helt eller delvist, uden udtrykkelig forudgående skriftlig tilladelse fra os, medmindre og undtagen som udtrykkeligt angivet i disse vilkår og betingelser. Enhver uautoriseret brug af materialet er forbudt. 
+
+ Aftale om voldgift
+ Dette afsnit gælder for enhver tvist, UNDTAGET AT DET IKKE INKLUSIVE EN TVIST VEDRØRENDE KRAV OM FORFALD ELLER RETTIG LÆTTELSE VEDRØRENDE HÅNDHÆVELSEN ELLER GYLDIGHEDEN AF DIT ELLER World Medical Cards IMMATERIELLE EJENDOMSRETTIGHEDER. Udtrykket \"tvist\" betyder enhver tvist, handling eller anden uenighed mellem dig og os vedrørende Tjenesterne eller denne aftale, uanset om det er kontrakt, garanti, erstatningsret, statut, regulering, bekendtgørelse eller ethvert andet juridisk eller rimeligt grundlag. \"Tvist\" vil få den bredest mulige betydning, der er tilladt i henhold til loven. 
+
+ Meddelelse om tvist
+ I tilfælde af en tvist skal du eller os give den anden en meddelelse om tvist, som er en skriftlig erklæring, der angiver navn, adresse og kontaktoplysninger på den part, der giver den, de forhold, der giver anledning til tvisten, og den begærede lettelse. Du skal sende enhver meddelelse om tvist via e-mail til: . Vi sender enhver meddelelse om tvist til dig via mail til din adresse, hvis vi har den, eller på anden måde til din e-mailadresse. Du og os vil forsøge at løse enhver tvist gennem uformel forhandling inden for tres (60) dage fra den dato, hvor meddelelsen om tvist er sendt. Efter tres (60) dage kan du eller os påbegynde voldgift. 
+
+ Bindende voldgift
+ Hvis du og os ikke løser nogen tvist ved uformel forhandling, vil enhver anden indsats for at løse tvisten udelukkende blive udført ved bindende voldgift som beskrevet i dette afsnit. Du opgiver retten til at føre retssager (eller deltage i som part eller gruppemedlem) alle tvister i retten for en dommer eller jury. Tvisten skal afgøres ved bindende voldgift i overensstemmelse med de kommercielle voldgiftsregler fra American Arbitration Association. Hver af parterne kan anmode om ethvert foreløbigt eller foreløbigt påbud fra enhver domstol med kompetent jurisdiktion, alt efter hvad der er nødvendigt for at beskytte partens rettigheder eller ejendom, indtil voldgiften er afsluttet. Enhver og alle juridiske, regnskabsmæssige og andre omkostninger, gebyrer og udgifter, der afholdes af den fremherskende part, skal afholdes af den ikke-vindende part. 
+
+
+ Indsendelser og privatliv
+ I tilfælde af at du indsender eller poster ideer, kreative forslag, designs, fotografier, information, annoncer, data eller forslag, herunder ideer til nye eller forbedrede produkter, tjenester, funktioner, teknologier eller kampagner, accepterer du udtrykkeligt, at sådanne indsendelser automatisk behandles som ikke-fortrolig og ikke-ejedomsbeskyttet og vil blive vores eneste ejendom uden nogen som helst kompensation eller kredit til dig. Vi og vores tilknyttede selskaber har ingen forpligtelser med hensyn til sådanne indlæg eller indlæg og kan bruge ideerne indeholdt i sådanne indlæg eller indlæg til ethvert formål i ethvert medie til evig tid, herunder, men ikke begrænset til, udvikling, fremstilling og markedsføring af produkter og tjenester, der bruger sådanne ideer. 
+
+ Kampagner
+ Vi kan fra tid til anden inkludere konkurrencer, kampagner, lotterier eller andre aktiviteter (\"Kampagner\"), der kræver, at du indsender materiale eller oplysninger om dig selv. Bemærk venligst, at alle kampagner kan være underlagt separate regler, der kan indeholde visse berettigelseskrav, såsom begrænsninger med hensyn til alder og geografisk placering. Du er ansvarlig for at læse alle kampagneregler for at afgøre, om du er berettiget til at deltage eller ej. Hvis du deltager i en kampagne, accepterer du at overholde og overholde alle kampagneregler. Yderligere vilkår og betingelser kan gælde for køb af varer eller tjenester på eller gennem Tjenesterne, hvilke vilkår og betingelser er gjort til en del af denne Aftale ved denne reference. 
+
+ Typografiske fejl
+ I tilfælde af at et produkt og/eller en ydelse er angivet til en forkert pris eller med forkerte oplysninger på grund af typografiske fejl, har vi ret til at afvise eller annullere enhver ordre afgivet på produktet og/eller ydelsen til den forkerte pris. Vi har ret til at afvise eller annullere enhver sådan ordre, uanset om ordren er blevet bekræftet og dit kreditkort debiteret. Hvis dit kreditkort allerede er blevet debiteret for købet, og din ordre annulleres, udsteder vi straks en kreditering til din kreditkortkonto eller anden betalingskonto svarende til debiteringsbeløbet. 
+
+ Diverse
+ Hvis en domstol med kompetent jurisdiktion af en eller anden grund finder, at en bestemmelse eller del af disse vilkår og betingelser ikke kan håndhæves, vil resten af disse vilkår og betingelser fortsætte med fuld kraft og virkning. Enhver afkald på en bestemmelse i disse vilkår og betingelser vil kun være effektiv, hvis den er skriftlig og underskrevet af en autoriseret repræsentant for os. Vi vil være berettiget til påbud eller andre rimelige retsmidler (uden forpligtelse til at stille nogen form for kaution eller kaution) i tilfælde af ethvert brud eller foregribende misligholdelse fra din side. Vi driver og kontrollerer vores service fra vores kontorer i . Tjenesten er ikke beregnet til distribution til eller brug af nogen person eller enhed i nogen jurisdiktion eller land, hvor en sådan distribution eller brug ville være i strid med lovgivning eller regler. Følgelig gør de personer, der vælger at få adgang til vores Tjeneste fra andre steder, det på eget initiativ og er eneansvarlige for overholdelse af lokale love, hvis og i det omfang lokale love er gældende. Disse vilkår og betingelser (som inkluderer og inkorporerer vores privatlivspolitik) indeholder hele forståelsen og erstatter alle tidligere forståelser mellem dig og os vedrørende dets emne og kan ikke ændres eller modificeres af dig. Sektionsoverskrifterne, der bruges i denne aftale, er kun for nemheds skyld og vil ikke blive givet nogen juridisk import. 
+
+ Ansvarsfraskrivelse
+ Vi er ikke ansvarlige for noget indhold, kode eller nogen anden unøjagtighed. Vi giver ingen garantier eller garantier. Vi er under ingen omstændigheder ansvarlige for nogen særlige, direkte, indirekte, følgeskader eller tilfældige skader eller nogen som helst skader, hvad enten det er i forbindelse med en kontrakt, uagtsomhed eller anden tort, der opstår som følge af eller i forbindelse med brugen af tjenesten eller indholdet af tjenesten. Vi forbeholder os retten til at foretage tilføjelser, sletninger eller ændringer af indholdet på Tjenesten til enhver tid uden forudgående varsel. 
+
+ Vores service og dens indhold leveres \"som den er\" og \"som tilgængelig\" uden nogen garanti eller repræsentationer af nogen art, hvad enten det er udtrykkeligt eller underforstået. Vi er en distributør og ikke en udgiver af indholdet leveret af tredjeparter; som sådan udøver vores ingen redaktionel kontrol over sådant indhold og giver ingen garanti eller repræsentation med hensyn til nøjagtigheden, pålideligheden eller valutaen af nogen information, indhold, service eller merchandise leveret gennem eller tilgængelig via vores service. Uden at begrænse det foregående fraskriver vi os specifikt alle garantier og repræsentationer i indhold, der transmitteres på eller i forbindelse med vores tjeneste eller på websteder, der kan vises som links på vores tjeneste, eller i de produkter, der leveres som en del af eller på anden måde i forbindelse med , vores service, herunder uden begrænsning garantier for salgbarhed, egnethed til et bestemt formål eller ikke-krænkelse af tredjeparts rettigheder. Ingen mundtlig rådgivning eller skriftlig information givet af os eller nogen af dets tilknyttede selskaber, medarbejdere, embedsmænd, direktører, agenter eller lignende vil skabe en garanti. Pris- og tilgængelighedsoplysninger kan ændres uden varsel. Uden at begrænse det foregående, garanterer vi ikke, at vores Tjeneste vil være uafbrudt, ubeskadiget, rettidig eller fejlfri. 
+
+ Kontakt os
+ Tøv ikke med at kontakte os, hvis du har spørgsmål.
+ • Via Email: post@wmc-card.no
+ • Via telefonnummer: +47 55 33 75 75</string>
+
+    <string name="title_your_profile_is_incomplete">Din profil er ufuldstændig</string>
+
+    <string name="translate_code_prefix">• Kode: %1$s</string>
+    <string name="translate_language_hint">Sprog</string>
+    <string name="translate_my_title">Min %1$s</string>
+    <string name="translate_title_allergies">Mine allergier</string>
+    <string name="translate_title_diagnoses">Mine diagnoser</string>
+    <string name="translate_title_medicine">Mine lægemidler</string>
+    <string name="translate_title_vaccines">Mine vacciner</string>
+
+    <string name="vaccines_card_title">Vacciner</string>
+
+    <string name="wmc_card_menu_print_card">Udskriv kort</string>
+    <string name="wmc_card_menu_reorder_card">Genbestil kort</string>
+    <string name="wmc_order_successful">Ordren lykkedes</string>
+
+    <string name="world_medical_card_r">World Medical Card®</string>
+
+    <string name="your_personal_medical_record_n_always_available">Din personlige journal \n altid tilgængelig</string>
+    <string name="verify_your_phone_number">Verify Your Phone Number</string>
+    <string name="resend">Resend</string>
+    <string name="otp_expired">OTP has expired</string>
+    <string name="otp_sent">OTP has been sent successfully</string>
+    <string name="invalid_otp">OTP is invalid</string>
+</resources>

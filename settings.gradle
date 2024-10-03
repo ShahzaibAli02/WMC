@@ -1,0 +1,21 @@
+plugins {
+    id 'com.alexvasilkov.git-dependencies' version '2.0.1'
+}
+
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//        maven {
+//            url "https://maven.lokalise.com"
+//        }
+//        maven { url 'https://jitpack.io' }
+//
+//        jcenter()
+//
+//    }
+//}
+
+rootProject.name = "World Medical Card"
+include ':app', ':lib' ,':drawerbehavior',':alphabetsindexfastscrollrecycler'

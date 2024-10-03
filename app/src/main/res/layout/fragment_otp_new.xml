@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="number"
+            type="String" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_otp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/dp_3"
+                android:src="@drawable/ic_back_new"
+                android:layout_marginHorizontal="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_15"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:text="@string/verify_code"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@id/endGuideline"
+                app:layout_constraintStart_toStartOf="@id/startGuideline"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/opensans"
+                android:gravity="center"
+                android:text="@string/please_enter_the_otp_received_on_your_provided_phone_number"
+                android:layout_marginHorizontal="@dimen/dp_15"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@id/endGuideline"
+                app:layout_constraintStart_toStartOf="@id/startGuideline"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/opensans"
+                android:gravity="center"
+                android:text="@{number}"
+                tools:text="+92300000"
+                android:layout_marginHorizontal="@dimen/dp_15"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@id/endGuideline"
+                app:layout_constraintStart_toStartOf="@id/startGuideline"
+               />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25" />
+
+            <in.aabhasjindal.otptextview.OtpTextView
+                android:id="@+id/otp_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/black"
+                app:bar_active_color="@color/colorPrimary"
+                app:height="45dp"
+                app:layout_constraintEnd_toStartOf="@+id/endGuideline"
+                app:layout_constraintStart_toStartOf="@+id/startGuideline"
+                app:layout_constraintTop_toBottomOf="@+id/registerByline"
+                app:length="6"
+                android:layout_gravity="center_horizontal"
+
+                app:bar_enabled="true"
+                app:otp_box_background="@drawable/field_stroke"
+                app:otp_text_size="20sp"
+                app:width="50dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVerify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verify"
+                android:paddingHorizontal="@dimen/dp_50"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="@color/blue300"
+                android:backgroundTint="@color/white"
+                />
+            <TextView
+                android:id="@+id/otpTimer"
+                style="@style/App.DescriptionText"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/white"
+                android:layout_marginVertical="@dimen/dp_10"
+                tools:text="Resend in 00:30s"
+                app:layout_constraintEnd_toEndOf="@id/endGuideline"
+                app:layout_constraintStart_toStartOf="@id/startGuideline"
+                app:layout_constraintTop_toBottomOf="@id/otp_view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/bg_off_white_only_top_radius"
+                android:orientation="vertical"
+                android:paddingVertical="@dimen/dp_15">
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/resendOTPButton"
+                    style="@style/App.TextNoBackgroundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/dp_55"
+                    android:layout_gravity="center_horizontal"
+                    app:backgroundTint="@color/grey"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintEnd_toEndOf="@id/endGuideline"
+                    app:layout_constraintStart_toStartOf="@id/startGuideline"
+                    app:layout_constraintTop_toBottomOf="@id/otpTimer"
+                    android:text="@string/resend"
+                    android:textColor="@color/screenTitleColor"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/loading"
+            layout="@layout/loading_overlay"
+            android:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

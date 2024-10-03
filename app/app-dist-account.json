@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "world-medical-card-prod",
+  "private_key_id": "5a91d54159b7f74088a8878a8bbcdb265365cd17",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCrDUmJISfTvfxD\nt8yLneqZAolGIRJ389+WOfq1rQCBd6abuVWYpIeXPZ/oRc0Ix4XuPGLrwK8O9E4Z\nXTxbvebIc83luBXHys+I0wgJa2I3Kcfa2DQbcDf7g3kiJsDaz+wucqFuSZvTnkTX\npKKBwf+9szT3Aw4e2ji3dpYqUIvLquJBpAVK/gXtgBmsVMDIMW6ohwm/ZUuVqbEt\nIr77s115B/ZxxLYYN3HeKGTOwpSU+ZesIfZNINzTzcfmdT9jmBMTnVWmJmQn2lfB\noO6akwLsSs4kmaHyJcokb7tZR0z1sYiBysQ2Ow3YYO5gzBy8VnTg/jN53B6G2Ojn\n6C+jcmqTAgMBAAECggEAL07B90StvLCvS9VSI40d3Iqoh7ZO4tEWlfhcIBIEcUoz\n0J7eDxT2ETywdK+VaOex4XVfEH/eir7DuN0h++eWI/tvRyj2ESdE5b0j3GMQK1yJ\nUzv3kV0khpHSl0Drlrjpw+DdR+Dg0ZLUzGVSspuCjSc6r1Rve9Xz2L3aA0L6nu2k\n2j8AK4k00f+WmTQou6Mb0xTAUmj0Z5O5QZ4n519YCqYwdMAMNukwiIsU170QW2zk\n4koeEE/w7+JQSuerfnGyjr4Z3r8FjyQbUflQGo/RASomW0/gExTWZzr2c5ycVcVN\nvv0qYRwN9D4qGmiI3HAif0YZX8k1Z0AC1Yahb0QmMQKBgQDT+4k9qxN0IFtS/ZmN\nA2rMuw8v3VgRc9XBOWuII81ckLEbQzmZ40tY1wYygMBsSAiyNewzQjbgFZJTA3RG\nvDye8JmT+g2T187HMvFxJJHUq1OX1707BDLAKrPsFRfg4kqx3ao5t4ASOnN5jnaF\nxqLjvB8pxf0JUpwrJXAoIwEA4wKBgQDOkfq9wjtPWnBdcw4GV63jZUPFallXsyNk\nj1blo3JIJdodHo/0gzRZPPqPT+jNz1IiTBX+GiHdRyFVDHi9+2l6gBhRsbvca+bk\nleEykIJKv6rqUnNfVq2e90rIIf9xzf0UXzRYJ3QhVIZXTU0BddUG7FqMSQ1mJAnd\nxxStJYGOkQKBgGg1GgVXyStoEJzekBJzIJheSJv2CqohsG3ZZVQ6jWS4uGe3h2Rw\nCQU2RxSimHVif+vjeCbGoSVNVW47n3h6Zq6XhlfpL62DBGKGV4yQNqQ+SMy3QI33\nhV9UXrhqsh9Z/vArENhoravIUiXqc7dVq5OaUhN+AeMIWj8Xm2gPtRmTAoGBAL6R\nVayx/11ZpcfQWOPpB3Z8+WSqk/mgPcqLojL/8nI02V97znpYgHbDFrQXmEImPTN+\n1dsx6IPnFw0LEGjUA58LhWP4f8L9mGjRDIxFXK3w3JCHuAAASvQYV1kCZFJtIkkk\n+3lIDI6jF7x6h8wNFJXqfi5lRoMwRBnhi2Wg8EDBAoGBAKqveg6VNLI8VWBQfl4F\nGiVrPhJy8V9S/WO09ANHxwS3fM8VS+HuMsgwK+bQSez3gKKpOcwWB9OafRdARdcG\nNFzDnoidTYxOhMFFYm81n8hrsKnLxHht8n3YxJA2ZkHaQZa9PZaQPEEW8Hcs8Jn4\nFmTaQSkjzZt6FuTLN/WRZFUU\n-----END PRIVATE KEY-----\n",
+  "client_email": "app-distribution-admin@world-medical-card-prod.iam.gserviceaccount.com",
+  "client_id": "109645373537380969064",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/app-distribution-admin%40world-medical-card-prod.iam.gserviceaccount.com"
+}

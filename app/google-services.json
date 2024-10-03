@@ -1,0 +1,147 @@
+{
+  "project_info": {
+    "project_number": "693992819935",
+    "firebase_url": "https://world-medical-card-prod-default-rtdb.firebaseio.com",
+    "project_id": "world-medical-card-prod",
+    "storage_bucket": "world-medical-card-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693992819935:android:09c1c93ec6c29b59742d6a",
+        "android_client_info": {
+          "package_name": "no.wmc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693992819935-137b77a7pj8ujblqtccptvajtofp352a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc",
+            "certificate_hash": "322d6fb0dff4a2dafda0ba6f1ba9459b1959241d"
+          }
+        },
+        {
+          "client_id": "693992819935-a2fooqd0otd635jphlko8i8v9a1rhcos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc",
+            "certificate_hash": "c7dba0a12bef22a6aa681c9438d99680f2c8c514"
+          }
+        },
+        {
+          "client_id": "693992819935-jd3et71327tj4r26iph4jua031jcron4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc",
+            "certificate_hash": "4357ff8000044dfc51a5360366ba1d2bd9092996"
+          }
+        },
+        {
+          "client_id": "693992819935-ker3arcv40udno2drfcjpi20gde0estl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc",
+            "certificate_hash": "eccb77c9302a437b0c84bcfc45dbb2bda62e4f41"
+          }
+        },
+        {
+          "client_id": "693992819935-rfu2khtnoaun25dlb20r7onqg9vtu1jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc",
+            "certificate_hash": "364d118419503a1f63a60fcde1c211e59108552d"
+          }
+        },
+        {
+          "client_id": "693992819935-nur39rll92brghgvpb88ptqac5kodqlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBefANlKymmm1w4QU2po3puXOv3RMewlN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693992819935-nur39rll92brghgvpb88ptqac5kodqlk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "693992819935-nsllva5mnjjedhk4h6gpshehhgo3s7d6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wmc-card.app1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693992819935:android:883053f59239e36c742d6a",
+        "android_client_info": {
+          "package_name": "no.wmc.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693992819935-54aeg8tnpg0vmmlmtbci8ll7foqq8lc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc.dev",
+            "certificate_hash": "c7dba0a12bef22a6aa681c9438d99680f2c8c514"
+          }
+        },
+        {
+          "client_id": "693992819935-iafcl4q8s2g51uro3feqor04uftnr8t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc.dev",
+            "certificate_hash": "4357ff8000044dfc51a5360366ba1d2bd9092996"
+          }
+        },
+        {
+          "client_id": "693992819935-sg4fgko2t3bfj43rrhlouqg89t3l9qnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "no.wmc.dev",
+            "certificate_hash": "364d118419503a1f63a60fcde1c211e59108552d"
+          }
+        },
+        {
+          "client_id": "693992819935-nur39rll92brghgvpb88ptqac5kodqlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBefANlKymmm1w4QU2po3puXOv3RMewlN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693992819935-nur39rll92brghgvpb88ptqac5kodqlk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "693992819935-nsllva5mnjjedhk4h6gpshehhgo3s7d6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wmc-card.app1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

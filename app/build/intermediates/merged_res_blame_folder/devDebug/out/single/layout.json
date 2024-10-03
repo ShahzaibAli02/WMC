@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_view_add_new_category.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_view_add_new_category.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/reset_password_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/reset_password_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_translate.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_translate.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/terms_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/terms_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/home_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/home_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/home_list_item_new.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/home_list_item_new.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_add_medical_info.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_add_medical_info.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/subscription_invitation_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/subscription_invitation_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_register.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_document.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_document.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_new_subscription.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_new_subscription.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/view_search_bar.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/view_search_bar.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/login_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/login_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/wmc_banner_bottom_dialog.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/wmc_banner_bottom_dialog.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/intro_page_content.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/intro_page_content.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/splash_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_emergency_contact.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_emergency_contact.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/subscription_overview_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/subscription_overview_screen.xml"
+    },
+    {
+        "merged": "no.wmc.app-mergeDevDebugResources-87:/layout/profile_screen.xml",
+        "source": "no.wmc.app-main-92:/layout/profile_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/lyt_medicines.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/lyt_medicines.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/order_card_bottom.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/order_card_bottom.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_my_card.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_my_card.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_new_subscription.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_new_subscription.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_emergency.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_emergency.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_main.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_new_register.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_new_register.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/countries_list_dialog.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/countries_list_dialog.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/add_new_category_bottomsheet.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/add_new_category_bottomsheet.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/country_list_item.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/country_list_item.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_add.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_add.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/dialog_confirm_order_card.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/dialog_confirm_order_card.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/intro_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/intro_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/topbar_user_info_layout.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/topbar_user_info_layout.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_o_t_p.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_o_t_p.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/profile_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/profile_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/expandable_card.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/expandable_card.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_add_medical_info.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_add_medical_info.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/redeem_code_bottom.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/redeem_code_bottom.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/dialog_translate.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/dialog_translate.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/home_list_item.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/home_list_item.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/lyt_new_card.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/lyt_new_card.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/home_new_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/home_new_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/register_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/register_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/main_bottom_dialog.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/main_bottom_dialog.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_document_metadata.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_document_metadata.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/lyt_loading.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/lyt_loading.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/wmc_banner.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/wmc_banner.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/profile_expandable_card.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/profile_expandable_card.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/login_screen_new.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/login_screen_new.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/lyt_delete_account.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/lyt_delete_account.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/subscription_detail_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/subscription_detail_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_subscription_member.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_subscription_member.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/landing_screen.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/landing_screen.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_insurance.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_insurance.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/edit_card_bottom_dialog.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/edit_card_bottom_dialog.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_dash.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_dash.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_subscription_benefit.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_subscription_benefit.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/new_bottom_bar.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/new_bottom_bar.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_subscription_overview.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_subscription_overview.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/fragment_otp_new.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/fragment_otp_new.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/activity_main.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-mergeDevDebugResources-87:/layout/item_document_detail.xml",
+        "source": "/Users/shahzaibali778/.gradle/daemon/8.5/no.wmc.app-main-92:/layout/item_document_detail.xml"
+    }
+]

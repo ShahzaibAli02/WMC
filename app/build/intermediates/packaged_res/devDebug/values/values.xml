@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="array_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+    <array name="array_insurance_type">
+        <item>Travel</item>
+        <item>Health</item>
+    </array>
+    <array name="array_relationship">
+        <item>Married</item>
+        <item>Single</item>
+    </array>
+    <array name="array_relationship_2">
+        <item>Married</item>
+        <item>GirlFriend</item>
+        <item>BoyFriend</item>
+        <item>Husband</item>
+        <item>Wife</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Sister</item>
+        <item>Brother</item>
+        <item>Grandmother</item>
+        <item>Grandfather</item>
+        <item>Aunt</item>
+        <item>Uncle</item>
+        <item>Cousin</item>
+        <item>Niece</item>
+        <item>Nephew</item>
+        <item>Daughter</item>
+        <item>Son</item>
+        <item>Granddaughter</item>
+        <item>Grandson</item>
+        <item>Stepfather</item>
+        <item>Stepmother</item>
+        <item>Stepbrother</item>
+        <item>Stepsister</item>
+        <item>Half-brother</item>
+        <item>Half-sister</item>
+        <item>Godmother</item>
+        <item>Godfather</item>
+        <item>Goddaughter</item>
+        <item>Godson</item>
+        <item>Foster mother</item>
+        <item>Foster father</item>
+        <item>Foster sister</item>
+        <item>Foster brother</item>
+    </array>
+    <array name="array_yes_no">
+        <item>No</item>
+        <item>Yes</item>
+    </array>
+    <array name="genders">
+        <item>@string/profile_gender_male</item>
+        <item>@string/profile_gender_female</item>
+    </array>
+    <array name="insurance">
+        <item>@string/profile_edit_insurance_travel</item>
+        <item>@string/profile_edit_insurance_health</item>
+    </array>
+    <array name="yes_no">
+        <item>@string/common_no</item>
+        <item>@string/common_yes</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="blue300">#63B3ED</color>
+    <color name="blueCardBgColor">#EDF2F7</color>
+    <color name="bottomDialogBg">@color/colorControlActivated</color>
+    <color name="bottom_nav_selectd_color">#32ABF8</color>
+    <color name="bottom_nav_un_selectd_color">#5F676C</color>
+    <color name="buttonNoBgTextColor">#5F676C</color>
+    <color name="cardActiveIconTint">#4FB8FF</color>
+    <color name="cardButtonContentTint">#979797</color>
+    <color name="cardButtonStrokeColor">#E0E0E0</color>
+    <color name="cardDividerColor">#EDF2F7</color>
+    <color name="cardInActiveTint">#66FFFFFF</color>
+    <color name="colorControlActivated">#263238</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorPrimary">#32ABF8</color>
+    <color name="colorPrimaryBlue">#0292B3</color>
+    <color name="colorPrimaryDark">@color/mainBgColor</color>
+    <color name="color_setIndexBarColor">#33334c</color>
+    <color name="color_setIndexBarHighLightTextColor">#33334c</color>
+    <color name="color_setIndexBarStrokeColor">#000000</color>
+    <color name="color_setIndexBarTextColor">#FFFFFF</color>
+    <color name="color_setPreviewColor">#33334c</color>
+    <color name="color_setPreviewTextColor">#FFFFFF</color>
+    <color name="commonButtonBg">#32ABF8</color>
+    <color name="commonDarkButtonBg">#2A69AC</color>
+    <color name="completeProfileByline">#E74C3C</color>
+    <color name="controlsTextColorDark">#2D3748</color>
+    <color name="descriptionColor">#5F676C</color>
+    <color name="dialogTransparentBg">#80FFFFFF</color>
+    <color name="dividerLine">#CBD5E0</color>
+    <color name="dotIndicatorActive">#263238</color>
+    <color name="dotIndicatorInactive">#F0F0F0</color>
+    <color name="expandCardDescription">#718096</color>
+    <color name="gray600">#4A5568</color>
+    <color name="green">#43A047</color>
+    <color name="greenButtonBg">#48BB78</color>
+    <color name="greenCardBgColor">#F0FFF4</color>
+    <color name="hintColor">#3D263238</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="light_green">#48DD4E</color>
+    <color name="loadingOverlayBg">#80FFFFFF</color>
+    <color name="mainBgColor">#F8F8F8</color>
+    <color name="memberSinceByline">#4A5568</color>
+    <color name="new_icon_gray">#222222</color>
+    <color name="new_icon_unselected">#5A6067</color>
+    <color name="new_light_border">#33000000</color>
+    <color name="outlinedButton">#2980B9</color>
+    <color name="red">#D32F2F</color>
+    <color name="registerFieldCaptionColor">@color/colorControlActivated</color>
+    <color name="registerFieldTextColor">@color/colorControlActivated</color>
+    <color name="rippleColor">#3DB1B1B1</color>
+    <color name="screenTitleColor">#171923</color>
+    <color name="shadow_light">#e7e7e7</color>
+    <color name="sky_blue">#F0F4FB</color>
+    <color name="subscriptionAvatarText">#1A202C</color>
+    <color name="subscriptionAvatarTint">#C4C4C4</color>
+    <color name="switchThumbDisabled">#A0AEC0</color>
+    <color name="switchTrackDisabled">#61A0AEC0</color>
+    <color name="switchTrackEnabled">#3DA0AEC0</color>
+    <color name="textColor">#263238</color>
+    <color name="titleColor">#263238</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteButtonTextColor">#8A000000</color>
+    <color name="windowBackground">@color/mainBgColor</color>
+    <color name="wmcBannerBackground">#DAF2F8</color>
+    <color name="wmcOrderSuccessful">#47BEDC</color>
+    <color name="yellow">#FFB300</color>
+    <dimen name="bottom_sheet_safe_space">100dp</dimen>
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_19">19dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_21">21dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_23">23dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <dimen name="dp_27">27dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_29">29dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_31">31dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_33">33dp</dimen>
+    <dimen name="dp_34">34dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_37">37dp</dimen>
+    <dimen name="dp_38">38dp</dimen>
+    <dimen name="dp_39">39dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_41">41dp</dimen>
+    <dimen name="dp_42">42dp</dimen>
+    <dimen name="dp_43">43dp</dimen>
+    <dimen name="dp_44">44dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_46">46dp</dimen>
+    <dimen name="dp_47">47dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_49">49dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_51">51dp</dimen>
+    <dimen name="dp_52">52dp</dimen>
+    <dimen name="dp_53">53dp</dimen>
+    <dimen name="dp_54">54dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_57">57dp</dimen>
+    <dimen name="dp_58">58dp</dimen>
+    <dimen name="dp_59">59dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_61">61dp</dimen>
+    <dimen name="dp_62">62dp</dimen>
+    <dimen name="dp_63">63dp</dimen>
+    <dimen name="dp_64">64dp</dimen>
+    <dimen name="dp_65">65dp</dimen>
+    <dimen name="dp_66">66dp</dimen>
+    <dimen name="dp_67">67dp</dimen>
+    <dimen name="dp_68">68dp</dimen>
+    <dimen name="dp_69">69dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_71">71dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_73">73dp</dimen>
+    <dimen name="dp_74">74dp</dimen>
+    <dimen name="dp_75">75dp</dimen>
+    <dimen name="dp_76">76dp</dimen>
+    <dimen name="dp_77">77dp</dimen>
+    <dimen name="dp_78">78dp</dimen>
+    <dimen name="dp_79">79dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_81">81dp</dimen>
+    <dimen name="dp_82">82dp</dimen>
+    <dimen name="dp_83">83dp</dimen>
+    <dimen name="dp_84">84dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_86">86dp</dimen>
+    <dimen name="dp_87">87dp</dimen>
+    <dimen name="dp_88">88dp</dimen>
+    <dimen name="dp_89">89dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="dp_91">91dp</dimen>
+    <dimen name="dp_92">92dp</dimen>
+    <dimen name="dp_93">93dp</dimen>
+    <dimen name="dp_94">94dp</dimen>
+    <dimen name="dp_95">95dp</dimen>
+    <dimen name="dp_96">96dp</dimen>
+    <dimen name="dp_97">97dp</dimen>
+    <dimen name="dp_98">98dp</dimen>
+    <dimen name="dp_99">99dp</dimen>
+    <dimen name="expandable_card_active_elevation">4dp</dimen>
+    <dimen name="expandable_card_inactive_elevation">0dp</dimen>
+    <dimen name="search_bar_active_elevation">4dp</dimen>
+    <dimen name="search_bar_inactive_elevation">0dp</dimen>
+    <dimen name="sp_0">0sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_11">11sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_17">17sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_19">19sp</dimen>
+    <dimen name="sp_2">2sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_21">21sp</dimen>
+    <dimen name="sp_22">22sp</dimen>
+    <dimen name="sp_23">23sp</dimen>
+    <dimen name="sp_24">24sp</dimen>
+    <dimen name="sp_25">25sp</dimen>
+    <dimen name="sp_26">26sp</dimen>
+    <dimen name="sp_27">27sp</dimen>
+    <dimen name="sp_28">28sp</dimen>
+    <dimen name="sp_29">29sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="sp_32">32sp</dimen>
+    <dimen name="sp_35">35sp</dimen>
+    <dimen name="sp_36">36sp</dimen>
+    <dimen name="sp_4">4sp</dimen>
+    <dimen name="sp_40">40sp</dimen>
+    <dimen name="sp_50">50sp</dimen>
+    <dimen name="sp_60">60sp</dimen>
+    <dimen name="sp_8">8sp</dimen>
+    <dimen name="sp_9">9sp</dimen>
+    <plurals name="card_reorder_period_title">
+        <item quantity="one">Card can be reordered in %1d day</item>
+        <item quantity="other">Card can be reordered in %1d days</item>
+    </plurals>
+    <string name="ab">AB</string>
+    <string name="account_created_successfully">Account created and subscribed successfully, Please login to your account.</string>
+    <string name="add">Add</string>
+    <string name="add_allergies_button">Add Allergies</string>
+    <string name="add_document_description_hint">Description (optional)</string>
+    <string name="add_document_document_title_hint">Document Title</string>
+    <string name="add_document_document_type_hint">Document Type</string>
+    <string name="add_document_edit_button">Edit document</string>
+    <string name="add_document_title">Add New Document</string>
+    <string name="add_document_upload_button">Upload new document</string>
+    <string name="add_new_allergy_title">Add New Allergy</string>
+    <string name="add_new_allergy_top_hits">Top Hits</string>
+    <string name="add_new_diagnoses_title">Add New Diagnoses</string>
+    <string name="add_new_medicine_title">Add New Medicine</string>
+    <string name="add_new_search_hint">Search</string>
+    <string name="add_new_vaccines_title">Add New Vaccine</string>
+    <string name="alarm_phone">Alarm Telephone</string>
+    <string name="allergies_card_description">Let us know if you do have any allergies, or if you know that you don’t have any</string>
+    <string name="allergies_card_title">Allergies</string>
+    <string name="app_name" translatable="false">World Medical Card DEV</string>
+    <string name="apple_button_title">with Apple</string>
+    <string name="billed_yearly">Billed yearly</string>
+    <string name="button_add">Add</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_next">Next</string>
+    <string name="button_share">Share</string>
+    <string name="button_skip_tour">Skip Tour</string>
+    <string name="button_translate">Translate</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_button_title">Cancel</string>
+    <string name="card_items_description">%1$s items: %2$s</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_dash">-</string>
+    <string name="common_no">No</string>
+    <string name="common_remove">Remove</string>
+    <string name="common_save">Save</string>
+    <string name="common_yes">Yes</string>
+    <string name="complete_my_profile_button">Complete my profile</string>
+    <string name="complete_your_profile">Complete your profile</string>
+    <string name="create_account_button">Create account</string>
+    <string name="create_new_account">Create a new account?</string>
+    <string name="dash">- -</string>
+    <string name="dashboard_screen_title_evening">👋🏻 Good evening</string>
+    <string name="dashboard_screen_title_morning">👋🏻 Good morning</string>
+    <string name="dashboard_screen_title_night">👋🏻 Good night</string>
+    <string name="default_web_client_id" translatable="false">693992819935-nur39rll92brghgvpb88ptqac5kodqlk.apps.googleusercontent.com</string>
+    <string name="description_your_profile_is_incomplete">Please finish your profile to enjoy all the features of World Medical Card</string>
+    <string name="diagnoses_card_title">Diagnoses</string>
+    <string name="divider_or_text">Or</string>
+    <string name="documents_card_title">Documents</string>
+    <string name="edit_card_dialog_edit_item_title">Edit item</string>
+    <string name="edit_card_dialog_remove_item_title">Remove item</string>
+    <string name="edit_card_dialog_remove_items_title">Remove item(s)</string>
+    <string name="edit_document_title">Edit Document</string>
+    <string name="email_already_used">Email already used!</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="emergency_phone">Emergency phone</string>
+    <string name="enter_code_to_redeem">Enter code to redeem</string>
+    <string name="enter_digit">Enter One-Time Password sent to %s</string>
+    <string name="error_empty_response">Sorry, content is empty</string>
+    <string name="error_message">Something went wrong. Please try again later.</string>
+    <string name="error_no_data_found">No data found</string>
+    <string name="error_no_internet">Please check internet connection</string>
+    <string name="error_unauthorized">Sorry, you are not authorized to access this content</string>
+    <string name="field_required_title">Field is required</string>
+    <string name="firebase_database_url" translatable="false">https://world-medical-card-prod-default-rtdb.firebaseio.com</string>
+    <string name="for_emergency">For Emergency</string>
+    <string name="forgot_password_alert_message">If the email address you provided is registered in our system, then you will get an email in short time. Please follow the instructions in the email to reset the password.</string>
+    <string name="forgot_password_screen_description">Please type your email address and press the button to reset your password</string>
+    <string name="forgot_password_screen_error_message">Something went wrong, please try again</string>
+    <string name="forgot_password_screen_reset_password_button">Reset password</string>
+    <string name="forgot_password_screen_success_title">Email sent</string>
+    <string name="forgot_password_screen_title">Reset password</string>
+    <string name="gcm_defaultSenderId" translatable="false">693992819935</string>
+    <string name="google_api_key" translatable="false">AIzaSyBefANlKymmm1w4QU2po3puXOv3RMewlN0</string>
+    <string name="google_app_id" translatable="false">1:693992819935:android:09c1c93ec6c29b59742d6a</string>
+    <string name="google_button_title">with Google</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBefANlKymmm1w4QU2po3puXOv3RMewlN0</string>
+    <string name="google_storage_bucket" translatable="false">world-medical-card-prod.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="i_accept_the_terms_and_conditions">I accept the terms and conditions</string>
+    <string name="insurance">Insurance</string>
+    <string name="intro_content_description_1">Store your critical medical data in the most secure environment using WHO codes, which are readily understood by first responders worldwide.</string>
+    <string name="intro_content_description_2">Your account details, along with your physical card, will ensure that you will received the correct treatment without delay - should you need medical treatment while travelling.</string>
+    <string name="intro_content_description_3">You can chose to share your profile with relatives, travel partner or others you trust, so that they can be able to provide you with first line of support.</string>
+    <string name="intro_content_description_4">Track and analyze health data with easy by syncing with our app.</string>
+    <string name="intro_content_description_5">You can chose to share your profile with relatives, travel partner or others you trust, so that they can be able to provide you with first line of support.</string>
+    <string name="intro_content_image_1">intro_image_1</string>
+    <string name="intro_content_image_2">intro_image_2</string>
+    <string name="intro_content_image_3">intro_image_3</string>
+    <string name="intro_content_title_1">Create a Secure Account</string>
+    <string name="intro_content_title_2">Travel Worry Free</string>
+    <string name="intro_content_title_3">Share Your Info</string>
+    <string name="intro_content_title_4">Smartwatch features</string>
+    <string name="intro_content_title_5">Share Your Info</string>
+    <string name="intro_content_video_1">slide_video1</string>
+    <string name="intro_content_video_2">slide_video2</string>
+    <string name="intro_content_video_3">slide_video3</string>
+    <string name="intro_content_video_4">slide_video4</string>
+    <string name="intro_content_video_5">slide_video5</string>
+    <string name="intro_number_of_pages">2</string>
+    <string name="invalid">Invalid!</string>
+    <string name="invalid_email">Invalid email!</string>
+    <string name="invalid_otp">OTP is invalid</string>
+    <string name="landing_login_button">Login</string>
+    <string name="landing_register_button">Register</string>
+    <string name="loading_list">Loading list</string>
+    <string name="login_byline">How would you like to sign-in?</string>
+    <string name="login_to_wmc_title">Login to World Medical Card</string>
+    <string name="maybe_later_button">Maybe later</string>
+    <string name="medicine_card_title">Medicine</string>
+    <string name="member_since">Member since %1$s</string>
+    <string name="month">month</string>
+    <string name="most_relavant">Most relavant</string>
+    <string name="name">Name</string>
+    <string name="no_allergies_listed">No allergies listed</string>
+    <string name="no_diagnoses_listed">No diagnoses listed</string>
+    <string name="no_documents_added">No documents added</string>
+    <string name="no_medications_listed">No medications listed</string>
+    <string name="no_subscription_description">Please subscribe to a plan to enjoy all the features of World Medical Card</string>
+    <string name="no_subscription_title">No Subscription</string>
+    <string name="no_vaccines_listed">No vaccines listed</string>
+    <string name="notFounddash">- - - -</string>
+    <string name="ok_button_title">Ok</string>
+    <string name="or_login_with">or login with</string>
+    <string name="order_now_button">Order now</string>
+    <string name="order_your_card_description">Enjoy all the features of your World Medical Card from your wallet</string>
+    <string name="order_your_card_title">Order your card</string>
+    <string name="other_information">Other information</string>
+    <string name="otp_expired">OTP has expired</string>
+    <string name="otp_sent">OTP has been sent successfully</string>
+    <string name="per_year">per year</string>
+    <string name="personal_info" translatable="false">Personal Info</string>
+    <string name="personal_info_byline">Please fill your personal information to create an account you can change them later.</string>
+    <string name="personal_info_card_description">Allow us to get to know you better for a better experience</string>
+    <string name="personal_info_card_title">Personal info</string>
+    <string name="phone_number">Phone number</string>
+    <string name="play_store_disconnected">Play store disconnected</string>
+    <string name="please_check_your_email_and_password">Please check your email and password</string>
+    <string name="please_enter_the_otp_received_on_your_provided_phone_number">Please enter the OTP received on your provided phone number</string>
+    <string name="please_sign_in_to_continue">please sign in to continue</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="postal_address_1">Postal Address 1</string>
+    <string name="postal_address_2">Postal Address 2</string>
+    <string name="postal_code">Postal code</string>
+    <string name="profile_birthdate">Birth date</string>
+    <string name="profile_country">Country</string>
+    <string name="profile_edit_alarm_phone">Alarm telephone (optional)</string>
+    <string name="profile_edit_city">City</string>
+    <string name="profile_edit_cpr_number">CPR number (optional)</string>
+    <string name="profile_edit_date_of_birth">Date of Birth</string>
+    <string name="profile_edit_donor_note">Healthcare professionals may be required to ask family to confirm your decision</string>
+    <string name="profile_edit_donor_question">Would you like to be an organ donor?</string>
+    <string name="profile_edit_emergency_contacts_name">Name</string>
+    <string name="profile_edit_emergency_contacts_note">Add contacts that you trust in case of an emergency.</string>
+    <string name="profile_edit_emergency_contacts_phone">Phone number</string>
+    <string name="profile_edit_emergency_contacts_relation">Relationship</string>
+    <string name="profile_edit_first_name">First Name</string>
+    <string name="profile_edit_gender">Gender</string>
+    <string name="profile_edit_insurance_health">Health insurance</string>
+    <string name="profile_edit_insurance_note">Add insurance information for reference.</string>
+    <string name="profile_edit_insurance_title">Insurance</string>
+    <string name="profile_edit_insurance_travel">Travel insurance</string>
+    <string name="profile_edit_insurance_type">Type of insurance</string>
+    <string name="profile_edit_land">Land</string>
+    <string name="profile_edit_last_name">Last Name</string>
+    <string name="profile_edit_other_hint">Do you want to include other information?</string>
+    <string name="profile_edit_other_title">Other</string>
+    <string name="profile_edit_phone">Tlf.nr.</string>
+    <string name="profile_edit_policy_number">Policy number (optional)</string>
+    <string name="profile_edit_postal_address_note">Fill the address you want us to send the card to. The address will not appear on the emergency card.</string>
+    <string name="profile_edit_postal_code">Postal code</string>
+    <string name="profile_edit_select_birthdata">Select your date of birth</string>
+    <string name="profile_edit_ssn">National ID Number (optional)</string>
+    <string name="profile_edit_street_address">Street address</string>
+    <string name="profile_edit_title_organ_donor">Would you like to be organ donor?</string>
+    <string name="profile_edit_tlf_nr">Tlf.nr.</string>
+    <string name="profile_gender">Gender</string>
+    <string name="profile_gender_female">Female</string>
+    <string name="profile_gender_male">Male</string>
+    <string name="profile_insurance_company">Insurance Company</string>
+    <string name="profile_insurance_type_health">Health</string>
+    <string name="profile_insurance_type_travel">Travel</string>
+    <string name="profile_nationality">Nationality</string>
+    <string name="profile_organ_donor">Organ donor</string>
+    <string name="profile_policy_date">Member until/Issued on</string>
+    <string name="profile_policy_number">Policy Number</string>
+    <string name="profile_postal_address">Postal Address</string>
+    <string name="profile_save_button_title">Save</string>
+    <string name="profile_screen_title">Profile</string>
+    <string name="profile_ssn">National ID Number</string>
+    <string name="profile_telephone">Telephone</string>
+    <string name="profile_travel_insurance">Travel Insurance</string>
+    <string name="profile_validation_required_fields">Date of birth, nationality, phone and gender is required</string>
+    <string name="profile_zip">ZIP</string>
+    <string name="project_id" translatable="false">world-medical-card-prod</string>
+    <string name="purchase_subscription_web_link">https://worldmedicalcard.org/#subscriptions</string>
+    <string name="redeem_code">Redeem Code</string>
+    <string name="register_byline">Please fill your personal information to create an account you can change them later</string>
+    <string name="register_email_field_hint">Email</string>
+    <string name="register_emergency_sub_title">Add contacts that you trust in case of an emergency.</string>
+    <string name="register_emergency_title">Contact persons in case of emergency</string>
+    <string name="register_login_forget_password_title">Forgot password?</string>
+    <string name="register_password_field_hint">Password</string>
+    <string name="register_password_min_hint">minimum 8 characters</string>
+    <string name="register_to_wmc_title">Register to World Medical Card</string>
+    <string name="registration">Registration</string>
+    <string name="registration_insurance_sub_title">Add insurance information reference. </string>
+    <string name="registration_personal_info_sub_title">Please fill your personal  information to create an account you can change then later.</string>
+    <string name="registration_postal_address_sub_title">Fill the address you want us to send the card to.  The address will not appear on the emergency card.</string>
+    <string name="registration_warning">Healthcare professional may be required to ask family to confirm your decision.</string>
+    <string name="relationship">Civil Status</string>
+    <string name="remember_me">Remember me</string>
+    <string name="required">Required!</string>
+    <string name="resend">Resend</string>
+    <string name="save">Save</string>
+    <string name="screen_title_good_afternoon">👋🏻 Good afternoon</string>
+    <string name="screen_title_hi">👋🏻 Hi</string>
+    <string name="select_file_to_upload">Please select file to upload</string>
+    <string name="sign_in_password_incorrect">Account is not found. Please try to login with Google account or Email and password.</string>
+    <string name="sign_out_button">Sign out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signin_button_title">Sign in</string>
+    <string name="signin_with_google_button">Sign-in with Google</string>
+    <string name="signup_with_google_button">Sign up with Google</string>
+    <string name="social_security_number_optional">National ID Number</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="submit">Submit</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribe_button">Subscribe now</string>
+    <string name="subscription">Subscription</string>
+    <string name="subscription_add_member_alert_invite_message">An email invitation has been sent</string>
+    <string name="subscription_delete_member_dialog_message">Are you sure you want to remove this member from this subscription package?</string>
+    <string name="subscription_delete_member_dialog_negative_button">Cancel</string>
+    <string name="subscription_delete_member_dialog_positive_button">Confirm</string>
+    <string name="subscription_delete_member_dialog_title">Delete Member</string>
+    <string name="subscription_detail_action_cancel_subcription">Cancel Subscription</string>
+    <string name="subscription_detail_add_member_title">Add more member</string>
+    <string name="subscription_detail_alert_cancel_subcription_cancel">Cancel</string>
+    <string name="subscription_detail_alert_cancel_subcription_confirm">Confirm</string>
+    <string name="subscription_detail_alert_cancel_subcription_message">Are you sure you want to cancel this subscription?</string>
+    <string name="subscription_detail_alert_cancel_subcription_title">Cancel Subscription</string>
+    <string name="subscription_detail_member_list_title">List of members</string>
+    <string name="subscription_detail_membership_left_full_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.\nTo add member, please click the button below.]]>
+    </string>
+    <string name="subscription_detail_membership_left_title">
+        <![CDATA[You have <b>%1d</b> memberships left in this package.]]>
+    </string>
+    <string name="subscription_detail_paid_with_text">Paid with</string>
+    <string name="subscription_detail_payment_method_title">Payment method</string>
+    <string name="subscription_detail_title">Subscription Detail</string>
+    <string name="subscription_invitation_add_member_button">Add member</string>
+    <string name="subscription_invitation_email_hint">Email Address</string>
+    <string name="subscription_invitation_title">Add New Member</string>
+    <string name="subscription_not_active_dialog_message">It seems that you currently has no active subscriptions. You can order by using the link below.</string>
+    <string name="subscription_not_active_dialog_title">No active subscriptions</string>
+    <string name="subscription_overview_add_subscription_button">Add Subscription</string>
+    <string name="subscription_overview_hint">You currently have no subscription with World Medical Card, click subscribe below and enjoy all the features of World Medical Card</string>
+    <string name="subscription_overview_item_expired_title">Expired</string>
+    <string name="subscription_overview_item_membership_occupancy_title">Membership Occupancy:</string>
+    <string name="subscription_overview_item_selected_alert_not_owner_message">You must be the subscription owner to view the details</string>
+    <string name="subscription_overview_item_selected_alert_not_owner_title">You\'re not the owner</string>
+    <string name="subscription_overview_item_subscription_manager_title">Subscription Manager:</string>
+    <string name="subscription_overview_subtitle">Current Subscription (%1d)</string>
+    <string name="subscription_overview_text_subscribe">Click here to subscribe membership package</string>
+    <string name="subscription_overview_title">My Subscriptions</string>
+    <string name="subscription_plan_corporate_safety">Corporate Safety</string>
+    <string name="subscription_plan_family_safety">Family Safety</string>
+    <string name="subscription_plan_personal_safety">Personal Safety</string>
+    <string name="subscription_remove_membership_button_title">Remove Membership</string>
+    <string name="subscription_remove_membership_dialog_text">Are you sure you want to be removed from this membership package?</string>
+    <string name="subscription_remove_membership_dialog_title">Delete Membership</string>
+    <string name="subscription_time_out_dialog_message">Our subscription service is busy at the moment. Please try again later.</string>
+    <string name="subscription_time_out_dialog_title">Ohh no</string>
+    <string name="tap_edit_to_complete_profile">Tap Edit below to finish completing your profile</string>
+    <string name="term_and_condition_and_privacy_policy"><a href="https://worldmedicalcard.io/terms-and-conditions.html">Terms of service</a> and <a href="https://worldmedicalcard.io/security-and-privacy.html">Privacy policy</a></string>
+    <string name="terms_and_conditions_button">Terms and conditions</string>
+    <string name="terms_and_conditions_title">Terms and Conditions</string>
+    <string name="terms_text">Terms &amp; Conditions
+Updated at 2022-01-01  
+
+General Terms
+By accessing and placing an order with , you confirm that you are in agreement with and bound by the terms of service contained in the Terms &amp; Conditions outlined below. These terms apply to the entire website and any email or other type of communication between you and World Medical Card.
+
+Under no circumstances shall  team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if  team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.
+
+World Medical Card will not be responsible for any outcome that may occur during the course of usage of our resources. We reserve the rights to change prices and revise the resources usage policy in any moment.  
+
+License
+World Medical Card grants you a revocable, non-exclusive, non- transferable, limited license to download, install and use our service strictly in accordance with the terms of this Agreement.
+      
+These Terms &amp; Conditions are a contract between you and World Medical Card (referred to in these Terms &amp; Conditions as \"World Medical Card\", \"us\", \"we\" or \"our\"), the provider of the World Medical Card website and the services accessible from the World Medical Card website (which are collectively referred to in these Terms &amp; Conditions as the \"World Medical Card Service\").
+      
+You are agreeing to be bound by these Terms &amp; Conditions. If you do not agree to these Terms &amp; Conditions, please do not use the  Service. In these Terms &amp; Conditions, \"you\" refers both to you as an individual and to the entity you represent. If you violate any of these Terms &amp; Conditions, we reserve the right to cancel your account or block access to your account without notice.  
+
+Definitions and key terms 
+For this Terms &amp; Conditions:  
+
+• Cookie: small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you such as your language preference or login information. 
+
+• Company: when this policy mentions “Company,” “we,” “us,” or “our,” it refers to World Medical Card, Gamlehaugvegen 20, 5231 Paradis that is responsible for your information under this Privacy Policy.  
+
+• Country: where World Medical Card or the owners/founders of World Medical Card are based, in this case is Norway. 
+
+• Customer: refers to the company, organization or person that signs up to use the World Medical Card Service to manage the relationships with your consumers or service users. 
+
+• Device: any internet connected device such as a phone, tablet, computer or any other device that can be used to visit World Medical Card and use the services. 
+
+• IP address: Every device connected to the Internet is assigned a number known as an Internet protocol (IP) address. These numbers are usually assigned in geographic blocks. An IP address can often be used to identify the location from which a device is connecting to the Internet. 
+
+• Personnel: refers to those individuals who are employed by World Medical Card or are under contract to perform a service on behalf of one of the parties. 
+
+• Personal Data: any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.
+
+• Service: refers to the service provided by World Medical Card as described in the relative terms (if available) and on this platform.
+
+• Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you. 
+
+• Website: World Medical Card’s site, which can be accessed via this URL: https://worldmedicalcard.org
+
+• You: a person or entity that is registered with World Medical Card to use the Services.  
+
+Restrictions
+You agree not to, and you will not permit others to:
+
+• License, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose or otherwise commercially exploit the service or make the platform available to any third party. 
+
+• Modify, make derivative works of, disassemble, decrypt, reverse compile or reverse engineer any part of the service. 
+
+• Remove, alter or obscure any proprietary notice (including any notice of copyright or trademark) of or its affiliates, partners, suppliers or the licensors of the service.      
+
+Return and Refund Policy
+Thanks for shopping with us. We appreciate the fact that you like to buy the stuff we build. We also want to make sure you have a rewarding experience while you’re exploring, evaluating, and purchasing our products.
+
+As with any shopping experience, there are terms and conditions that apply to transactions at our company. We’ll be as brief as our attorneys will allow. The main thing to remember is that by placing an order or making a purchase from us, you agree to the terms along with our Privacy Policy.
+
+If, for any reason, You are not completely satisfied with any good or service that we provide, don\'t hesitate to contact us and we will discuss any of the issues you are going through with our product.  
+
+Your Suggestions
+Any feedback, comments, ideas, improvements or suggestions (collectively, \"Suggestions\") provided by you to us with respect to the service shall remain the sole and exclusive property of us. We shall be free to use, copy, modify, publish, or redistribute the Suggestions for any purpose and in any way without any credit or any compensation to you.  
+
+Your Consent
+We\'ve updated our Terms &amp; Conditions to provide you with complete transparency into what is being set when you visit our site and how it\'s being used. By using our service, registering an account, or making a purchase, you hereby consent to our Terms &amp; Conditions.  
+
+Links to Other Websites
+Our service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party\'s site. We strongly advise You to review the Terms &amp; Conditions of every site You visit. We have no control over and assume no responsibility for the content, Terms &amp; Conditions or practices of any third party sites or services.  
+    
+Cookies
+We use \"Cookies\" to identify the areas of our website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the performance and functionality of our service but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable or you would be required to enter your login details every time you visit our platform as we would not be able to remember that you had logged in previously. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.  
+
+Changes To Our Terms &amp; Conditions
+You acknowledge and agree that we may stop (permanently or temporarily) providing the Service (or any features within the Service) to you or to users generally at our sole discretion, without prior notice to you. You may stop using the Service at any time. You do not need to specifically inform us when you stop using the Service. You acknowledge and agree that if we disable access to your account, you may be prevented from accessing the Service, your account details or any files or other materials which is contained in your account. If we decide to change our Terms &amp; Conditions, we will post those changes on this page, and/or update the Terms &amp; Conditions modification date below.  
+    
+Modifications to Our service
+We reserve the right to modify, suspend or discontinue, temporarily or permanently, the service or any service to which it connects, with or without notice and without liability to you.  
+
+Updates to Our service
+We may from time to time provide enhancements or improvements to the features/ functionality of the service, which may include patches, bug fixes, updates, upgrades and other modifications (\"Updates\"). Updates may modify or delete certain features and/or functionalities of the service. You agree that we have no obligation to (i) provide any Updates, or (ii) continue to provide or enable any particular features and/or functionalities of the service to you. You further agree that all Updates will be (i) deemed to constitute an integral part of the service, and (ii) subject to the terms and conditions of this Agreement.  
+    
+Third-Party Services
+We may display, include or make available third-party content (including data, information, applications and other products services) or provide links to third-party websites or services (\"Third- Party Services\"). You acknowledge and agree that we shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof. We do not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services. Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties\' terms and conditions.  
+    
+Term and Termination
+This Agreement shall remain in effect until terminated by you or us. We may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement with or without prior notice. This Agreement will terminate immediately, without prior notice from us, in the event that you fail to comply with any provision of this Agreement. You may also terminate this Agreement by deleting the service and all copies thereof from your computer. Upon termination of this Agreement, you shall cease all use of the service and delete all copies of the service from your computer. Termination of this Agreement will not limit any of our rights or remedies at law or in equity in case of breach by you (during the term of this Agreement) of any of your obligations under the present Agreement.  
+
+If you are a copyright owner or such owner’s agent and believe any material from us constitutes an infringement on your copyright, please contact us setting forth the following information: (a) a physical or electronic signature of the copyright owner or a person authorized to act on his behalf; (b) identification of the material that is claimed to be infringing; (c) your contact information, including your address, telephone number, and an email; (d) a statement by you that you have a good faith belief that use of the material is not authorized by the copyright owners; and (e) the a statement that the information in the notification is accurate, and, under penalty of perjury you are authorized to act on behalf of the owner.  
+
+Indemnification
+You agree to indemnify and hold us and our parents, subsidiaries, affiliates, officers, employees, agents, partners and licensors (if any) harmless from any claim or demand, including reasonable attorneys\' fees, due to or arising out of your: (a) use of the service; (b) violation of this Agreement or any law or regulation; or (c) violation of any right of a third party.  
+No Warranties
+The service is provided to you \"AS IS\" and \"AS AVAILABLE\" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, we, on our own behalf and on behalf of our affiliates and our respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the service, including all implied warranties of merchantability, fitness for a particular purpose, title and non- infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, we provide no warranty or undertaking, and makes no representation of any kind that the service will meet your requirements, achieve any intended results, be compatible or work with any other software, websites, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
+
+Without limiting the foregoing, neither us nor any provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the service, or the information, content, and materials or products included thereon; (ii) that the service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the service; or (iv) that the service, its servers, the content, or e-mails sent from or on behalf of us are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components. Some jurisdictions do not allow the exclusion of or limitations on implied warranties or the limitations on the applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to you.  
+
+Limitation of Liability
+Notwithstanding any damages that you might incur, the entire liability of us and any of our suppliers under any provision of this Agreement and your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by you for the service. To the maximum extent permitted by applicable law, in no event shall we or our suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, for loss of data or other information, for business interruption, for personal injury, for loss of privacy arising out of or in any way related to the use of or inability to use the service, third-party software and/or third-party hardware used with the service, or otherwise in connection with any provision of this Agreement), even if we or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose. Some states/jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.  
+
+Severability
+If any provision of this Agreement is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect. This Agreement, together with the Privacy Policy and any other legal notices published by us on the Services, shall constitute the entire agreement between you and us concerning the Services. If any provision of this Agreement is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in full force and effect. No waiver of any term of this Agreement shall be deemed a further or continuing waiver of such term or any other term, and our failure to assert any right or provision under this Agreement shall not constitute a waiver of such right or provision. YOU AND US AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE SERVICES MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.  
+
+Waiver
+Except as provided herein, the failure to exercise a right or to require performance of an obligation under this Agreement shall not effect a party\'s ability to exercise such right or require such performance at any time thereafter nor shall be the waiver of a breach constitute waiver of any subsequent breach.
+
+No failure to exercise, and no delay in exercising, on the part of either party, any right or any power under this Agreement shall operate as a waiver of that right or power. Nor shall any single or partial exercise of any right or power under this Agreement preclude further exercise of that or any other right granted herein. In the event of a conflict between this Agreement and any applicable purchase or other terms, the terms of this Agreement shall govern.  
+
+Amendments to this Agreement
+We reserve the right, at its sole discretion, to modify or replace this Agreement at any time. If a revision is material we will provide at least 30 days\' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion. By continuing to access or use our service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use our service.  
+
+Entire Agreement
+The Agreement constitutes the entire agreement between you and us regarding your use of the service and supersedes all prior and contemporaneous written or oral agreements between you and us. You may be subject to additional terms and conditions that apply when you use or purchase other services from us, which we will provide to you at the time of such use or purchase.  
+
+Updates to Our Terms
+We may change our Service and policies, and we may need to make changes to these Terms so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to these Terms and give you an opportunity to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Terms. If you do not want to agree to these or any updated Terms, you can delete your account.  
+
+Intellectual Property
+Our platform and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by us, its licensors or other providers of such material and are protected by  and international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws. The material may not be copied, modified, reproduced, downloaded or distributed in any way, in whole or in part, without the express prior written permission of us, unless and except as is expressly provided in these Terms &amp; Conditions. Any unauthorized use of the material is prohibited. 
+
+Agreement to Arbitrate
+This section applies to any dispute EXCEPT IT DOESN’T INCLUDE A DISPUTE RELATING TO CLAIMS FOR INJUNCTIVE OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR World Medical Card’s INTELLECTUAL PROPERTY RIGHTS. The term “dispute” means any dispute, action, or other controversy between you and us concerning the Services or this agreement, whether in contract, warranty, tort, statute, regulation, ordinance, or any other legal or equitable basis. “Dispute” will be given the broadest possible meaning allowable under law.  
+
+Notice of Dispute
+In the event of a dispute, you or us must give the other a Notice of Dispute, which is a written statement that sets forth the name, address, and contact information of the party giving it, the facts giving rise to the dispute, and the relief requested. You must send any Notice of Dispute via email to: . We will send any Notice of Dispute to you by mail to your address if we have it, or otherwise to your email address. You and us will attempt to resolve any dispute through informal negotiation within sixty (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or us may commence arbitration.  
+
+Binding Arbitration 
+If you and us don’t resolve any dispute by informal negotiation, any other effort to resolve the dispute will be conducted exclusively by binding arbitration as described in this section. You are giving up the right to litigate (or participate in as a party or class member) all disputes in court before a judge or jury. The dispute shall be settled by binding arbitration in accordance with the commercial arbitration rules of the American Arbitration Association. Either party may seek any interim or preliminary injunctive relief from any court of competent jurisdiction, as necessary to protect the party’s rights or property pending the completion of arbitration. Any and all legal, accounting, and other costs, fees, and expenses incurred by the prevailing party shall be borne by the non-prevailing party.  
+    
+    
+Submissions and Privacy
+In the event that you submit or post any ideas, creative suggestions, designs, photographs, information, advertisements, data or proposals, including ideas for new or improved products, services, features, technologies or promotions, you expressly agree that such submissions will automatically be treated as non- confidential and non-proprietary and will become the sole property of us without any compensation or credit to you whatsoever. We and our affiliates shall have no obligations with respect to such submissions or posts and may use the ideas contained in such submissions or posts for any purposes in any medium in perpetuity, including, but not limited to, developing, manufacturing, and marketing products and services using such ideas.  
+
+Promotions
+We may, from time to time, include contests, promotions, sweepstakes, or other activities (“Promotions”) that require you to submit material or information concerning yourself. Please note that all Promotions may be governed by separate rules that may contain certain eligibility requirements, such as restrictions as to age and geographic location. You are responsible to read all Promotions rules to determine whether or not you are eligible to participate. If you enter any Promotion, you agree to abide by and to comply with all Promotions Rules. Additional terms and conditions may apply to purchases of goods or services on or through the Services, which terms and conditions are made a part of this Agreement by this reference.
+
+ Typographical Errors
+ In the event a product and/or service is listed at an incorrect price or with incorrect information due to typographical error, we shall have the right to refuse or cancel any orders placed for the product and/ or service listed at the incorrect price. We shall have the right to refuse or cancel any such order whether or not the order has been confirmed and your credit card charged. If your credit card has already been charged for the purchase and your order is canceled, we shall immediately issue a credit to your credit card account or other payment account in the amount of the charge.
+ 
+Miscellaneous
+If for any reason a court of competent jurisdiction finds any provision or portion of these Terms &amp; Conditions to be unenforceable, the remainder of these Terms &amp; Conditions will continue in full force and effect. Any waiver of any provision of these Terms &amp; Conditions will be effective only if in writing and signed by an authorized representative of us. We will be entitled to injunctive or other equitable relief (without the obligations of posting any bond or surety) in the event of any breach or anticipatory breach by you. We operate and control our Service from our offices in . The Service is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation. Accordingly, those persons who choose to access our Service from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable. These Terms &amp; Conditions (which include and incorporate our Privacy Policy) contains the entire understanding, and supersedes all prior understandings, between you and us concerning its subject matter, and cannot be changed or modified by you. The section headings used in this Agreement are for convenience only and will not be given any legal import.
+
+Disclaimer
+We are not responsible for any content, code or any other imprecision. We do not provide warranties or guarantees. In no event shall we be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. We reserve the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice. 
+
+Our Service and its contents are provided \"as is\" and \"as available\" without any warranty or representations of any kind, whether express or implied. We are a distributor and not a publisher of the content supplied by third parties; as such, our exercises no editorial control over such content and makes no warranty or representation as to the accuracy, reliability or currency of any information, content, service or merchandise provided through or accessible via our Service. Without limiting the foregoing, We specifically disclaim all warranties and representations in any content transmitted on or in connection with our Service or on sites that may appear as links on our Service, or in the products provided as a part of, or otherwise in connection with, our Service, including without limitation any warranties of merchantability, fitness for a particular purpose or non-infringement of third party rights. No oral advice or written information given by us or any of its affiliates, employees, officers, directors, agents, or the like will create a warranty. Price and availability information is subject to change without notice. Without limiting the foregoing, we do not warrant that our Service will be uninterrupted, uncorrupted, timely, or error-free.
+
+Contact Us
+Don\'t hesitate to contact us if you have any questions. 
+• Via Email: post@wmc-card.no 
+• Via Phone Number: +47 55 33 75 75</string>
+    <string name="title_your_profile_is_incomplete">Your profile is incomplete</string>
+    <string name="transaction_cancelled">Transaction cancelled</string>
+    <string name="translate_code_prefix">• Code: %1$s</string>
+    <string name="translate_language_hint">Language</string>
+    <string name="translate_my_title">My %1$s</string>
+    <string name="translate_title_allergies">My Allergies</string>
+    <string name="translate_title_diagnoses">My Diagnoses</string>
+    <string name="translate_title_medicine">My Medicines</string>
+    <string name="translate_title_vaccines">My Vaccines</string>
+    <string name="translation">Translation</string>
+    <string name="user_id">User Id</string>
+    <string name="user_reference_not_found">User reference not found!</string>
+    <string name="vaccines_card_title">Vaccines</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="verify_your_phone_number">Verify Your Phone Number</string>
+    <string name="welcome">Welcome!</string>
+    <string name="wmc_card_menu_print_card">Print card</string>
+    <string name="wmc_card_menu_reorder_card">Reorder card</string>
+    <string name="wmc_order_successful">Order Successful</string>
+    <string name="world_medical_card_r">World Medical Card®</string>
+    <string name="your_personal_medical_record_n_always_available">Your personal medical record \n always available</string>
+    <style name="App"/>
+    <style name="App.ButtonBlue" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="App.ButtonBlueNew" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="App.ButtonGreen" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/green_button_bg</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="App.CardIconButton" parent="Widget.Material3.Button.OutlinedButton.Icon">
+        <item name="iconGravity">textStart</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="iconTint">@color/cardButtonContentTint</item>
+        <item name="strokeColor">@color/cardButtonStrokeColor</item>
+        <item name="iconPadding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="App.CardTitleText" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">#718096</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="App.CountryDialPicker">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">@dimen/dp_40</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/dp_3</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="drawableEndCompat">@drawable/baseline_arrow_drop_down_24</item>
+        <item name="android:fontFamily">@font/opensans</item>
+    </style>
+    <style name="App.DescriptionText" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">#718096</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="App.ExpandableCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="contentPadding">18dp</item>
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    <style name="App.FieldDropDownLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintTextColor">@color/registerFieldCaptionColor</item>
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+    </style>
+    <style name="App.FieldLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintTextColor">@color/registerFieldCaptionColor</item>
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+
+    </style>
+    <style name="App.InputField" parent="ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/registerFieldTextColor</item>
+    </style>
+    <style name="App.MaterialAlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:background">@color/white</item>
+        <item name="dialogCornerRadius">2dp</item>
+        <item name="materialAlertDialogTitleTextStyle">
+            @style/App.MaterialAlertDialog.Title.Text
+        </item>
+        <item name="materialAlertDialogBodyTextStyle">
+            @style/App.MaterialAlertDialog.Body.Text
+        </item>
+    </style>
+    <style name="App.MaterialAlertDialog.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="App.MaterialAlertDialog.DeleteMember" parent="App.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleIconStyle">
+            @style/App.MaterialAlertDialog.DeleteMember.Icon
+        </item>
+    </style>
+    <style name="App.MaterialAlertDialog.DeleteMember.Icon" parent="MaterialAlertDialog.MaterialComponents.Title.Icon">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:tint">@color/completeProfileByline</item>
+    </style>
+    <style name="App.MaterialAlertDialog.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="App.NoSubscriptionCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="contentPaddingTop">18dp</item>
+        <item name="contentPaddingBottom">18dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="android:alpha">0.3</item>
+    </style>
+    <style name="App.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/outlinedButton</item>
+        <item name="strokeColor">@color/outlinedButton</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+    </style>
+    <style name="App.ProfileCardInfoData" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="App.ProfileCardInfoTitle" parent="">
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="App.RegisterTabButtonBlue" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">@dimen/dp_15</item>
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="App.RegisterTabButtonWhite" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">@dimen/dp_15</item>
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/black_50</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#E9E9E9</item>
+    </style>
+    <style name="App.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/controlsTextColorDark</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="thumbTint">@color/switch_thumb_color</item>
+        <item name="trackTint">@color/switch_track_color</item>
+    </style>
+    <style name="App.TextButtonBottomDialog" parent="Widget.Material3.Button.TextButton">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+    <style name="App.TextNoBackgroundButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:fontFamily">@font/opensans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textColor">@color/buttonNoBgTextColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+    <style name="App.WhiteButton" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/whiteButtonTextColor</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+    </style>
+    <style name="App.WmcCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/wmcBannerBackground</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    <style name="App.WmcCardButtonBlue" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingVertical">12dp</item>
+        <item name="backgroundTint">@color/blue_button_bg</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="AppDatePicker" parent="@style/ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+    <style name="AppRegisterTopButtons">
+        <item name="android:background">@drawable/bg_register_top_button</item>
+        <item name="android:drawablePadding">@dimen/dp_10</item>
+        <item name="android:fontFamily">@font/opensans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">@dimen/dp_20</item>
+        <item name="android:textColor">@color/register_top_button_text</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceBottomSheetDialog</item>
+        <item name="backgroundTint">@color/bottomDialogBg</item>
+    </style>
+    <style name="CalendarDialogTheme" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+    <style name="ShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">22dp</item>
+        <item name="cornerSizeTopLeft">22dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+    <style name="Theme.WorldMedicalCard" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnPrimary</item>
+        
+        
+        
+        
+
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="colorOnSurface">@color/colorOnPrimary</item>
+    </style>
+    <style name="Theme.WorldMedicalCard.TextInputLayout" parent="">
+        <item name="android:colorControlActivated">@color/registerFieldCaptionColor</item>
+        <item name="android:colorControlNormal">@color/registerFieldCaptionColor</item>
+    </style>
+    <style name="card_text_style">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#6BBEF5</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+    <style name="floatingButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+
+        <item name="backgroundTint">@color/m_mtrl_fab_bg_color_selector</item>
+
+    </style>
+    <style name="materialDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+    <style name="new_card_text_style">
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <declare-styleable name="ExpandableCard">
+        <attr format="string" name="title"/>
+        <attr format="string" name="description"/>
+        <attr format="reference" name="titleIcon"/>
+        <attr format="boolean" name="isActive"/>
+        <attr format="boolean" name="isEditVisible"/>
+        <attr format="boolean" name="isShareVisible"/>
+        <attr format="boolean" name="isTranslateVisible"/>
+    </declare-styleable>
+</resources>
